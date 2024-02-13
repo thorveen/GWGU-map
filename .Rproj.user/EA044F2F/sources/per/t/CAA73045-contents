@@ -1,0 +1,418 @@
+---
+title: "Glaucous-wing Gull data & maps"
+author: "Thor Veen"
+output:
+  pdf_document:
+    prefer-html: true
+format: html 
+editor: visual
+execute: 
+  echo: false
+---
+
+## Data sources
+
+I compiled data from two sources, King, Blight and Bertram 2020 (KBB2020 [pdf](https://figshare.com/articles/figure/Glaucous-winged_Gull_nesting_sites_in_the_Strait_of_Georgia_BC_Canada_/13530971/1), data provided in spreadsheet by Geoff Mullins) and Rodway, Campbell and Lemon 2023 (SCoBC2023 [link](http://www.wildlifebc.org/), data scraped from table 6). Using KBB2020 as the most recent and comprehensive benchmark for GWGU, I added to this dataset the information of additional colonies from SCoBC2023. I did match up the location codes and cross referenced location names with SCoBC2023 to make the final dataset as compatible as possible with other resources.
+
+In the next section I visualize the occupancy of all know colonies for different periods. Important information to keep in mind when assessing the maps:
+
+- The year mentioned is the start year for which data is included (i.e. 2000 means data from 2000 onwards)
+
+- Each known breeding location of GWGU in the dataset is indicated by a small *black* dot. 
+
+- The counts (in *red*) are normalised between 0 (same size dot as black dot) and 10 (biggest colony in the dataset selection, i.e. not the entire dataset necessarily). 
+
+- 0 counts are not included to make it easy to see which colonies had active breeding 
+
+
+
+```{r}
+#| warning: false
+# install.packages("webshot2")
+
+library(tidyverse)
+library(webshot2)
+
+# load data
+wkdir <- getwd()
+all.GWGU <- read.csv(paste(wkdir,"/KBB2020andSCoBC2023combined.csv", sep ="") )
+
+coord.na <- which(is.na(all.GWGU$Latitude))
+# exclude data from VictoriaBBS as it has no coords
+all.GWGU <- all.GWGU[-coord.na,]
+#head(all.GWGU)
+```
+
+## Data over time
+Histogram showing the number of datapoints over time.
+```{r}
+
+hist(all.GWGU$Year, breaks = seq(min(all.GWGU$Year) - 0.5, max(all.GWGU$Year) + 0.5, by = 1), 
+     main = "Number of entries per year", xlab = "Year", ylab = "Number of entries", 
+     col = "black", border = "black")
+
+```
+Based on the frequency distribution I take three periods, starting at 2005, 1980 and the whole period starting at `{r} min(all.GWGU$Year)` as we want to especially focus on 'recent' data. Easy to change the dates if you like.
+
+
+## Maps
+### Starting from 2005
+
+```{r}
+# Threshold year
+threshold_year <- 2005
+radius_basic_dot <- 2
+scale_max <- 10       # normalize count size between 0 and scale_max
+
+# Filter data to keep only the data from threshold year onwards
+filtered_data <- all.GWGU %>%
+  filter(Year >= threshold_year)
+
+filtered_data_wZero <- filtered_data %>%
+  arrange(LocationName, desc(Year)) %>%
+  distinct(LocationName, .keep_all = TRUE)
+
+n_zeros <- length(which(filtered_data_wZero$Count == 0))
+n.all <- length(filtered_data_wZero$Count)
+
+```
+
+Histogram of counts including 0.
+There are `{r} n_zeros` 0's out of the `{r} n.all` entries from `{r} length(unique(filtered_data_wZero$LocationName))` unique colonies in this time period. 
+
+```{r}
+hist(filtered_data_wZero$Count, main = "Colony size", xlab = "Size",breaks = 100)
+
+```
+
+
+
+Map (excluding 0)
+
+```{r}
+library(leaflet)
+library(leaflet.extras)
+
+# Extract unique location names and coordinates
+unique_locations <- all.GWGU %>%
+  distinct(LocationName, Latitude, Longitude)
+
+# Filter data to keep only the data from threshold year onwards
+filtered_data <- all.GWGU %>%
+  filter(Year >= threshold_year)
+
+# Keep only the most recent count for each LocationName
+filtered_data <- filtered_data %>%
+  filter(Count != 0) %>% 
+  arrange(LocationName, desc(Year)) %>%
+  distinct(LocationName, .keep_all = TRUE)
+
+filtered_data$CountScaled <- (filtered_data$Count / 
+                                (max(filtered_data$Count)) * scale_max) + 
+                                radius_basic_dot
+
+# map making.
+# Create a Leaflet map
+map <- leaflet() %>%
+  addTiles()  # Add default OpenStreetMap tiles
+
+# Add a dot for each unique location
+map <- map %>%
+  addCircleMarkers(data = unique_locations,  # Use unique locations data
+                   lng = ~Longitude,          # Longitude
+                   lat = ~Latitude,           # Latitude
+                   color = "black",            # Dot color
+                   radius = radius_basic_dot,                # Dot radius
+                   stroke = FALSE,            # No stroke
+                   fillOpacity = 1)           # Full opacity
+
+map <- map %>%
+  addCircleMarkers(data = filtered_data,  # Use unique locations data
+                   lng = ~Longitude,          # Longitude
+                   lat = ~Latitude,           # Latitude
+                   color = "red",            # Dot color
+                   radius = ~CountScaled,                # Dot radius
+                   stroke = FALSE,            # No stroke
+                   fillOpacity = 1)           # Full opacity
+
+# Print the map
+map
+
+```
+
+### Starting from 1980
+
+```{r}
+# Threshold year
+threshold_year <- 1980
+radius_basic_dot <- 2
+scale_max <- 10       # normalize count size between 0 and scale_max
+
+# Filter data to keep only the data from threshold year onwards
+filtered_data <- all.GWGU %>%
+  filter(Year >= threshold_year)
+
+filtered_data_wZero <- filtered_data %>%
+  arrange(LocationName, desc(Year)) %>%
+  distinct(LocationName, .keep_all = TRUE)
+
+n_zeros <- length(which(filtered_data_wZero$Count == 0))
+n.all <- length(filtered_data_wZero$Count)
+
+```
+
+Histogram of counts including 0.
+There are `{r} n_zeros` 0's out of the `{r} n.all` entries from `{r} length(unique(filtered_data_wZero$LocationName))` unique colonies in this time period. 
+
+```{r}
+hist(filtered_data_wZero$Count, main = "Colony size", xlab = "Size",breaks = 100)
+
+```
+
+
+
+Map (excluding 0)
+
+```{r}
+library(leaflet)
+library(leaflet.extras)
+
+
+# Extract unique location names and coordinates
+unique_locations <- all.GWGU %>%
+  distinct(LocationName, Latitude, Longitude)
+
+# Filter data to keep only the data from threshold year onwards
+filtered_data <- all.GWGU %>%
+  filter(Year >= threshold_year)
+
+# Keep only the most recent count for each LocationName
+filtered_data <- filtered_data %>%
+  filter(Count != 0) %>% 
+  arrange(LocationName, desc(Year)) %>%
+  distinct(LocationName, .keep_all = TRUE)
+
+filtered_data$CountScaled <- (filtered_data$Count / 
+                                (max(filtered_data$Count)) * scale_max) + 
+                                radius_basic_dot
+
+# map making.
+# Create a Leaflet map
+map <- leaflet() %>%
+  addTiles()  # Add default OpenStreetMap tiles
+
+# Add a dot for each unique location
+map <- map %>%
+  addCircleMarkers(data = unique_locations,  # Use unique locations data
+                   lng = ~Longitude,          # Longitude
+                   lat = ~Latitude,           # Latitude
+                   color = "black",            # Dot color
+                   radius = radius_basic_dot,                # Dot radius
+                   stroke = FALSE,            # No stroke
+                   fillOpacity = 1)           # Full opacity
+
+map <- map %>%
+  addCircleMarkers(data = filtered_data,  # Use unique locations data
+                   lng = ~Longitude,          # Longitude
+                   lat = ~Latitude,           # Latitude
+                   color = "red",            # Dot color
+                   radius = ~CountScaled,                # Dot radius
+                   stroke = FALSE,            # No stroke
+                   fillOpacity = 1)           # Full opacity
+
+# Print the map
+map
+
+```
+
+
+
+### Starting from 1900
+
+
+```{r}
+# Threshold year
+threshold_year <- 1900
+radius_basic_dot <- 2
+scale_max <- 10       # normalize count size between 0 and scale_max
+
+# Filter data to keep only the data from threshold year onwards
+filtered_data <- all.GWGU %>%
+  filter(Year >= threshold_year)
+
+filtered_data_wZero <- filtered_data %>%
+  arrange(LocationName, desc(Year)) %>%
+  distinct(LocationName, .keep_all = TRUE)
+
+n_zeros <- length(which(filtered_data_wZero$Count == 0))
+n.all <- length(filtered_data_wZero$Count)
+
+```
+
+Histogram of counts including 0.
+There are `{r} n_zeros` 0's out of the `{r} n.all` entries from `{r} length(unique(filtered_data_wZero$LocationName))` unique colonies in this time period. 
+
+```{r}
+hist(filtered_data_wZero$Count, main = "Colony size", xlab = "Size",breaks = 100)
+
+```
+
+
+
+Map (excluding 0)
+Note that several locations are black, which indicates that there is no count data available but it was mentioned in SCoBC2023 as a breeding colony.
+
+```{r}
+library(leaflet)
+library(leaflet.extras)
+
+# Extract unique location names and coordinates
+unique_locations <- all.GWGU %>%
+  distinct(LocationName, Latitude, Longitude)
+
+# Filter data to keep only the data from threshold year onwards
+filtered_data <- all.GWGU %>%
+  filter(Year >= threshold_year)
+
+# Keep only the most recent count for each LocationName
+filtered_data <- filtered_data %>%
+  filter(Count != 0) %>% 
+  arrange(LocationName, desc(Year)) %>%
+  distinct(LocationName, .keep_all = TRUE)
+
+filtered_data$CountScaled <- (filtered_data$Count / 
+                                (max(filtered_data$Count)) * scale_max) + 
+                                radius_basic_dot
+
+# map making.
+# Create a Leaflet map
+map <- leaflet() %>%
+  addTiles()  # Add default OpenStreetMap tiles
+
+# Add a dot for each unique location
+map <- map %>%
+  addCircleMarkers(data = unique_locations,  # Use unique locations data
+                   lng = ~Longitude,          # Longitude
+                   lat = ~Latitude,           # Latitude
+                   color = "black",            # Dot color
+                   radius = radius_basic_dot,                # Dot radius
+                   stroke = FALSE,            # No stroke
+                   fillOpacity = 1)           # Full opacity
+
+map <- map %>%
+  addCircleMarkers(data = filtered_data,  # Use unique locations data
+                   lng = ~Longitude,          # Longitude
+                   lat = ~Latitude,           # Latitude
+                   color = "red",            # Dot color
+                   radius = ~CountScaled,                # Dot radius
+                   stroke = FALSE,            # No stroke
+                   fillOpacity = 1)           # Full opacity
+
+# Print the map
+map
+
+```
+
+
+
+### Smaller colonies focus
+The above maps are really dominated by the larger colonies. By added an upper limit to colony size we can see how the medium to smaller colonies are distributed. Focus is on the more recent time period starting from 2005 and max colony size is 500.
+
+
+```{r}
+# Threshold year
+threshold_year <- 2005
+threshold_count <- 500 # max colony 3500 
+radius_basic_dot <- 2
+scale_max <- 10       # normalize count size between 0 and scale_max
+
+# Filter data to keep only the data from threshold year onwards
+filtered_data <- all.GWGU %>%
+  filter(Year >= threshold_year)
+
+filtered_data_wZero <- filtered_data %>%
+  filter(Count <= threshold_count) %>%
+  arrange(LocationName, desc(Year)) %>%
+  distinct(LocationName, .keep_all = TRUE)
+
+n_zeros <- length(which(filtered_data_wZero$Count == 0))
+n.all <- length(filtered_data_wZero$Count)
+
+```
+
+Histogram of counts including 0.
+There are `{r} n_zeros` 0's out of the `{r} n.all` entries from `{r} length(unique(filtered_data_wZero$LocationName))` unique colonies in this time period. 
+
+```{r}
+hist(filtered_data_wZero$Count, main = "Colony size", xlab = "Size",breaks = 100)
+
+```
+
+
+
+Map (excluding 0)
+
+```{r}
+library(leaflet)
+library(leaflet.extras)
+
+# Extract unique location names and coordinates
+unique_locations <- all.GWGU %>%
+  distinct(LocationName, Latitude, Longitude)
+
+# Filter data to keep only the data from threshold year onwards
+filtered_data <- all.GWGU %>%
+  filter(Year >= threshold_year)
+
+# Keep only the most recent count for each LocationName
+filtered_data <- filtered_data %>%
+  filter(Count != 0, Count <= threshold_count) %>% 
+  arrange(LocationName, desc(Year)) %>%
+  distinct(LocationName, .keep_all = TRUE)
+
+filtered_data$CountScaled <- (filtered_data$Count / 
+                                (max(filtered_data$Count)) * scale_max) + 
+                                radius_basic_dot
+
+# map making.
+# Create a Leaflet map
+map <- leaflet() %>%
+  addTiles()  # Add default OpenStreetMap tiles
+
+# Add a dot for each unique location
+map <- map %>%
+  addCircleMarkers(data = unique_locations,  # Use unique locations data
+                   lng = ~Longitude,          # Longitude
+                   lat = ~Latitude,           # Latitude
+                   color = "black",            # Dot color
+                   radius = radius_basic_dot,                # Dot radius
+                   stroke = FALSE,            # No stroke
+                   fillOpacity = 1)           # Full opacity
+
+map <- map %>%
+  addCircleMarkers(data = filtered_data,  # Use unique locations data
+                   lng = ~Longitude,          # Longitude
+                   lat = ~Latitude,           # Latitude
+                   color = "red",            # Dot color
+                   radius = ~CountScaled,                # Dot radius
+                   stroke = FALSE,            # No stroke
+                   fillOpacity = 1)           # Full opacity
+
+# Print the map
+map
+
+```
+
+
+### Next steps
+This is just a quick and dirty visualization exercise and we can tune it for our needs. For example:
+
+- delete the handful of very large colonies so we can more easily in more detail assess the smaller ones and look at.
+
+- add which colonies are covered for the upcoming survey. 
+
+- add which colonies can be done by AUV from land. 
+
+- etc. 
+
+
