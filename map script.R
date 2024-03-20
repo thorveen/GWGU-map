@@ -30,50 +30,64 @@ all.GWGU <- all.GWGU[-coord.na,]
 
 # hist(all.GWGU$Year, breaks = 30)
 
-# --- 1 maps of all breeding colonies + numbers --------
+# --- 1 maps of selection  --------
 
 # Threshold year
-threshold_year <- 2005
-radius_basic_dot <- 2
+threshold_year <- 2004
+radius_basic_dot <- 4
 
-# Extract unique location names and coordinates
-unique_locations <- all.GWGU %>%
-  distinct(LocationName, Latitude, Longitude)
 
-# Filter data to keep only the data from threshold year onwards
-filtered_data <- all.GWGU %>%
-  filter(Year >= threshold_year)
 
-# Keep only the most recent count for each LocationName
-filtered_data <- filtered_data %>%
-  arrange(LocationName, desc(Year)) %>%
-  distinct(LocationName, .keep_all = TRUE)
-filtered_data$CountScaled <- ((filtered_data$Count - min(filtered_data$Count)) / 
-                                (max(filtered_data$Count) - min(filtered_data$Count)) * 5) + radius_basic_dot
+# threshold to include colonies before the threshold_year
+threshold_count <- 10
 
-# map making.
-# Create a Leaflet map
+# length(unique(all.GWGU$LocationName)) #145 colonies total
+
+# Filter locations with at least one Count > 0 on or after the threshold year
+locations_above_threshold_year <- all.GWGU %>%
+  filter(Year >= threshold_year, Count > 0) %>%
+  distinct(LocationName)
+
+# Filter locations with count >= threshold_count in any year before the threshold year
+locations_above_threshold_count <- all.GWGU %>%
+  group_by(LocationName) %>%
+  filter(any(Count >= threshold_count & Year < threshold_year)) %>%
+  distinct(LocationName)
+
+# Combine both conditions to get the final selection of locations
+final_locations <- union(locations_above_threshold_year$LocationName, locations_above_threshold_count$LocationName)
+
+length(final_locations)
+
+# Filter the original data frame to include only the final selected locations and all their entries
+GWGU.select <- all.GWGU %>%
+  filter(LocationName %in% final_locations)
+
+#print(final_data)
+
+# Group data by LocationName, sort by Year, and concatenate counts for each year
+popup_data <- GWGU.select %>%
+  group_by(LocationName) %>%
+  arrange(Year) %>%
+  summarise(Counts = paste(Year, Count, sep = ": ", collapse = "<br>"))
+
+# Create a leaflet map
 map <- leaflet() %>%
-  addTiles()  # Add default OpenStreetMap tiles
+  addTiles() %>%
+  addCircleMarkers(
+    data = GWGU.select,  # Use all.GWGU as data
+    lng = ~Longitude, 
+    lat = ~Latitude,
+    color = "black",            # Dot color
+    radius = radius_basic_dot,                # Dot radius
+    stroke = FALSE,            # No stroke
+    fillOpacity = 1,
+    popup = ~paste(
+      "<strong>Location:</strong> ", LocationName, "<br>",
+      "<strong>Counts:</strong><br>", popup_data$Counts[match(LocationName, popup_data$LocationName)]
+    ),
+    group = "locations"
+  )
 
-# Add a dot for each unique location
-map <- map %>%
-  addCircleMarkers(data = unique_locations,  # Use unique locations data
-                   lng = ~Longitude,          # Longitude
-                   lat = ~Latitude,           # Latitude
-                   color = "black",            # Dot color
-                   radius = radius_basic_dot,                # Dot radius
-                   stroke = FALSE,            # No stroke
-                   fillOpacity = 1)           # Full opacity
-
-map <- map %>%
-  addCircleMarkers(data = filtered_data,  # Use unique locations data
-                   lng = ~Longitude,          # Longitude
-                   lat = ~Latitude,           # Latitude
-                   color = "red",            # Dot color
-                   radius = ~CountScaled,                # Dot radius
-                   stroke = FALSE,            # No stroke
-                   fillOpacity = 1)           # Full opacity
-
-# Print the map
+# Display the map
 map
