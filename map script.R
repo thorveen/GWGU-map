@@ -21,12 +21,10 @@ wkdir <- getwd()
 
 
 # load data
-all.GWGU <- read.csv(paste(wkdir,"/KBB2020andSCoBC2023combined.csv", sep ="") )
+all.GWGU <- read.csv(paste(wkdir,"/KBB2020andSCoBC2023combined_final.csv", sep ="") )
+str(all.GWGU)
+length(which(is.na(all.GWGU$Latitude)))
 
-coord.na <- which(is.na(all.GWGU$Latitude))
-all.GWGU[coord.na,]
-# exclude data from VictoriaBBS as it has no coords
-all.GWGU <- all.GWGU[-coord.na,]
 
 # hist(all.GWGU$Year, breaks = 30)
 

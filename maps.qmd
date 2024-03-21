@@ -11,11 +11,11 @@ execute:
 
 ## Data sources
 
-I compiled data from two sources, King, Blight and Bertram 2020 (KBB2020 [pdf](https://figshare.com/articles/figure/Glaucous-winged_Gull_nesting_sites_in_the_Strait_of_Georgia_BC_Canada_/13530971/1), data provided in spreadsheet by Geoff Mullins) and Rodway, Campbell and Lemon 2023 (SCoBC2023 [link](http://www.wildlifebc.org/), data scraped from table 6). Using KBB2020 as the most recent and comprehensive benchmark for GWGU, I added to this dataset the information of additional colonies from SCoBC2023. I did match up the location codes and cross referenced location names with SCoBC2023 to make the final dataset as compatible as possible with other resources.
+I compiled data from two sources, King, Blight and Bertram 2020 (KBB2020 [pdf](https://figshare.com/articles/figure/Glaucous-winged_Gull_nesting_sites_in_the_Strait_of_Georgia_BC_Canada_/13530971/1), data provided in spreadsheet with fig share) and Rodway, Campbell and Lemon 2023 (SCoBC2023 [link](http://www.wildlifebc.org/), data scraped from table 6). Using KBB2020 as the most recent and comprehensive benchmark for GWGU, I added to this dataset the information of additional colonies from SCoBC2023. I match  the location codes and cross referenced location names with SCoBC2023 to make the final dataset as compatible as possible with other and future resources.
 
-In the next section I visualize the occupancy of all know colonies for different periods. Important information to keep in mind when assessing the maps:
+In the next section I visualize the occupancy of all known colonies for different periods. Important information to keep in mind when assessing the maps:
 
-- The year mentioned is the start year for which data is included (i.e. 2000 means data from 2000 onwards)
+- The year mentioned is the start year for which data is included (i.e. 2000 means data from 2000 onwards (>= 2000))
 
 - Each known breeding location of GWGU in the dataset is indicated by a small *black* dot. 
 
@@ -30,18 +30,15 @@ In the next section I visualize the occupancy of all know colonies for different
 # install.packages("webshot2")
 
 library(tidyverse)
+library(dplyr)
 library(leaflet.extras)
 
 #library(webshot2)
 
 # load data
 wkdir <- getwd()
-all.GWGU <- read.csv(paste(wkdir,"/KBB2020andSCoBC2023combined.csv", sep ="") )
+all.GWGU <- read.csv(paste(wkdir,"/KBB2020andSCoBC2023combined_final.csv", sep =""))
 
-coord.na <- which(is.na(all.GWGU$Latitude))
-# exclude data from VictoriaBBS as it has no coords
-all.GWGU <- all.GWGU[-coord.na,]
-#head(all.GWGU)
 ```
 
 ## Data over time
@@ -176,7 +173,7 @@ map <- map %>%
                    color = "red",            # Dot color
                    radius = ~CountScaled,                # Dot radius
                    stroke = FALSE,            # No stroke
-                   fillOpacity = 1,
+                   fillOpacity = 0.9,
                    popup = ~LocationName)           # Full opacity
 
 # Print the map
@@ -258,7 +255,7 @@ map <- map %>%
                    color = "red",            # Dot color
                    radius = ~CountScaled,                # Dot radius
                    stroke = FALSE,            # No stroke
-                   fillOpacity = 1,
+                   fillOpacity = 0.9,
                    popup = ~LocationName)           # Full opacity
 
 # Print the map
@@ -330,7 +327,7 @@ filtered_data$CountScaled <- (filtered_data$Count /
 # map making.
 # Create a Leaflet map
 map <- leaflet() %>%
-  addProviderTiles(providers$OpenTopoMap)  # Add default OpenStreetMap tiles
+  addTiles()  # Add default OpenStreetMap tiles
 
 # Add a dot for each unique location
 map <- map %>%
@@ -350,7 +347,7 @@ map <- map %>%
                    color = "red",            # Dot color
                    radius = ~CountScaled,                # Dot radius
                    stroke = FALSE,            # No stroke
-                   fillOpacity = 1,
+                   fillOpacity = 0.9,
                    popup = ~LocationName)           # Full opacity
 
 # Print the map
@@ -358,17 +355,6 @@ map
 
 ```
 
-
-### Next steps
-This is just a quick and dirty visualization exercise and we can tune it for our needs. For example:
-
-- delete the handful of very large colonies so we can more easily in more detail assess the smaller ones and look at.
-
-- add which colonies are covered for the upcoming survey. 
-
-- add which colonies can be done by UAV from land. 
-
-- etc. 
 
 ### 2024 Survey methods
 
@@ -384,7 +370,6 @@ threshold_count <- 10
 locations_above_threshold_year <- all.GWGU %>%
   filter(Year >= threshold_year, Count > 0) %>%
   distinct(LocationName)
-
 # Filter locations with count >= threshold_count in any year before the threshold year
 locations_above_threshold_count <- all.GWGU %>%
   group_by(LocationName) %>%
@@ -405,16 +390,26 @@ popup_data <- GWGU.select %>%
   group_by(LocationName) %>%
   arrange(Year) %>%
   summarise(Counts = paste(Year, Count, sep = ": ", collapse = "<br>"))
+
+# make selection for sites which are covered
+locations_covered <- all.GWGU %>%
+  filter(Covered == "covered")
+
+# make selection for sites which are covered
+locations_ParksCanada <- all.GWGU %>%
+  filter(ParksCanada == "ParksCanada")
+
 ```
 
 After assessing the above information we proceed to set some thresholds to select the final set of colonies to survey in 2024.
 
 
-- include colonies with active breeding (1 pair or more) starting from `{r} threshold_year`.
+- include breeding locations with active breeding (>= 1 pair) starting from `{r} threshold_year`.
 
-- include breeding location which have records before `{r} threshold_year` of number of breeding pairs larger than `{r} threshold_count`.
+- include breeding locations which have records before `{r} threshold_year` with  >= `{r} threshold_count` breeding pairs.
 
-Selected colonies (n=`{r} n.colonies`) in black and not selected colonies in grey.
+black:selected colonies (n =`{r} n.colonies`) in black. grey: not survey targets. yellow center: covered by others (i.e. not needed to be surveyed by us) and green outer ring: Parks Canada
+
 
 ```{r}
 
@@ -423,6 +418,20 @@ Selected colonies (n=`{r} n.colonies`) in black and not selected colonies in gre
 map <- leaflet() %>%
   addTiles()  # Add default OpenStreetMap tiles
 
+# layer for sites which are Parks Canada jurisdiction 
+map <- map %>%
+  addCircleMarkers(
+    data = locations_ParksCanada,  # Use all.GWGU as data
+    lng = ~Longitude, 
+    lat = ~Latitude,
+    color = "green",            # Dot color
+    radius = 1.7 * radius_basic_dot,                # Dot radius
+    stroke = FALSE,            # No stroke
+    fillOpacity = 0.7,
+    popup = ~~LocationName,
+    #group = "locations"
+  )
+
 # Add a dot for each unique location
 map <- map %>%
   addCircleMarkers(
@@ -430,15 +439,13 @@ map <- map %>%
     lng = ~Longitude, 
     lat = ~Latitude,
     color = "gray",            # Dot color
-    radius = radius_basic_dot,                # Dot radius
+    radius = 1 * radius_basic_dot,                # Dot radius
     stroke = FALSE,            # No stroke
-    fillOpacity = 0.7,
-    popup = ~paste(
-      "<strong>Location:</strong> ", LocationName, "<br>",
-      "<strong>Counts:</strong><br>", popup_data$Counts[match(LocationName, popup_data$LocationName)]
-    ),
-    group = "locations"
+    fillOpacity = 0.6,
+    popup = ~~LocationName,
+    #group = "locations"
   )
+
 
 map <- map %>%
   addCircleMarkers(
@@ -456,8 +463,49 @@ map <- map %>%
     group = "locations"
   )
 
+# sites that are covered in some way or another
+map <- map %>%
+  addCircleMarkers(
+    data = locations_covered,  # Use all.GWGU as data
+    lng = ~Longitude, 
+    lat = ~Latitude,
+    color = "yellow",            # Dot color
+    radius = 0.5 * radius_basic_dot,                # Dot radius
+    stroke = FALSE,            # No stroke
+    fillOpacity = 1,
+    popup = ~~LocationName,
+    #group = "locations"
+  )
+
 # Print the map
 map
 ```
 
+### elevation map for UAV mission planning
+```{r}
+# Create a leaflet map
+map <- leaflet() %>%
+  addProviderTiles(providers$OpenTopoMap) %>%
+  addCircleMarkers(
+    data = all.GWGU,  # Use all.GWGU as data
+    lng = ~Longitude, 
+    lat = ~Latitude,
+    color = "black",            # Dot color
+    radius = radius_basic_dot,                # Dot radius
+    stroke = FALSE,            # No stroke
+    fillOpacity = 1,
+    popup = ~LocationName
+  )
 
+# Display the map
+map
+```
+
+### Next steps
+This is just a quick and dirty visualization exercise and we can tune it for our needs. For example:
+
+- add which colonies can be done by UAV from land. 
+
+- zones to be done by boat 
+
+- detailed timeline with launch locations, etc
