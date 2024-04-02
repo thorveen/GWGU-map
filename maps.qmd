@@ -11,19 +11,17 @@ execute:
 
 ## Data sources
 
-I compiled data from two sources, King, Blight and Bertram 2020 (KBB2020 [pdf](https://figshare.com/articles/figure/Glaucous-winged_Gull_nesting_sites_in_the_Strait_of_Georgia_BC_Canada_/13530971/1), data provided in spreadsheet with fig share) and Rodway, Campbell and Lemon 2023 (SCoBC2023 [link](http://www.wildlifebc.org/), data scraped from table 6). Using KBB2020 as the most recent and comprehensive benchmark for GWGU, I added to this dataset the information of additional colonies from SCoBC2023. I match  the location codes and cross referenced location names with SCoBC2023 to make the final dataset as compatible as possible with other and future resources.
+I compiled data from two sources, King, Blight and Bertram 2020 (KBB2020 [pdf](https://figshare.com/articles/figure/Glaucous-winged_Gull_nesting_sites_in_the_Strait_of_Georgia_BC_Canada_/13530971/1), data provided in spreadsheet with fig share) and Rodway, Campbell and Lemon 2023 (SCoBC2023 [link](http://www.wildlifebc.org/), data scraped from table 6). Using KBB2020 as the most recent and comprehensive benchmark for GWGU, I added to this dataset the information of additional colonies from SCoBC2023. I match the location codes and cross referenced location names with SCoBC2023 to make the final dataset as compatible as possible with other and future resources.
 
 In the next section I visualize the occupancy of all known colonies for different periods. Important information to keep in mind when assessing the maps:
 
-- The year mentioned is the start year for which data is included (i.e. 2000 means data from 2000 onwards (>= 2000))
+-   The year mentioned is the start year for which data is included (i.e. 2000 means data from 2000 onwards (\>= 2000))
 
-- Each known breeding location of GWGU in the dataset is indicated by a small *black* dot. 
+-   Each known breeding location of GWGU in the dataset is indicated by a small *black* dot.
 
-- The counts (in *red*) are normalised between 0 (same size dot as black dot) and 10 (biggest colony in the dataset selection, i.e. not the entire dataset necessarily). 
+-   The counts (in *red*) are normalised between 0 (same size dot as black dot) and 10 (biggest colony in the dataset selection, i.e. not the entire dataset necessarily).
 
-- 0 counts are not included to make it easy to see which colonies had active breeding 
-
-
+-   0 counts are not included to make it easy to see which colonies had active breeding
 
 ```{r}
 #| warning: false
@@ -32,6 +30,7 @@ In the next section I visualize the occupancy of all known colonies for differen
 library(tidyverse)
 library(dplyr)
 library(leaflet.extras)
+library(magrittr)
 
 #library(webshot2)
 
@@ -42,7 +41,9 @@ all.GWGU <- read.csv(paste(wkdir,"/KBB2020andSCoBC2023combined_final.csv", sep =
 ```
 
 ## Data over time
+
 Histogram showing the number of datapoints over time.
+
 ```{r}
 
 hist(all.GWGU$Year, breaks = seq(min(all.GWGU$Year) - 0.5, max(all.GWGU$Year) + 0.5, by = 1), 
@@ -50,8 +51,8 @@ hist(all.GWGU$Year, breaks = seq(min(all.GWGU$Year) - 0.5, max(all.GWGU$Year) + 
      col = "black", border = "black")
 
 ```
-Based on the frequency distribution I take three periods, starting at 2004, 1980 and the whole period starting at `{r} min(all.GWGU$Year)` as we want to especially focus on 'recent' data. Easy to change the dates if you like.
 
+Based on the frequency distribution I take three periods, starting at 2004, 1980 and the whole period starting at `{r} min(all.GWGU$Year)` as we want to especially focus on 'recent' data. Easy to change the dates if you like.
 
 ## Maps
 
@@ -94,9 +95,6 @@ map <- leaflet() %>%
 map
 ```
 
-
-
-
 ### Starting from 2004
 
 ```{r}
@@ -118,15 +116,12 @@ n.all <- length(filtered_data_wZero$Count)
 
 ```
 
-Histogram of counts including 0.
-There are `{r} n_zeros` 0's out of the `{r} n.all` entries from `{r} length(unique(filtered_data_wZero$LocationName))` unique colonies in this time period. 
+Histogram of counts including 0. There are `{r} n_zeros` 0's out of the `{r} n.all` entries from `{r} length(unique(filtered_data_wZero$LocationName))` unique colonies in this time period.
 
 ```{r}
 hist(filtered_data_wZero$Count, main = "Colony size", xlab = "Size",breaks = 100)
 
 ```
-
-
 
 Map (excluding 0)
 
@@ -200,15 +195,12 @@ n.all <- length(filtered_data_wZero$Count)
 
 ```
 
-Histogram of counts including 0.
-There are `{r} n_zeros` 0's out of the `{r} n.all` entries from `{r} length(unique(filtered_data_wZero$LocationName))` unique colonies in this time period. 
+Histogram of counts including 0. There are `{r} n_zeros` 0's out of the `{r} n.all` entries from `{r} length(unique(filtered_data_wZero$LocationName))` unique colonies in this time period.
 
 ```{r}
 hist(filtered_data_wZero$Count, main = "Colony size", xlab = "Size",breaks = 100)
 
 ```
-
-
 
 Map (excluding 0)
 
@@ -263,13 +255,9 @@ map
 
 ```
 
-
-
-
-
 ### Smaller colonies focus
-The above maps are really dominated by the larger colonies. By added an upper limit to colony size we can see how the medium to smaller colonies are distributed. Focus is on the more recent time period starting from 2004 and max colony size is 500.
 
+The above maps are really dominated by the larger colonies. By added an upper limit to colony size we can see how the medium to smaller colonies are distributed. Focus is on the more recent time period starting from 2004 and max colony size is 500.
 
 ```{r}
 # Threshold year
@@ -290,15 +278,12 @@ n.all <- length(filtered_data_wZero$Count)
 
 ```
 
-Histogram of counts including 0.
-There are `{r} n_zeros` 0's out of the `{r} n.all` entries from `{r} length(unique(filtered_data_wZero$LocationName))` unique colonies in this time period. 
+Histogram of counts including 0. There are `{r} n_zeros` 0's out of the `{r} n.all` entries from `{r} length(unique(filtered_data_wZero$LocationName))` unique colonies in this time period.
 
 ```{r}
 hist(filtered_data_wZero$Count, main = "Colony size", xlab = "Size",breaks = 100)
 
 ```
-
-
 
 Map (excluding 0)
 
@@ -355,7 +340,6 @@ map
 
 ```
 
-
 ### 2024 Survey methods
 
 ```{r}
@@ -370,20 +354,31 @@ threshold_count <- 10
 locations_above_threshold_year <- all.GWGU %>%
   filter(Year >= threshold_year, Count > 0) %>%
   distinct(LocationName)
+
+
 # Filter locations with count >= threshold_count in any year before the threshold year
 locations_above_threshold_count <- all.GWGU %>%
   group_by(LocationName) %>%
   filter(any(Count >= threshold_count & Year < threshold_year)) %>%
   distinct(LocationName)
 
+
 # Combine both conditions to get the final selection of locations
 final_locations <- union(locations_above_threshold_year$LocationName, locations_above_threshold_count$LocationName)
+
+write.csv(final_locations, "selected.locations.>=2004.or.>=10.earlier.csv", 
+          row.names = F)
 
 n.colonies <- length(final_locations)
 
 # Filter the original data frame to include only the final selected locations and all their entries
 GWGU.select <- all.GWGU %>%
   filter(LocationName %in% final_locations)
+
+# and a selection of locations not selected
+GWGU.not.select <- all.GWGU %>%
+  filter(!(LocationName %in% final_locations))
+
 
 # Group data by LocationName, sort by Year, and concatenate counts for each year
 popup_data <- GWGU.select %>%
@@ -396,20 +391,22 @@ locations_covered <- all.GWGU %>%
   filter(Covered == "covered")
 
 # make selection for sites which are covered
-locations_ParksCanada <- all.GWGU %>%
-  filter(ParksCanada == "ParksCanada")
+locations_NationalPark <- all.GWGU %>%
+  filter(NationalPark == "NationalPark")
+
+# make selection for sites which are covered
+locations_EcolReserve <- all.GWGU %>%
+  filter(EcolReserve == "EcolReserve")
 
 ```
 
 After assessing the above information we proceed to set some thresholds to select the final set of colonies to survey in 2024.
 
+-   include breeding locations with active breeding (\>= 1 pair) starting from `{r} threshold_year`.
 
-- include breeding locations with active breeding (>= 1 pair) starting from `{r} threshold_year`.
+-   include breeding locations which have records before `{r} threshold_year` with \>= `{r} threshold_count` breeding pairs.
 
-- include breeding locations which have records before `{r} threshold_year` with  >= `{r} threshold_count` breeding pairs.
-
-black:selected colonies (n =`{r} n.colonies`) in black. grey: not survey targets. yellow center: covered by others (i.e. not needed to be surveyed by us) and green outer ring: Parks Canada
-
+black:selected colonies (n =`{r} n.colonies`) in black. grey: not survey targets. yellow center: covered by others (i.e. not needed to be surveyed by us) and green outer ring: National Park
 
 ```{r}
 
@@ -418,10 +415,10 @@ black:selected colonies (n =`{r} n.colonies`) in black. grey: not survey targets
 map <- leaflet() %>%
   addTiles()  # Add default OpenStreetMap tiles
 
-# layer for sites which are Parks Canada jurisdiction 
+# layer for sites which are National Parks jurisdiction 
 map <- map %>%
   addCircleMarkers(
-    data = locations_ParksCanada,  # Use all.GWGU as data
+    data = locations_NationalPark,  # Use all.GWGU as data
     lng = ~Longitude, 
     lat = ~Latitude,
     color = "green",            # Dot color
@@ -432,10 +429,26 @@ map <- map %>%
     #group = "locations"
   )
 
+# layer for sites which are National Parks jurisdiction 
+map <- map %>%
+  addCircleMarkers(
+    data = locations_EcolReserve,  # Use all.GWGU as data
+    lng = ~Longitude, 
+    lat = ~Latitude,
+    color = "lightgreen",            # Dot color
+    radius = 1.7 * radius_basic_dot,                # Dot radius
+    stroke = FALSE,            # No stroke
+    fillOpacity = 0.7,
+    popup = ~~LocationName,
+    #group = "locations"
+  )
+
+
+
 # Add a dot for each unique location
 map <- map %>%
   addCircleMarkers(
-    data = all.GWGU,  # Use all.GWGU as data
+    data = GWGU.not.select,  # Use all.GWGU as data
     lng = ~Longitude, 
     lat = ~Latitude,
     color = "gray",            # Dot color
@@ -481,7 +494,19 @@ map <- map %>%
 map
 ```
 
+#### Priorities
+
+\
+1) breeding survey selected sites
+
+2a) add extra 'en route' sites
+
+2b) add clutch size and egg size
+
+2c) ground truthing: both fly and count on foot
+
 ### elevation map for UAV mission planning
+
 ```{r}
 # Create a leaflet map
 map <- leaflet() %>%
@@ -502,10 +527,11 @@ map
 ```
 
 ### Next steps
+
 This is just a quick and dirty visualization exercise and we can tune it for our needs. For example:
 
-- add which colonies can be done by UAV from land. 
+-   add which colonies can be done by UAV from land.
 
-- zones to be done by boat 
+-   zones to be done by boat
 
-- detailed timeline with launch locations, etc
+-   detailed timeline with launch locations, etc
