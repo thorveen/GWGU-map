@@ -1,0 +1,27 @@
+variable	value
+whattoextr	tab
+pdfs	/Users/thorveen/Dropbox/Aeria_/ECCC/GWGU analysis/a.data.raw/table6SeabirdsVol4GWGU.pdf
+outputfolder	/Users/thorveen/Dropbox/Aeria_/ECCC/GWGU analysis/b.data.clean
+table.heading.words	
+ignore.case.th	FALSE
+filter.words	
+regex.fw	FALSE
+ignore.case.fw	FALSE
+filter.word.times	0%
+search.words	
+save.tab.by.category	FALSE
+regex.sw	FALSE
+ignore.case.sw	FALSE
+eval.abbrevs	TRUE
+write.table.locations	FALSE
+cpy_mv	nocpymv
+delete	TRUE
+exp.nondetc.tabs	TRUE
+out.table.format	.csv (macintosh)
+dev_x	20
+dev_y	9999
+context	0
+write.tab.doc.file	TRUE
+write.txt.doc.file	TRUE
+l15.filter.words.rbValue	no
+l19.rbValue	all

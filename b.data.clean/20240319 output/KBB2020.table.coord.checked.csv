@@ -1,0 +1,87 @@
+"Location_A_KBB2020","Location_Code_SCoBC2023","Location_B_SCoBC2023","Latitude_A","Latitude_B","Longitude_A","Longitude_B","smallest.distance","check.location.match","Location_Code_final","Location_final","Latitude_final","Longitude_final","Notes"
+"Ada Island","GI-020","Ada Islands",49.29,49.2853,-124.0768,-124.0939,1.34584684736507,"check","GI-020","Ada Islands",49.2853,-124.0939,NA
+"Anniversary Islet","GI-470","Belle Chain Islets",48.824,48.8244,-123.1833,-123.1842,0.0794944240244697,NA,NA,"Anniversary Islet",48.824,-123.1833,"name and coordinates set to KBB2020"
+"Arbutus Island","GI-630","Arbutus Island",48.7062,48.7061,-123.4355,-123.4353,0.0184126948024915,NA,"GI-630","Arbutus Island",48.7061,-123.4353,NA
+"Augustus Point","GI-250","Augustus Point",48.9457,48.945,-123.6522,-123.6528,0.0893227483353095,NA,"GI-250","Augustus Point",48.945,-123.6528,NA
+"Ballenas Island","GI-010","Ballenas Islands",49.3542,49.3464,-124.1647,-124.1581,0.990354939143672,NA,"GI-010","Ballenas Islands",49.3464,-124.1581,NA
+"Ballingall Islets","GI-320","Ballingall Islets",48.9072,48.9072,-123.4596,-123.4594,0.0146172523974599,NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Bare Point","GI-280","Bare Point",48.9284,48.9278,-123.7047,-123.7064,0.140980382965064,NA,"GI-280","Bare Point",48.9278,-123.7064,NA
+"Belle Chain Islets","GI-470","Belle Chain Islets",48.8335,48.8244,-123.2009,-123.1842,1.58690719717308,"check",NA,"Belle Chain Islets",48.8335,-123.2009,"name and coordinates set to KBB2020"
+"Bird Islet","SG-500","Bird Islet",49.3633,49.3633,-123.2914,-123.2911,0.0217250565287042,NA,"SG-500","Bird Islet",49.3633,-123.2911,NA
+"Canoe Islet","GI-220","Canoe Islet",49.0282,49.0281,-123.5887,-123.5886,0.013296639646292,NA,"GI-220","Canoe Islet",49.0281,-123.5886,NA
+"Chain Islets and Great Chain Island","GI-890","Chain Islets/Great Chain Island",48.4223,48.4206,-123.2653,-123.2753,0.761767455977965,NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Channel Islands","GI-460","Channel Islands",48.8014,48.7994,-123.3818,-123.3842,0.283472088802908,NA,"GI-460","Channel Islands",48.7994,-123.3842,NA
+"Christie Island","SG-430","Christie Islet",49.4996,49.4994,-123.302,-123.3017,0.0310473329756026,NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Chrome Island","SG-240","Chrome Island",49.4721,49.4719,-124.6845,-124.6844,0.0233833848854239,NA,"SG-240","Chrome Island",49.4719,-124.6844,NA
+"De Courcy Island","GI-140","Link Island",49.1106,49.1161,-123.7576,-123.7636,0.751486683727066,NA,NA,"De Courcy Island",49.1106,-123.7576,"name and coordinates set to KBB2020"
+"Denman Island","SG-210","Denman Island - East Dock",49.4939,49.4939,-124.7086,-124.7089,0.0216672988967539,NA,"SG-210","Denman Island - East Dock",49.4939,-124.7089,NA
+"Dinner Islet","SG-070","Major Islet",49.9462,49.9894,-124.7229,-124.8161,8.21638846931384,"check",NA,"Dinner Islet",49.9462,-124.7229,"name and coordinates set to KBB2020"
+"Dock Island","GI-710","Little Group",48.6709,48.6717,-123.3577,-123.3575,0.0901600911716652,NA,NA,"Dock Island",48.6717,-123.3575,"name KBB2020, coordinates set to SCoBC2023"
+"Eagle Harbour","SG-520","Eagle Rocks",49.3517,49.3544,-123.2711,-123.2789,0.639785928416446,NA,NA,"Eagle Harbour",49.3517,-123.2711,"name and coordinates set to KBB2020"
+"Fegan Islets","SG-270","Fegen Islets",49.5297,49.53,-124.3802,-124.3806,0.0441155160244698,NA,"SG-270","Fegen Islets",49.53,-124.3806,NA
+"Finnerty Islands","SG-260","Finnerty Islands",49.5004,49.4989,-124.393,-124.3953,0.235388465260305,NA,"SG-260","Finnerty Islands",49.4989,-124.3953,NA
+"Five Finger Island","GI-050","Five Finger Island",49.2312,49.2311,-123.916,-123.9158,0.0182904087155523,NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Gabriola Island","GI-120","Mudge Island",49.1548,49.1281,-123.7857,-123.7875,2.97179050297284,"check","GI-090","Gabriola Island - West Cliffs",49.1558,-123.8569,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Galiano Island Cliffs Gray Pen.","GI-330","Galiano Island - Central Cliffs",48.9059,48.9119,-123.4158,-123.4314,1.32096894365047,"check","GI-330","Galiano Island - Central Cliffs",48.9119,-123.4314,NA
+"Galiano Island Cliffs","GI-230","Galiano Island - North Cliffs",48.98,48.9725,-123.5701,-123.5631,0.97801215417333,NA,"GI-230","Galiano Island - North Cliffs",48.9725,-123.5631,NA
+"Grebe Islets","SG-540","Grebe Islets",49.341,49.3408,-123.2756,-123.2756,0.0222389853288599,NA,"SG-540","Grebe Islets",49.3408,-123.2756,NA
+"Greig Island","GI-690","Greig Island",48.6783,48.6781,-123.3389,-123.3392,0.0313005636491172,NA,"GI-690","Greig Island",48.6781,-123.3392,NA
+"Harris Island","GI-880","Harris Island",48.4233,48.4231,-123.2897,-123.2897,0.0222389853288599,NA,"GI-880","Harris Island",48.4231,-123.2897,NA
+"Harris Island (Oak Bay Is)","GI-880","Harris Island",48.4233,48.4231,-123.2897,-123.2897,0.0222389853288599,NA,"GI-880","Harris Island",48.4231,-123.2897,NA
+"Hodgson Islands","SG-170","Daniel Point",49.6301,49.6375,-124.0808,-124.0722,1.02988671559622,"check",NA,"Hodgson Islands",49.6301,-124.0808,"name and coordinates set to KBB2020"
+"Hornby Island Bluffs","SG-220","St. John Point",49.5236,49.5167,-124.5925,-124.5861,0.895599000746984,NA,NA,"Hornby Island Bluffs",49.5236,-124.5925,"name and coordinates set to KBB2020"
+"Hornby Island St. John Point","SG-220","St. John Point",49.518,49.5167,-124.5863,-124.5861,0.145272643756506,NA,"SG-220","St. John Point",49.5167,-124.5861,NA
+"Horseshoe Bay","SG-460","Sunset Beach Cliffs",49.3993,49.4,-123.2512,-123.2506,0.0891270671285213,NA,"SG-460","Sunset Beach Cliffs",49.4,-123.2506,NA
+"Hudson Rocks","GI-060","Hudson Rocks",49.2261,49.2258,-123.9254,-123.925,0.044232899307188,NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Imrie Island","GI-670","Imrie Island",48.6944,48.6944,-123.3332,-123.3331,0.00733970014585549,NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Inskip Rock","GI-076","Brandon Islands",49.2085,49.2069,-123.9538,-123.9569,0.286999112513234,NA,NA,"Inskip Rock",49.2085,-123.9538,"name and coordinates set to KBB2020"
+"Java Islets","GI-550","Java Islets",48.7603,48.7597,-123.1138,-123.1097,0.307851716739704,NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Keefer Rock","SG-080","Keefer Rock",49.9684,49.9681,-124.8775,-124.8772,0.0396632399818973,NA,"SG-080","Keefer Rock",49.9681,-124.8772,NA
+"Kuper Island","GI-270","Tent Island",48.9359,48.925,-123.6317,-123.6303,1.21633205645197,"check",NA,"Kuper Island",48.9359,-123.6317,"name and coordinates set to KBB2020"
+"Lion Islets","GI-380","Lion Islets",48.9009,48.9003,-123.3372,-123.335,0.174101504714603,NA,"GI-380","Lion Islets",48.9003,-123.335,NA
+"Little Group Islets","GI-710","Little Group",48.6708,48.6717,-123.3578,-123.3575,0.10247135782844,NA,NA,"Little Group Islets",48.6708,-123.3578,"name and coordinates set to KBB2020"
+"Little Rock 1","SG-040","Three Islets",50.0526,50.0539,-124.9136,-124.9131,0.148895994005861,NA,"SG-040","Three Islets",50.0539,-124.9131,NA
+"Little Rock 2","SG-012","“Steamer” Island",50.1581,50.1584,-125.0945,-125.0949,0.0438724449924007,NA,"SG-012","“Steamer” Island",50.1584,-125.0949,NA
+"Major Islet","SG-070","Major Islet",49.989,49.9894,-124.8165,-124.8161,0.0528775835390783,NA,"SG-070","Major Islet",49.9894,-124.8161,NA
+"Mandarte Island","GI-750","Mandarte Island",48.6339,48.6333,-123.29,-123.2867,0.251512628765771,NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte South Islet","GI-750","Mandarte Island",48.6314,48.6333,-123.2808,-123.2867,0.482310185733478,NA,NA,"Mandarte South Islet",48.6314,-123.2808,"name and coordinates set to KBB2020"
+"Mary Tod Island","GI-850","Mary Tod Island",48.4275,48.4275,-123.2987,-123.2986,0.00737853082290028,NA,"GI-850","Mary Tod Island",48.4275,-123.2986,NA
+"Maude Island","GI-040","Maude Island",49.2704,49.2706,-124.0816,-124.0819,0.0311180408957603,NA,"GI-040","Maude Island",49.2706,-124.0819,NA
+"McRae Islet","SG-130","McRae Islet",49.7435,49.7436,-124.2927,-124.2925,0.0181705878759797,NA,"SG-130","McRae Islet",49.7436,-124.2925,NA
+"Merry Island and Franklin Rock","SG-370","Merry Island",49.4694,49.4692,-123.9176,-123.9189,0.0965353427967726,NA,"SG-370","Merry Island",49.4692,-123.9189,NA
+"Miami Islet","GI-190","Miami Islet",49.0375,49.0372,-123.7095,-123.7094,0.0341456572027072,NA,"GI-190","Miami Islet",49.0372,-123.7094,NA
+"Mitlenatch Island","SG-090","Mitlenatch Island",49.9506,49.95,-125.005,-125.0042,0.0879058584577035,NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mouat Islands","SG-180","Mouat Islands",49.6375,49.6331,-124.4701,-124.4625,0.734118190087087,NA,"SG-180","Mouat Islands",49.6331,-124.4625,NA
+"Nanoose Bay Island","GI-015","Yeo Islands",49.2629,49.3053,-124.1805,-124.135,5.75498478875249,"check",NA,"Nanoose Bay Island",49.2629,-124.1805,"name and coordinates set to KBB2020"
+"Norris Rocks","SG-230","Norris Rocks",49.4839,49.4836,-124.648,-124.6475,0.0491672389051004,NA,"SG-230","Norris Rocks",49.4836,-124.6475,NA
+"Pam Rocks","SG-440","Pam Rock",49.4878,49.4878,-123.2985,-123.2994,0.065009997361212,NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Passage Island","SG-530","Passage Island",49.3435,49.3431,-123.3057,-123.3056,0.0450641159359635,NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Point Atkinson","SG-550","Point Atkinson",49.3301,49.3297,-123.265,-123.265,0.0444779706577198,NA,"SG-550","Point Atkinson",49.3297,-123.265,NA
+"North Race Rock","GI-950","Coburg Peninsula",48.304,48.425,-123.5314,-123.4639,14.3489655911267,"check","GI-950","Coburg Peninsula",48.425,-123.4639,NA
+"Ragged Islets","GI-200","Ragged Islets",49.0263,49.0264,-123.6958,-123.6961,0.0245376304984916,NA,"GI-200","Ragged Islets",49.0264,-123.6961,NA
+"Reay Island","GI-680","Reay Island",48.6835,48.6833,-123.3291,-123.3292,0.0234193767623537,NA,"GI-680","Reay Island",48.6833,-123.3292,NA
+"Reifel Refuge","SG-680","Westham Island",49.1051,49.0983,-123.1797,-123.1786,0.760354404228826,NA,"SG-680","Westham Island",49.0983,-123.1786,NA
+"Rose Islets","GI-210","Rose Islets",49.008,49.0081,-123.644,-123.6439,0.013298254596801,NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Ruxton Island","GI-171","Whaleboat Island",49.0723,49.0739,-123.6999,-123.6925,0.567641857300026,NA,"GI-171","Whaleboat Island",49.0739,-123.6925,NA
+"Sallas Rocks","GI-770","Sallas Rocks",48.585,48.5847,-123.2903,-123.2903,0.0333584779936849,NA,"GI-770","Sallas Rocks",48.5847,-123.2903,NA
+"Saltspring Island","GI-408","Clamshell Islet",48.8522,48.8519,-123.4413,-123.4414,0.0341514566872355,NA,"GI-408","Clamshell Islet",48.8519,-123.4414,NA
+"Saturna Island","GI-510","East Point - Cliffs",48.7839,48.7817,-123.0448,-123.0469,0.288993174561826,NA,"GI-510","East Point - Cliffs",48.7817,-123.0469,NA
+"Sisters Islets","SG-250","Sisters Islets",49.4867,49.4867,-124.4349,-124.435,0.0072234953402038,NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Siwash Rock","SG-630","Siwash Rock",49.3088,49.3089,-123.156,-123.1567,0.0519518366422502,NA,"SG-630","Siwash Rock",49.3089,-123.1567,NA
+"Snake Island","GI-070","Snake Island",49.216,49.2156,-123.8907,-123.8906,0.0450671346209182,NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Tent Island","GI-270","Tent Island",48.9283,48.925,-123.6292,-123.6303,0.375640334997059,NA,"GI-270","Tent Island",48.925,-123.6303,NA
+"Trial Island","GI-900","Trial Islands",48.3976,48.3972,-123.3057,-123.3056,0.0450865510528023,NA,"GI-900","Trial Islands",48.3972,-123.3056,NA
+"Tsawwassen Breakwater","SG-720","Tsawwassen - Breakwater",48.9967,49.0033,-123.0953,-123.1256,2.32904476633479,"check","SG-720","Tsawwassen - Breakwater",49.0033,-123.1256,NA
+"Tsawwassen Jetty","SG-710","Tsawwassen - Ferry Terminal",49.0191,49.0158,-123.1121,-123.1167,0.497169006715553,NA,"SG-710","Tsawwassen - Ferry Terminal",49.0158,-123.1167,NA
+"Valdes Island","GI-171","Whaleboat Island",49.0581,49.0739,-123.6333,-123.6925,4.65704604187207,"check","GI-160","Valdes Island - West Cliffs",49.1056,-123.7028,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Vancouver Buildings","SG-660","False Creek",49.2737,49.2717,-123.102,-123.1083,0.508297917527476,NA,"SG-660","False Creek",49.2717,-123.1083,NA
+"Vancouver Burrard Bridge","SG-640","Burrard Bridge",49.2747,49.2753,-123.1392,-123.1375,0.140218889390175,NA,"SG-640","Burrard Bridge",49.2753,-123.1375,NA
+"Vancouver Burrard Inlet","SG-590","North Vancouver",49.3105,49.3083,-123.1045,-123.0786,1.89352025483824,"check","SG-590","North Vancouver",49.3083,-123.0786,NA
+"Vancouver Harbour","SG-600","Vancouver Harbour",49.2853,49.2861,-123.0989,-123.0992,0.091578532254902,NA,"SG-600","Vancouver Harbour",49.2861,-123.0992,NA
+"Vancouver Lions Gate Bridge","SG-620","Prospect Point",49.3141,49.3136,-123.1399,-123.1419,0.155274201974254,NA,"SG-620","Prospect Point",49.3136,-123.1419,NA
+"Vancouver Prospect Point","SG-620","Prospect Point",49.314,49.3136,-123.1415,-123.1419,0.0530947415062473,NA,"SG-620","Prospect Point",49.3136,-123.1419,NA
+"Vancouver Second Narrows Bridge","SG-580","Second Narrows",49.2948,49.295,-123.0263,-123.0261,0.0265504086433204,NA,"SG-580","Second Narrows",49.295,-123.0261,NA
+"Vivian Island","SG-110","Vivian Island",49.841,49.8406,-124.7011,-124.7014,0.0494076264100926,NA,"SG-110","Vivian Island",49.8406,-124.7014,NA
+"Wallace Island","GI-260","Wallace Island",48.9394,48.9386,-123.5562,-123.55,0.461500821556367,NA,"GI-260","Wallace Island",48.9386,-123.55,NA
+"White Islets","SG-400","White Islets",49.4183,49.4181,-123.712,-123.7119,0.0233858374491715,NA,"SG-400","White Islets",49.4181,-123.7119,NA
+"Whyte Islet","SG-505","Kettle Point",49.3661,49.3622,-123.2835,-123.2867,0.491690900565532,NA,"SG-490","Whyte Islet",49.37,-123.2919,"wrongly named in KBB2020 and changed to new SCoB2023 location"

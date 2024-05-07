@@ -31,12 +31,11 @@ library(tidyverse)
 library(dplyr)
 library(leaflet.extras)
 library(magrittr)
+library(sf)
 
 #library(webshot2)
-
 # load data
-wkdir <- getwd()
-all.GWGU <- read.csv(paste(wkdir,"/KBB2020andSCoBC2023combined_final.csv", sep =""))
+all.GWGU <- read.csv("b.data.clean/KBB2020andSCoBC2023combined_final.csv")
 
 ```
 
@@ -343,31 +342,14 @@ map
 ### 2024 Survey methods
 
 ```{r}
+# check these setting in the survey.and.map.prep.R file
 # Threshold year
-threshold_year <- 2004
-radius_basic_dot <- 4
-
+# threshold_year <- 2004
 # threshold to include colonies of a certain number of breeding pairs or higher before the threshold_year (not to miss large colonies)
-threshold_count <- 10
-
-# Filter locations with at least one Count > 0 on or after the threshold year
-locations_above_threshold_year <- all.GWGU %>%
-  filter(Year >= threshold_year, Count > 0) %>%
-  distinct(LocationName)
+#threshold_count <- 10
 
 
-# Filter locations with count >= threshold_count in any year before the threshold year
-locations_above_threshold_count <- all.GWGU %>%
-  group_by(LocationName) %>%
-  filter(any(Count >= threshold_count & Year < threshold_year)) %>%
-  distinct(LocationName)
-
-
-# Combine both conditions to get the final selection of locations
-final_locations <- union(locations_above_threshold_year$LocationName, locations_above_threshold_count$LocationName)
-
-write.csv(final_locations, "selected.locations.>=2004.or.>=10.earlier.csv", 
-          row.names = F)
+final_locations <- unique(all.GWGU$LocationName[all.GWGU$Selected == 1])
 
 n.colonies <- length(final_locations)
 
@@ -379,9 +361,8 @@ GWGU.select <- all.GWGU %>%
 GWGU.not.select <- all.GWGU %>%
   filter(!(LocationName %in% final_locations))
 
-
-# Group data by LocationName, sort by Year, and concatenate counts for each year
-popup_data <- GWGU.select %>%
+# Group data by LocationName, sort by Year, and concatenate counts for each year for all the data
+popup_data <- all.GWGU %>%
   group_by(LocationName) %>%
   arrange(Year) %>%
   summarise(Counts = paste(Year, Count, sep = ": ", collapse = "<br>"))
@@ -395,9 +376,23 @@ locations_NationalPark <- all.GWGU %>%
   filter(NationalPark == "NationalPark")
 
 # make selection for sites which are covered
+locations_ProvincialPark <- all.GWGU %>%
+  filter(ProvincialPark == "ProvincialPark")
+
+# make selection for sites which are covered
 locations_EcolReserve <- all.GWGU %>%
   filter(EcolReserve == "EcolReserve")
 
+# read shapefile
+PowelRiver <- st_read("shp/PowelRiver.shx") # included with sf package
+central <- st_read("shp/central.shx") # included with sf package
+HoweSound <- st_read("shp/HoweSound.shx") # included with sf package
+Nanaimo <- st_read("shp/Nanaimo.shx") # included with sf package
+SunshineCoast <- st_read("shp/SunshineCoast.shx") # included with sf package
+
+# read data for boat launches
+boat.launch <- read.csv("b.data.clean/boat_launches.csv")
+str(boat.launch)
 ```
 
 After assessing the above information we proceed to set some thresholds to select the final set of colonies to survey in 2024.
@@ -406,14 +401,36 @@ After assessing the above information we proceed to set some thresholds to selec
 
 -   include breeding locations which have records before `{r} threshold_year` with \>= `{r} threshold_count` breeding pairs.
 
-black:selected colonies (n =`{r} n.colonies`) in black. grey: not survey targets. yellow center: covered by others (i.e. not needed to be surveyed by us) and green outer ring: National Park
+black: selected colonies (n =`{r} n.colonies`) in black. grey: not selected targets. yellow center: covered by others (i.e. not needed to be surveyed by us) and dark green outer ring: National Park, medium green = Provincial Park and light green = Ecological Reserve.
 
 ```{r}
 
+line.w <- 1.5 # line thickness of polygons
 
 # Create a Leaflet map
 map <- leaflet() %>%
   addTiles()  # Add default OpenStreetMap tiles
+
+# add polygons for regions
+map <- map %>%
+  addPolygons(data = PowelRiver, fillOpacity = 0, weight = line.w) %>%
+  addPolygons(data = central, fillOpacity = 0, weight = line.w) %>%
+  addPolygons(data = HoweSound, fillOpacity = 0, weight = line.w) %>%
+  addPolygons(data = Nanaimo, fillOpacity = 0, weight = line.w) %>%
+  addPolygons(data = SunshineCoast, fillOpacity = 0, weight = line.w)
+
+# add boat launches
+map <- map %>%
+  addCircleMarkers(
+    data = boat.launch,  # Use all.GWGU as data
+    lng = ~Longitude, 
+    lat = ~Latitude,
+    color = "blue",            # Dot color
+    radius = 1.7 * radius_basic_dot,                # Dot radius
+    stroke = FALSE,            # No stroke
+    fillOpacity = 0.7,
+    popup = ~~Name,
+  )
 
 # layer for sites which are National Parks jurisdiction 
 map <- map %>%
@@ -429,7 +446,21 @@ map <- map %>%
     #group = "locations"
   )
 
-# layer for sites which are National Parks jurisdiction 
+# layer for sites which are Provincial Parks jurisdiction 
+map <- map %>%
+  addCircleMarkers(
+    data = locations_ProvincialPark,  # Use all.GWGU as data
+    lng = ~Longitude, 
+    lat = ~Latitude,
+    color = "limegreen",            # Dot color
+    radius = 1.7 * radius_basic_dot,                # Dot radius
+    stroke = FALSE,            # No stroke
+    fillOpacity = 0.7,
+    popup = ~~LocationName,
+    #group = "locations"
+  )
+
+# layer for sites which are ecological reserves jurisdiction 
 map <- map %>%
   addCircleMarkers(
     data = locations_EcolReserve,  # Use all.GWGU as data
@@ -443,8 +474,6 @@ map <- map %>%
     #group = "locations"
   )
 
-
-
 # Add a dot for each unique location
 map <- map %>%
   addCircleMarkers(
@@ -455,8 +484,11 @@ map <- map %>%
     radius = 1 * radius_basic_dot,                # Dot radius
     stroke = FALSE,            # No stroke
     fillOpacity = 0.6,
-    popup = ~~LocationName,
-    #group = "locations"
+    popup = ~paste(
+      "<strong>Location:</strong> ", LocationName, "<br>",
+      "<strong>Counts:</strong><br>", popup_data$Counts[match(LocationName, popup_data$LocationName)]
+    ),
+    group = "locations"
   )
 
 

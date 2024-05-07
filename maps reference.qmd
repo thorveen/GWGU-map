@@ -1,0 +1,59 @@
+---
+title: "Glaucous-wing Gull reference map"
+author: "Thor Veen"
+format:
+  html:
+    embed-resources: true
+editor: visual
+execute: 
+  echo: false
+---
+
+## Reference map of all locations SCoBC2023
+
+SCoBC2023 [link](http://www.wildlifebc.org/) table A1_11
+
+```{r}
+#| warning: false
+
+library(tidyverse)
+library(dplyr)
+library(leaflet.extras)
+library(magrittr)
+
+#library(webshot2)
+# load data
+#all.GWGU <- read.csv(paste(b.data.clean, "coordinates.TableA1-11.SalishSea.csv", sep =""))
+all.loc <- read.csv("coordinates.TableA1-11.SalishSea.csv")
+
+```
+
+## Maps
+
+```{r}
+radius_basic_dot <- 4
+scale_max <- 10       # normalize count size between 0 and scale_max
+```
+
+```{r}
+library(leaflet)
+library(leaflet.extras)
+
+map <- leaflet() %>%
+  addTiles()  # Add default OpenStreetMap tiles
+
+# Add a dot for each unique location
+map <- map %>%
+  addCircleMarkers(data = all.loc,  # Use unique locations data
+                   lng = ~Longitude,          # Longitude
+                   lat = ~Latitude,           # Latitude
+                   color = "black",            # Dot color
+                   radius = radius_basic_dot,  # Dot radius
+                   stroke = FALSE,            # No stroke
+                   fillOpacity = 1,
+                   popup = ~LocationName)          
+# Display the map
+map
+```
+
+### 

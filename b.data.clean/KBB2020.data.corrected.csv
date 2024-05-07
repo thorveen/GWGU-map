@@ -1,0 +1,490 @@
+"Location","Year","Location.Description","Site.Number","Colony.Size.Class","Colony.Location.Class","Count","Type.of.Info","Lat","Long","Notes.x","Collector","Source","Location_Code_SCoBC2023","Location_B_SCoBC2023","check.location.match","Location_Code_final","Location_final","Latitude_final","Longitude_final","Notes.y"
+"Ada Island",1974,"",1,3,NA,171,"Pair",49.29,-124.0768,"","","Campbell 1976","GI-020","Ada Islands","check","GI-020","Ada Islands",49.2853,-124.0939,NA
+"Ada Island",1975,"",1,3,NA,100,"Nests",49.29,-124.0768,"","K.Kennedy","B.C. Nest Record Scheme","GI-020","Ada Islands","check","GI-020","Ada Islands",49.2853,-124.0939,NA
+"Ada Island",1978,"",1,3,NA,154,"Nests",49.29,-124.0768,"","MGS TES","B.C Nest Record Scheme","GI-020","Ada Islands","check","GI-020","Ada Islands",49.2853,-124.0939,NA
+"Ada Island",1980,"",1,3,NA,86,"Nests",49.29,-124.0768,"","","Campbell et al 1990","GI-020","Ada Islands","check","GI-020","Ada Islands",49.2853,-124.0939,NA
+"Ada Island",1981,"",1,3,NA,155,"Nests",49.29,-124.0768,"","L Giliberte, M McNall","B.C Nest Record Scheme","GI-020","Ada Islands","check","GI-020","Ada Islands",49.2853,-124.0939,NA
+"Ada Island",1986,"",1,3,NA,124,"Nests",49.29,-124.0768,"","","Vermeer and Devito 1989","GI-020","Ada Islands","check","GI-020","Ada Islands",49.2853,-124.0939,NA
+"Ada Island",2010,"",1,3,NA,69,"Nests",49.29,-124.0768,"","","","GI-020","Ada Islands","check","GI-020","Ada Islands",49.2853,-124.0939,NA
+"Anniversary Islet",1977,"",2,2,NA,4,"Nests",48.824,-123.1833,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-470","Belle Chain Islets",NA,NA,"Anniversary Islet",48.824,-123.1833,"name and coordinates set to KBB2020"
+"Anniversary Islet",1978,"",2,2,NA,50,"Nests",48.824,-123.1833,"","HR Carter, MS Rodway","B.C. Nest Record Scheme","GI-470","Belle Chain Islets",NA,NA,"Anniversary Islet",48.824,-123.1833,"name and coordinates set to KBB2020"
+"Anniversary Islet",2005,"",2,2,NA,0,"Nests",48.824,-123.1833,"","P. Arcese?","Unpubl. Data - ""Arcese"" file in GWGU_laura","GI-470","Belle Chain Islets",NA,NA,"Anniversary Islet",48.824,-123.1833,"name and coordinates set to KBB2020"
+"Arbutus Island",1976,"",3,3,NA,39,"Nests",48.7062,-123.4355,"","","Campbell et al 1990","GI-630","Arbutus Island",NA,"GI-630","Arbutus Island",48.7061,-123.4353,NA
+"Arbutus Island",1985,"",3,3,NA,115,"Nests",48.7062,-123.4355,"","","Vermeer and Devito 1989","GI-630","Arbutus Island",NA,"GI-630","Arbutus Island",48.7061,-123.4353,NA
+"Arbutus Island",1986,"",3,3,NA,150,"Nests",48.7062,-123.4355,"","","Vermeer and Devito 1989","GI-630","Arbutus Island",NA,"GI-630","Arbutus Island",48.7061,-123.4353,NA
+"Arbutus Island",1997,"",3,3,NA,97,"Nests",48.7062,-123.4355,"","","Sullivan et al 2002","GI-630","Arbutus Island",NA,"GI-630","Arbutus Island",48.7061,-123.4353,NA
+"Arbutus Island",1999,"",3,3,NA,55,"Nests",48.7062,-123.4355,"","","Moira Lemon BLOY egg collection 1999, Sullivan et al. 2002","GI-630","Arbutus Island",NA,"GI-630","Arbutus Island",48.7061,-123.4353,NA
+"Arbutus Island",2005,"",3,3,NA,40,"Nests",48.7062,-123.4355,"","","Unpubl. Data - ""Haro Gulls"" file in GWGU_laura","GI-630","Arbutus Island",NA,"GI-630","Arbutus Island",48.7061,-123.4353,NA
+"Arbutus Island",2007,"",3,3,NA,35,"Nests",48.7062,-123.4355,"","","Unpubl. Data - ""Haro Gulls"" file in GWGU_laura","GI-630","Arbutus Island",NA,"GI-630","Arbutus Island",48.7061,-123.4353,NA
+"Arbutus Island",2010,"",3,3,NA,53,"Nests",48.7062,-123.4355,"","","","GI-630","Arbutus Island",NA,"GI-630","Arbutus Island",48.7061,-123.4353,NA
+"Augustus Point",1974,"SW side Kuper Island",5,1,NA,3,"Pair",48.9457,-123.6522,"","","Campbell 1976","GI-250","Augustus Point",NA,"GI-250","Augustus Point",48.945,-123.6528,NA
+"Augustus Point",1978,"",5,1,NA,3,"Nests",48.9457,-123.6522,"Record showed 14 Adults, ""3 setting in nest holes"", so assumed 3 N","HR Carter, MS Rodway","B.C. Nest Record Scheme","GI-250","Augustus Point",NA,"GI-250","Augustus Point",48.945,-123.6528,NA
+"Augustus Point",1980,"",5,1,NA,3,"",48.9457,-123.6522,"10 roosting adults reported so estimated 3 N","E Perkins, R Gibbs, J Goodall","B.C. Nest Record Scheme","GI-250","Augustus Point",NA,"GI-250","Augustus Point",48.945,-123.6528,NA
+"Augustus Point",1984,"",5,1,NA,6,"Nests",48.9457,-123.6522,"","L Giliberte, M McNall","B.C. Nest Record Scheme","GI-250","Augustus Point",NA,"GI-250","Augustus Point",48.945,-123.6528,NA
+"Ballenas Island",1952,"N Cliffs of N islet",6,3,NA,50,"Pair",49.3542,-124.1647,"","Mrs. A.G. Waldon","Drent and Guiguet 1961","GI-010","Ballenas Islands",NA,"GI-010","Ballenas Islands",49.3464,-124.1581,NA
+"Ballenas Island",1953,"N Cliffs of N islet",6,3,NA,50,"Pair",49.3542,-124.1647,"","Mrs. A.G. Waldon","Drent and Guiguet 1961","GI-010","Ballenas Islands",NA,"GI-010","Ballenas Islands",49.3464,-124.1581,NA
+"Ballenas Island",1954,"N Cliffs of N islet",6,3,NA,50,"Pair",49.3542,-124.1647,"","Mrs. A.G. Waldon","Drent and Guiguet 1961","GI-010","Ballenas Islands",NA,"GI-010","Ballenas Islands",49.3464,-124.1581,NA
+"Ballenas Island",1955,"N Cliffs of N islet",6,3,NA,50,"Pair",49.3542,-124.1647,"","Mrs. A.G. Waldon","Drent and Guiguet 1961","GI-010","Ballenas Islands",NA,"GI-010","Ballenas Islands",49.3464,-124.1581,NA
+"Ballenas Island",1956,"N Cliffs of N islet",6,3,NA,50,"Pair",49.3542,-124.1647,"","Mrs. A.G. Waldon","Drent and Guiguet 1961","GI-010","Ballenas Islands",NA,"GI-010","Ballenas Islands",49.3464,-124.1581,NA
+"Ballenas Island",1968,"",6,3,NA,55,"Nests",49.3542,-124.1647,"","R. Drent","B.C. Nest Record Scheme","GI-010","Ballenas Islands",NA,"GI-010","Ballenas Islands",49.3464,-124.1581,NA
+"Ballenas Island",1969,"",6,3,NA,120,"Pair",49.3542,-124.1647,"","W. Campbell, R.G. Fouttit","B.C. Nest Record Scheme","GI-010","Ballenas Islands",NA,"GI-010","Ballenas Islands",49.3464,-124.1581,NA
+"Ballenas Island",1986,"",6,3,NA,0,"Nests",49.3542,-124.1647,"","","Vermeer & Devito 1989","GI-010","Ballenas Islands",NA,"GI-010","Ballenas Islands",49.3464,-124.1581,NA
+"Ballenas Island",2006,"",6,3,NA,0,"Nests",49.3542,-124.1647,"","P. Arcese?","Unpubl. Data - ""Arcese"" file in GWGU_laura","GI-010","Ballenas Islands",NA,"GI-010","Ballenas Islands",49.3464,-124.1581,NA
+"Ballingall Islets",1936,"",7,3,NA,85,"Nests",48.9072,-123.4596,"","Sprot 1936","B.C. Nest Record Scheme","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Ballingall Islets",1954,"",7,3,NA,1,"Nests",48.9072,-123.4596,"","","Campbell et al 1990","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Ballingall Islets",1959,"",7,3,NA,57,"Nests",48.9072,-123.4596,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Ballingall Islets",1964,"",7,3,NA,50,"Pair",48.9072,-123.4596,"","AJ Brooks, RY Edwardds","B.C. Nest Record Scheme","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Ballingall Islets",1966,"",7,3,NA,100,"Nests",48.9072,-123.4596,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Ballingall Islets",1968,"",7,3,NA,155,"Pair",48.9072,-123.4596,"Orig est of 150-160 pair","R Best","B.C. Nest Record Scheme","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Ballingall Islets",1974,"",7,3,NA,96,"Pair",48.9072,-123.4596,"","","Campbell 1976","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Ballingall Islets",1976,"",7,3,NA,118,"Nests",48.9072,-123.4596,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Ballingall Islets",1977,"",7,3,NA,118,"Nests",48.9072,-123.4596,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Ballingall Islets",1986,"",7,3,NA,145,"Nests",48.9072,-123.4596,"","","Vermeer and Devito 1989","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Ballingall Islets",2010,"",7,3,NA,6,"Nests",48.9072,-123.4596,"","","","GI-320","Ballingall Islets",NA,"GI-320","Ballingall Islets",48.9072,-123.4594,NA
+"Bare Point",1968,"",8,2,NA,1,"Pair",48.9284,-123.7047,"","R Drent","B.C. Nest Record Scheme","GI-280","Bare Point",NA,"GI-280","Bare Point",48.9278,-123.7064,NA
+"Bare Point",1974,"",8,2,NA,11,"Pair",48.9284,-123.7047,"","MS Rodway, RW Campbell","Campbell 1976","GI-280","Bare Point",NA,"GI-280","Bare Point",48.9278,-123.7064,NA
+"Bare Point",1977,"",8,2,NA,8,"Nests",48.9284,-123.7047,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-280","Bare Point",NA,"GI-280","Bare Point",48.9278,-123.7064,NA
+"Bare Point",1978,"",8,2,NA,4,"Pair",48.9284,-123.7047,"","HR Carter, MS Rodway","B.C. Nest Record Scheme","GI-280","Bare Point",NA,"GI-280","Bare Point",48.9278,-123.7064,NA
+"Bare Point",1980,"",8,2,NA,0,"Nests",48.9284,-123.7047,"","E Perkins, R Gibbs, J Goodall","B.C. Nest Record Scheme","GI-280","Bare Point",NA,"GI-280","Bare Point",48.9278,-123.7064,NA
+"Bare Point",1986,"",8,2,NA,5,"Nests",48.9284,-123.7047,"","","Vermeer and Devito 1989","GI-280","Bare Point",NA,"GI-280","Bare Point",48.9278,-123.7064,NA
+"Belle Chain Islets",1966,"",9,3,NA,14,"Nests",48.8335,-123.2009,"Orig est of 12 - 15 pr","RC Best","B.C. Nest Record Scheme","GI-470","Belle Chain Islets","check","GI-470","Belle Chain Islets",48.8335,-123.2009,"name and coordinates set to KBB2020"
+"Belle Chain Islets",1969,"",9,3,NA,43,"Nests",48.8335,-123.2009,"","R Drent, J Anvik, J&J Ward","B.C. Nest Record Scheme","GI-470","Belle Chain Islets","check","GI-470","Belle Chain Islets",48.8335,-123.2009,"name and coordinates set to KBB2020"
+"Belle Chain Islets",1974,"",9,3,NA,6,"Pair",48.8335,-123.2009,"","","Campbell 1976","GI-470","Belle Chain Islets","check","GI-470","Belle Chain Islets",48.8335,-123.2009,"name and coordinates set to KBB2020"
+"Belle Chain Islets",1976,"",9,3,NA,6,"Nests",48.8335,-123.2009,"","","B.C. Nest Record Scheme","GI-470","Belle Chain Islets","check","GI-470","Belle Chain Islets",48.8335,-123.2009,"name and coordinates set to KBB2020"
+"Belle Chain Islets",1977,"",9,3,NA,25,"Nests",48.8335,-123.2009,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-470","Belle Chain Islets","check","GI-470","Belle Chain Islets",48.8335,-123.2009,"name and coordinates set to KBB2020"
+"Belle Chain Islets",1980,"",9,3,NA,37,"Nests",48.8335,-123.2009,"","E Perkins, R Gibbs, J Goodall","B.C. Nest Record Scheme","GI-470","Belle Chain Islets","check","GI-470","Belle Chain Islets",48.8335,-123.2009,"name and coordinates set to KBB2020"
+"Belle Chain Islets",1981,"",9,3,NA,78,"Nests",48.8335,-123.2009,"","M McNall, S Webb, L Giliberti","B.C. Nest Record Scheme","GI-470","Belle Chain Islets","check","GI-470","Belle Chain Islets",48.8335,-123.2009,"name and coordinates set to KBB2020"
+"Belle Chain Islets",1986,"",9,3,NA,56,"Nests",48.8335,-123.2009,"","","Vermeer and Devito 1989","GI-470","Belle Chain Islets","check","GI-470","Belle Chain Islets",48.8335,-123.2009,"name and coordinates set to KBB2020"
+"Belle Chain Islets",2009,"",9,3,NA,18,"Nests",48.8335,-123.2009,"","T. Golumbia","Todd Golumbia pers. comm. 2009","GI-470","Belle Chain Islets","check","GI-470","Belle Chain Islets",48.8335,-123.2009,"name and coordinates set to KBB2020"
+"Bird Islet",1974,"",10,2,NA,3,"Nests",49.3633,-123.2914,"","","Moira Lemon","SG-500","Bird Islet",NA,"SG-500","Bird Islet",49.3633,-123.2911,NA
+"Bird Islet",1981,"",10,2,NA,2,"Nests",49.3633,-123.2914,"","","Moira Lemon","SG-500","Bird Islet",NA,"SG-500","Bird Islet",49.3633,-123.2911,NA
+"Bird Islet",1986,"",10,2,NA,38,"Nests",49.3633,-123.2914,"","","Vermeer and Devito 1989","SG-500","Bird Islet",NA,"SG-500","Bird Islet",49.3633,-123.2911,NA
+"Bird Islet",1999,"",10,2,NA,31,"Nests",49.3633,-123.2914,"","","Moira Lemon, Sullivan et al. 2002","SG-500","Bird Islet",NA,"SG-500","Bird Islet",49.3633,-123.2911,NA
+"Bird Islet",2010,"",10,2,NA,15,"Nests",49.3633,-123.2914,"","","","SG-500","Bird Islet",NA,"SG-500","Bird Islet",49.3633,-123.2911,NA
+"Canoe Islet",1974,"",11,3,NA,67,"Pair",49.0282,-123.5887,"","","Campbell 1976","GI-220","Canoe Islet",NA,"GI-220","Canoe Islet",49.0281,-123.5886,NA
+"Canoe Islet",1976,"",11,3,NA,37,"Pair",49.0282,-123.5887,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-220","Canoe Islet",NA,"GI-220","Canoe Islet",49.0281,-123.5886,NA
+"Canoe Islet",1977,"",11,3,NA,57,"Pair",49.0282,-123.5887,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-220","Canoe Islet",NA,"GI-220","Canoe Islet",49.0281,-123.5886,NA
+"Canoe Islet",1978,"",11,3,NA,50,"Nests",49.0282,-123.5887,"","HR Carter, MS Rodway, JA Rodway, MJ Sowden","B.C. Nest Record Scheme","GI-220","Canoe Islet",NA,"GI-220","Canoe Islet",49.0281,-123.5886,NA
+"Canoe Islet",1986,"",11,3,NA,56,"Nests",49.0282,-123.5887,"","","Vermeer and Devito 1989","GI-220","Canoe Islet",NA,"GI-220","Canoe Islet",49.0281,-123.5886,NA
+"Chain Islets and Great Chain Island",1943,"",12,5,NA,80,"Nests",48.4223,-123.2653,"","T White","B.C. Nest Record Scheme","GI-890","Chain Islets/Great Chain Island",NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Chain Islets and Great Chain Island",1955,"",12,5,NA,1000,"Pair",48.4223,-123.2653,"","D. Stirling","Drent and Guiguet 1961","GI-890","Chain Islets/Great Chain Island",NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Chain Islets and Great Chain Island",1960,"",12,5,NA,850,"Pair",48.4223,-123.2653,"Orig est of 700-1000 pr","F.A. Gornall","Drent and Guiguet 1961","GI-890","Chain Islets/Great Chain Island",NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Chain Islets and Great Chain Island",1968,"",12,5,NA,1754,"",48.4223,-123.2653,"Combined R Drent ests for Grt Chain & islets","","","GI-890","Chain Islets/Great Chain Island",NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Chain Islets and Great Chain Island",1973,"",12,5,NA,1550,"Pair",48.4223,-123.2653,"","","B.C Nest Record Scheme","GI-890","Chain Islets/Great Chain Island",NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Chain Islets and Great Chain Island",1974,"",12,5,NA,1764,"Pair",48.4223,-123.2653,"","","Campbell 1976","GI-890","Chain Islets/Great Chain Island",NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Chain Islets and Great Chain Island",1976,"",12,5,NA,1825,"Pair",48.4223,-123.2653,"","","B.C Nest Record Scheme","GI-890","Chain Islets/Great Chain Island",NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Chain Islets and Great Chain Island",1977,"",12,5,NA,1838,"Pair",48.4223,-123.2653,"","","B.C Nest Record Scheme","GI-890","Chain Islets/Great Chain Island",NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Chain Islets and Great Chain Island",1986,"",12,5,NA,2432,"Nests",48.4223,-123.2653,"","Vermeer et al 1989","Rodway 1991","GI-890","Chain Islets/Great Chain Island",NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Chain Islets and Great Chain Island",2009,"",12,5,NA,1410,"Nests",48.4223,-123.2653,"","L Blight, H Carter, T Osler, A Medve","Oak Bay islands GWGU nest counts 2009","GI-890","Chain Islets/Great Chain Island",NA,"GI-890","Chain Islets/Great Chain Island",48.4206,-123.2753,NA
+"Channel Islands",1977,"NE Islet",13,1,NA,1,"Nest",48.8014,-123.3818,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-460","Channel Islands",NA,"GI-460","Channel Islands",48.7994,-123.3842,NA
+"Channel Islands",2004,"",13,1,NA,0,"Nests",48.8014,-123.3818,"","P. Arcese?","Unpubl. Data - ""Arcese"" file in GWGU_laura","GI-460","Channel Islands",NA,"GI-460","Channel Islands",48.7994,-123.3842,NA
+"Christie Island",1941,"",14,5,NA,1,"Nest",49.4996,-123.302,"","WSM collection","Drent and Guiguet 1961","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1949,"",14,5,NA,2,"Nests",49.4996,-123.302,"","WSM collection","Drent and Guiguet 1961","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1955,"",14,5,NA,247,"Nests",49.4996,-123.302,"","Wm. Hughes, BCNRS","Drent and Guiguet 1961","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1956,"",14,5,NA,419,"Nests",49.4996,-123.302,"","Wm. Hughes, BCNRS","Drent and Guiguet 1961","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1958,"",14,5,NA,219,"Nests",49.4996,-123.302,"","Wm. Merilees and G.M McKay, BCNRS","Drent and Guiguet 1961","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1959,"",14,5,NA,299,"Nests",49.4996,-123.302,"","Wm. Merilees and G.M McKay, BCNRS","Drent and Guiguet 1961","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1963,"",14,5,NA,300,"Pair",49.4996,-123.302,"","","B.C. Nest Record Scheme","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1968,"",14,5,NA,293,"Pair",49.4996,-123.302,"Orig est 285-300 pr","R and N Drent","B.C. Nest Record Scheme","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1971,"",14,5,NA,300,"Pair",49.4996,-123.302,"","","B.C. Nest Record Scheme","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1974,"",14,5,NA,477,"Nests",49.4996,-123.302,"","","Campbell 1975","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1978,"",14,5,NA,718,"Nests",49.4996,-123.302,"","","Moira Lemon","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1980,"",14,5,NA,499,"Nests",49.4996,-123.302,"","P Nott, M McNall","B.C. Nest Record Scheme","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1981,"",14,5,NA,558,"Nests",49.4996,-123.302,"","RW Campbell","B.C Nest Record Scheme","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1986,"",14,5,NA,454,"Nests",49.4996,-123.302,"","","Vermeer and Devito 1989","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",1999,"",14,5,NA,232,"Nests",49.4996,-123.302,"","","Sullivan et al 2002","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Christie Island",2010,"",14,5,NA,198,"Nests",49.4996,-123.302,"","","","SG-430","Christie Islet",NA,"SG-430","Christie Islet",49.4994,-123.3017,NA
+"Chrome Island",1935,"",15,3,NA,150,"Pair 'plus young'",49.4721,-124.6845,"Listed as 'Yellow I'","","Munro & Cowan 1947","SG-240","Chrome Island",NA,"SG-240","Chrome Island",49.4719,-124.6844,NA
+"Chrome Island",1974,"",15,3,NA,1,"Pair",49.4721,-124.6845,"","","Campbell 1976","SG-240","Chrome Island",NA,"SG-240","Chrome Island",49.4719,-124.6844,NA
+"Chrome Island",1986,"",15,3,NA,3,"Nests",49.4721,-124.6845,"","","Vermeer and Devito 1989","SG-240","Chrome Island",NA,"SG-240","Chrome Island",49.4719,-124.6844,NA
+"Chrome Island",2010,"",15,3,NA,1,"Nests",49.4721,-124.6845,"","","","SG-240","Chrome Island",NA,"SG-240","Chrome Island",49.4719,-124.6844,NA
+"De Courcy Island",1977,"",17,1,NA,3,"Nests",49.1106,-123.7576,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-140","Link Island",NA,NA,"De Courcy Island",49.1106,-123.7576,"name and coordinates set to KBB2020"
+"De Courcy Island",1986,"NW cliffs",17,1,NA,2,"Nests",49.1106,-123.7576,"","","Vermeer and Devito 1989","GI-140","Link Island",NA,NA,"De Courcy Island",49.1106,-123.7576,"name and coordinates set to KBB2020"
+"De Courcy Island",2010,"NW cliffs",17,1,NA,0,"Nests",49.1106,-123.7576,"","","","GI-140","Link Island",NA,NA,"De Courcy Island",49.1106,-123.7576,"name and coordinates set to KBB2020"
+"Denman Island",1986,"Gravelly Bay Ferry Dock",18,1,NA,1,"Nest",49.4939,-124.7086,"","","Vermeer and Devito 1989","SG-210","Denman Island - East Dock",NA,"SG-210","Denman Island - East Dock",49.4939,-124.7089,NA
+"Denman Island",2010,"Gravelly Bay Ferry Dock",18,1,NA,1,"Nest",49.4939,-124.7086,"","","","SG-210","Denman Island - East Dock",NA,"SG-210","Denman Island - East Dock",49.4939,-124.7089,NA
+"Dinner Islet",1978,"",19,1,NA,0,"Birds present",49.9462,-124.7229,"","M.G and T.E Shepard, GE Colby","B.C Nest Record Scheme","SG-070","Major Islet","check",NA,"Dinner Islet",49.9462,-124.7229,"name and coordinates set to KBB2020"
+"Dinner Islet",1981,"",19,1,NA,0,"Birds present - 1 adult seen flushed up by Eagle",49.9462,-124.7229,"","W Campbell","B.C Nest Record Scheme","SG-070","Major Islet","check",NA,"Dinner Islet",49.9462,-124.7229,"name and coordinates set to KBB2020"
+"Dinner Islet",2006,"",19,1,NA,0,"Pair",49.9462,-124.7229,"","Rob Butler","Rob Butler pers. comm. 2009","SG-070","Major Islet","check",NA,"Dinner Islet",49.9462,-124.7229,"name and coordinates set to KBB2020"
+"Dock Island",1977,"",NA,2,NA,48,"Pair",48.6709,-123.3577,"Orig est 45-50","","B.C. Nest Record Scheme","GI-710","Little Group",NA,"GI-710","Little Group",48.6717,-123.3575,NA
+"Dock Island",2010,"",NA,2,NA,0,"Nests",48.6709,-123.3577,"","Todd Golumbia","Todd Golumbia pers. comm. 2009","GI-710","Little Group",NA,"GI-710","Little Group",48.6717,-123.3575,NA
+"Eagle Harbour",1974,"",NA,1,NA,2,"Pair",49.3517,-123.2711,"","","Campbell 1976","SG-520","Eagle Rocks",NA,NA,"Eagle Harbour",49.3517,-123.2711,"name and coordinates set to KBB2020"
+"Fegan Islets",1974,"",NA,1,NA,2,"Pair",49.5297,-124.3802,"","","Campbell 1976","SG-270","Fegen Islets",NA,"SG-270","Fegen Islets",49.53,-124.3806,NA
+"Fegan Islets",1986,"",NA,1,NA,1,"Nest",49.5297,-124.3802,"","","Vermeer and Devito 1989","SG-270","Fegen Islets",NA,"SG-270","Fegen Islets",49.53,-124.3806,NA
+"Finnerty Islands",1974,"",NA,1,NA,10,"Pair",49.5004,-124.393,"","","Campbell 1976","SG-260","Finnerty Islands",NA,"SG-260","Finnerty Islands",49.4989,-124.3953,NA
+"Finnerty Islands",1981,"",NA,1,NA,6,"Pair",49.5004,-124.393,"","R W Campbell","B.C Nest Record Scheme","SG-260","Finnerty Islands",NA,"SG-260","Finnerty Islands",49.4989,-124.3953,NA
+"Finnerty Islands",1986,"",NA,1,NA,4,"Nests",49.5004,-124.393,"","","Vermeer and Devito 1989","SG-260","Finnerty Islands",NA,"SG-260","Finnerty Islands",49.4989,-124.3953,NA
+"Five Finger Island",1959,"Outermost",NA,5,NA,5,"Nests",49.2312,-123.916,"","Wm. Merilees","Drent and Guiguet 1961","GI-050","Five Finger Island",NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Five Finger Island",1968,"",NA,5,NA,110,"Nests",49.2312,-123.916,"","R and J Drent","Campbell et al 1990","GI-050","Five Finger Island",NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Five Finger Island",1974,"",NA,5,NA,559,"Pair",49.2312,-123.916,"","","Campbell 1976","GI-050","Five Finger Island",NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Five Finger Island",1977,"",NA,5,NA,459,"Nests",49.2312,-123.916,"","","Moira Lemon","GI-050","Five Finger Island",NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Five Finger Island",1978,"",NA,5,NA,473,"Nests",49.2312,-123.916,"","","Moira Lemon","GI-050","Five Finger Island",NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Five Finger Island",1980,"",NA,5,NA,364,"Nests",49.2312,-123.916,"","","Moira Lemon","GI-050","Five Finger Island",NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Five Finger Island",1981,"",NA,5,NA,599,"Nests",49.2312,-123.916,"","","Moira Lemon","GI-050","Five Finger Island",NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Five Finger Island",1986,"",NA,5,NA,671,"Nests",49.2312,-123.916,"","","Vermeer and Devito 1989","GI-050","Five Finger Island",NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Five Finger Island",1999,"",NA,5,NA,288,"Nests",49.2312,-123.916,"","","Sullivan et al 2002","GI-050","Five Finger Island",NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Five Finger Island",2010,"",NA,5,NA,2,"Nests",49.2312,-123.916,"","","","GI-050","Five Finger Island",NA,"GI-050","Five Finger Island",49.2311,-123.9158,NA
+"Gabriola Island",1974,"Cliffs",NA,1,NA,4,"Pair",49.1548,-123.7857,"","MS Rodway, RW Campbell","Campbell 1976","GI-120","Mudge Island","check","GI-090","Gabriola Island - West Cliffs",49.1558,-123.8569,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Gabriola Island",1977,"Cliffs",NA,1,NA,5,"Nests",49.1548,-123.7857,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-120","Mudge Island","check","GI-090","Gabriola Island - West Cliffs",49.1558,-123.8569,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Gabriola Island",2010,"Cliffs",NA,1,NA,4,"Nests",49.1548,-123.7857,"Rob's note said 'a few', and I noted a couple from the ferry in summer 2010 but didn't note number","R Butler","R Butler, email 8 June 2010","GI-120","Mudge Island","check","GI-090","Gabriola Island - West Cliffs",49.1558,-123.8569,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Galiano Island Cliffs",1977,"Cliffs",NA,1,NA,2,"Nests",48.98,-123.5701,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-230","Galiano Island - North Cliffs",NA,"GI-230","Galiano Island - North Cliffs",48.9725,-123.5631,NA
+"Galiano Island Cliffs",1985,"Cliffs",NA,1,NA,6,"Nests",48.98,-123.5701,"","","Vermeer and Devito 1989","GI-230","Galiano Island - North Cliffs",NA,"GI-230","Galiano Island - North Cliffs",48.9725,-123.5631,NA
+"Galiano Island Cliffs",1986,"Cliffs",NA,1,NA,6,"Nests",48.98,-123.5701,"","","Vermeer and Devito 1989","GI-230","Galiano Island - North Cliffs",NA,"GI-230","Galiano Island - North Cliffs",48.9725,-123.5631,NA
+"Galiano Island Cliffs Gray Pen.",1976,"Cliffs NW of Gray Pen.",NA,1,NA,4,"Nests",48.9059,-123.4158,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-330","Galiano Island - Central Cliffs","check","GI-330","Galiano Island - Central Cliffs",48.9119,-123.4314,NA
+"Galiano Island Cliffs Gray Pen.",1977,"Cliffs NW of Gray Pen.",NA,1,NA,1,"Nest",48.9059,-123.4158,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-330","Galiano Island - Central Cliffs","check","GI-330","Galiano Island - Central Cliffs",48.9119,-123.4314,NA
+"Grebe Islets",1974,"",NA,3,NA,7,"Pair",49.341,-123.2756,"","R.W. Campbell","Campbell 1976","SG-540","Grebe Islets",NA,"SG-540","Grebe Islets",49.3408,-123.2756,NA
+"Grebe Islets",1978,"",NA,3,NA,12,"Nests",49.341,-123.2756,"","","Moira Lemon","SG-540","Grebe Islets",NA,"SG-540","Grebe Islets",49.3408,-123.2756,NA
+"Grebe Islets",1980,"",NA,3,NA,24,"Nests",49.341,-123.2756,"","P Nott, M McNall","B.C. Nest Record Scheme","SG-540","Grebe Islets",NA,"SG-540","Grebe Islets",49.3408,-123.2756,NA
+"Grebe Islets",1981,"",NA,3,NA,22,"Nests",49.341,-123.2756,"","","Moira Lemon","SG-540","Grebe Islets",NA,"SG-540","Grebe Islets",49.3408,-123.2756,NA
+"Grebe Islets",1986,"",NA,3,NA,108,"Nests",49.341,-123.2756,"","Vermeer et al 1989","Rodway 1991","SG-540","Grebe Islets",NA,"SG-540","Grebe Islets",49.3408,-123.2756,NA
+"Grebe Islets",1999,"",NA,3,NA,257,"Nests",49.341,-123.2756,"","","Sullivan et al 2002","SG-540","Grebe Islets",NA,"SG-540","Grebe Islets",49.3408,-123.2756,NA
+"Grebe Islets",2010,"",NA,3,NA,33,"Nests",49.341,-123.2756,"","","","SG-540","Grebe Islets",NA,"SG-540","Grebe Islets",49.3408,-123.2756,NA
+"Greig Island",1963,"",NA,3,NA,33,"Pair",48.6783,-123.3389,"Orig est 30-35","G McKay","B.C. Nest Record Scheme","GI-690","Greig Island",NA,"GI-690","Greig Island",48.6781,-123.3392,NA
+"Greig Island",1973,"",NA,3,NA,35,"Pair",48.6783,-123.3389,"","","B.C Nest Record Scheme","GI-690","Greig Island",NA,"GI-690","Greig Island",48.6781,-123.3392,NA
+"Greig Island",1974,"",NA,3,NA,40,"Pair",48.6783,-123.3389,"","","Campbell 1976","GI-690","Greig Island",NA,"GI-690","Greig Island",48.6781,-123.3392,NA
+"Greig Island",1981,"",NA,3,NA,53,"Nests",48.6783,-123.3389,"","M McNall, R Kool","B.C. Nest Record Scheme","GI-690","Greig Island",NA,"GI-690","Greig Island",48.6781,-123.3392,NA
+"Greig Island",1985,"",NA,3,NA,45,"Nests",48.6783,-123.3389,"","","Vermeer and Devito 1989","GI-690","Greig Island",NA,"GI-690","Greig Island",48.6781,-123.3392,NA
+"Greig Island",1986,"",NA,3,NA,52,"Nests",48.6783,-123.3389,"","","Vermeer and Devito 1989","GI-690","Greig Island",NA,"GI-690","Greig Island",48.6781,-123.3392,NA
+"Greig Island",1997,"",NA,3,NA,5,"Nests",48.6783,-123.3389,"","","Sullivan et al 2002","GI-690","Greig Island",NA,"GI-690","Greig Island",48.6781,-123.3392,NA
+"Greig Island",1999,"",NA,3,NA,14,"Nests",48.6783,-123.3389,"","","Moira Lemon BLOY egg collection 1999, Sullivan et al. 2002","GI-690","Greig Island",NA,"GI-690","Greig Island",48.6781,-123.3392,NA
+"Greig Island",2009,"",NA,3,NA,17,"Nests",48.6783,-123.3389,"","T. Golumbia","Todd Golumbia pers. comm. 2009","GI-690","Greig Island",NA,"GI-690","Greig Island",48.6781,-123.3392,NA
+"Harris Island",1977,"",NA,2,NA,28,"Nests",48.4233,-123.2897,"","M G Shepard","B.C. Nest Record Scheme","GI-880","Harris Island",NA,"GI-880","Harris Island",48.4231,-123.2897,NA
+"Harris Island",1981,"",NA,2,NA,19,"Nests",48.4233,-123.2897,"","E Taylor, L Giliberti, M McNall","B.C. Nest Record Scheme","GI-880","Harris Island",NA,"GI-880","Harris Island",48.4231,-123.2897,NA
+"Harris Island",1986,"",NA,2,NA,22,"Nests",48.4233,-123.2897,"","","Vermeer and Devito 1989","GI-880","Harris Island",NA,"GI-880","Harris Island",48.4231,-123.2897,NA
+"Harris Island (Oak Bay Is)",1971,"",NA,2,NA,41,"Nests",48.4233,-123.2897,"","","B.C Nest Record Scheme","GI-880","Harris Island",NA,"GI-880","Harris Island",48.4231,-123.2897,NA
+"Hodgson Islands",1986,"",NA,1,NA,1,"Nest",49.6301,-124.0808,"","","Vermeer and Devito 1989","SG-170","Daniel Point","check",NA,"Hodgson Islands",49.6301,-124.0808,"name and coordinates set to KBB2020"
+"Hodgson Islands",2006,"",NA,1,NA,0,"Nests. 20 GWGU",49.6301,-124.0808,"","Rob Butler","Rob Butler pers.comm. 2009","SG-170","Daniel Point","check",NA,"Hodgson Islands",49.6301,-124.0808,"name and coordinates set to KBB2020"
+"Hornby Island Bluffs",1938,"Bluffs",NA,2,NA,30,"Pair",49.5236,-124.5925,"","Pearse 1956","Drent and Guiguet 1961","SG-220","St. John Point",NA,NA,"Hornby Island Bluffs",49.5236,-124.5925,"name and coordinates set to KBB2020"
+"Hornby Island Bluffs",1960,"Bluffs",NA,NA,NA,0,"Nests. 70 adults counted",49.5236,-124.5925,"","Mr.G.E. Seon","Drent and Guiguet 1961","SG-220","St. John Point",NA,NA,"Hornby Island Bluffs",49.5236,-124.5925,"name and coordinates set to KBB2020"
+"Hornby Island Bluffs",1977,"Bluffs",NA,2,NA,1,"Nest",49.5236,-124.5925,"","D Thompson","B.C. Nest Record Scheme","SG-220","St. John Point",NA,NA,"Hornby Island Bluffs",49.5236,-124.5925,"name and coordinates set to KBB2020"
+"Hornby Island St. John Point",1968,"St. John Point",NA,2,NA,0,"Nests",49.518,-124.5863,"","GE Seon","B.C. Nest Record Scheme","SG-220","St. John Point",NA,"SG-220","St. John Point",49.5167,-124.5861,NA
+"Hornby Island St. John Point",1974,"St. John Point",NA,2,NA,5,"Pair",49.518,-124.5863,"","","Campbell 1976","SG-220","St. John Point",NA,"SG-220","St. John Point",49.5167,-124.5861,NA
+"Hornby Island St. John Point",1986,"St. John Point",NA,2,NA,6,"Nests",49.518,-124.5863,"","","Vermeer and Devito 1989","SG-220","St. John Point",NA,"SG-220","St. John Point",49.5167,-124.5861,NA
+"Horseshoe Bay",1956,"Cliff 2 miles N",NA,1,NA,1,"Pair",49.3993,-123.2512,"","A. Muir","Drent and Guiguet 1961","SG-460","Sunset Beach Cliffs",NA,"SG-460","Sunset Beach Cliffs",49.4,-123.2506,NA
+"Horseshoe Bay",1957,"Cliff 2 miles N",NA,1,NA,1,"Pair",49.3993,-123.2512,"","A. Muir","Drent and Guiguet 1961","SG-460","Sunset Beach Cliffs",NA,"SG-460","Sunset Beach Cliffs",49.4,-123.2506,NA
+"Horseshoe Bay",1974,"",NA,1,NA,1,"Pair",49.3993,-123.2512,"","","Campbell 1976","SG-460","Sunset Beach Cliffs",NA,"SG-460","Sunset Beach Cliffs",49.4,-123.2506,NA
+"Hudson Rocks",1959,"",NA,4,NA,80,"Pair. 75 pair with juveniles and 5 nests with eggs",49.2261,-123.9254,"","Wm. Merilees","Drent and Guiguet 1961","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Hudson Rocks",1960,"",NA,4,NA,38,"Nests",49.2261,-123.9254,"","K Vermeer","B.C Nest Record Scheme","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Hudson Rocks",1968,"",NA,4,NA,79,"Pair",49.2261,-123.9254,"","R and J Drent","B.C. Nest Record Scheme","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Hudson Rocks",1974,"",NA,4,NA,248,"Nests",49.2261,-123.9254,"","","Moira Lemon","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Hudson Rocks",1977,"",NA,4,NA,259,"Nests",49.2261,-123.9254,"","","Moira Lemon","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Hudson Rocks",1978,"",NA,4,NA,236,"Nests",49.2261,-123.9254,"","","Moira Lemon","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Hudson Rocks",1980,"",NA,4,NA,226,"Nests",49.2261,-123.9254,"","","Moira Lemon","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Hudson Rocks",1981,"",NA,4,NA,308,"Nests",49.2261,-123.9254,"","","Moira Lemon","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Hudson Rocks",1986,"",NA,4,NA,247,"Nests",49.2261,-123.9254,"","","Vermeer and Devito 1989","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Hudson Rocks",1999,"",NA,4,NA,122,"Nests",49.2261,-123.9254,"","","Moira Lemon, Sullivan et al. 2002","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Hudson Rocks",2010,"",NA,4,NA,10,"Nests",49.2261,-123.9254,"","","","GI-060","Hudson Rocks",NA,"GI-060","Hudson Rocks",49.2258,-123.925,NA
+"Imrie Island",1905,"",NA,3,NA,0,"Nesting sea birds",48.6944,-123.3332,"","Dawson and Edson","Drent and Guiguet 1961","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1935,"",NA,3,NA,150,"Pair",48.6944,-123.3332,"","JA Munro","B.C. Nest Record Scheme","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1945,"North half of island",NA,3,NA,150,"Adults",48.6944,-123.3332,"","Meugens","Drent and Guiguet 1961","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1959,"",NA,3,NA,200,"Nests. 168 nests actually counted but due to long grass estimate was made at 200.",48.6944,-123.3332,"","R., J.J., & J. Drent","Drent and Guiguet 1961","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1960,"",NA,3,NA,295,"Pair. 270 Nests actually counted but due to long grass estimate was made of 290-300 pairs.",48.6944,-123.3332,"Orig est 290-300","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1968,"",NA,3,NA,250,"Nests",48.6944,-123.3332,"Orig est 200-300","R and N Drent","B.C. Nest Record Scheme","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1974,"",NA,3,NA,298,"Pair",48.6944,-123.3332,"","","Campbell 1976","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1977,"",NA,3,NA,315,"Nests. (299 +16 flooded)",48.6944,-123.3332,"","R Hunter","B.C. Nest Record Scheme","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1978,"",NA,3,NA,355,"Nests",48.6944,-123.3332,"","","Campbell et al 1990","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1985,"",NA,3,NA,120,"Nests",48.6944,-123.3332,"","","Vermeer and Devito 1989","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1986,"",NA,3,NA,216,"Nests",48.6944,-123.3332,"","","Vermeer and Devito 1989","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1997,"",NA,3,NA,33,"Nests",48.6944,-123.3332,"","","Sullivan et al 2002","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",1999,"",NA,3,NA,41,"Nests",48.6944,-123.3332,"","","Moira Lemon BLOY egg collection 1999, Sullivan et al. 2002","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",2005,"",NA,3,NA,1,"Nests",48.6944,-123.3332,"","","Unpubl. Data - ""Haro Gulls"" file in GWGU_laura","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Imrie Island",2007,"",NA,3,NA,0,"Nests",48.6944,-123.3332,"","","Unpubl. Data - ""Haro Gulls"" file in GWGU_laura","GI-670","Imrie Island",NA,"GI-670","Imrie Island",48.6944,-123.3331,NA
+"Inskip Rock",1999,"",NA,1,NA,0,"Nests",49.2085,-123.9538,"","","Moira Lemon BLOY egg collection 1999","GI-076","Brandon Islands",NA,NA,"Inskip Rock",49.2085,-123.9538,"name and coordinates set to KBB2020"
+"Java Islets",1900,"",NA,5,NA,35,"Pair",48.7603,-123.1138,"","H. Spalding","Drent and Guiguet 1961","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",1959,"",NA,5,NA,372,"Nests",48.7603,-123.1138,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",1968,"",NA,5,NA,464,"Nests",48.7603,-123.1138,"","R and J Drent","B.C. Nest Record Scheme","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",1969,"",NA,5,NA,531,"Nests",48.7603,-123.1138,"","R Drent, J Anvik, J&J Ward","B.C. Nest Record Scheme","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",1974,"",NA,5,NA,372,"Nests",48.7603,-123.1138,"","","Campbell 1976","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",1977,"",NA,5,NA,374,"Nests",48.7603,-123.1138,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",1980,"",NA,5,NA,181,"Nests",48.7603,-123.1138,"","","Campbell et al 1990","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",1981,"",NA,5,NA,384,"Nests",48.7603,-123.1138,"","R Gibb, C Gibb, M Hodgson","B.C. Nest Record Scheme","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",1986,"",NA,5,NA,298,"Nests",48.7603,-123.1138,"","","Vermeer and Devito 1989","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",2005,"",NA,5,NA,52,"Nests",48.7603,-123.1138,"","Todd Golumbia","Todd Golumbia pers. comm. 2009","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",2007,"",NA,5,NA,20,"Nests",48.7603,-123.1138,"","Todd Golumbia","Todd Golumbia pers. comm. 2009","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",2008,"",NA,5,NA,17,"Nests",48.7603,-123.1138,"","Todd Golumbia","Todd Golumbia pers. comm. 2009","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Java Islets",2009,"",NA,5,NA,25,"Nests",48.7603,-123.1138,"","Todd Golumbia","Todd Golumbia pers. comm. 2009","GI-550","Java Islets",NA,"GI-550","Java Islets",48.7597,-123.1097,NA
+"Keefer Rock",1970,"",NA,2,NA,7,"Nests",49.9684,-124.8775,"","R Foottit, R Butler, W Merilee","B.C. Nest Record Scheme","SG-080","Keefer Rock",NA,"SG-080","Keefer Rock",49.9681,-124.8772,NA
+"Keefer Rock",1973,"",NA,2,NA,7,"Pair",49.9684,-124.8775,"","Rob and Sharon Butler","B.C Nest Record Scheme","SG-080","Keefer Rock",NA,"SG-080","Keefer Rock",49.9681,-124.8772,NA
+"Keefer Rock",1974,"",NA,2,NA,7,"Pair",49.9684,-124.8775,"","","Campbell 1976","SG-080","Keefer Rock",NA,"SG-080","Keefer Rock",49.9681,-124.8772,NA
+"Keefer Rock",1977,"",NA,2,NA,20,"Pair",49.9684,-124.8775,"","","B.C Nest Record Scheme","SG-080","Keefer Rock",NA,"SG-080","Keefer Rock",49.9681,-124.8772,NA
+"Keefer Rock",1986,"",NA,2,NA,28,"Nests",49.9684,-124.8775,"","","Vermeer and Devito 1989","SG-080","Keefer Rock",NA,"SG-080","Keefer Rock",49.9681,-124.8772,NA
+"Keefer Rock",2006,"",NA,2,NA,0,"GWGU",49.9684,-124.8775,"","Rob Butler","Rob Butler pers. comm. 2009","SG-080","Keefer Rock",NA,"SG-080","Keefer Rock",49.9681,-124.8772,NA
+"Kuper Island",1972,"",NA,2,NA,4,"Nests",48.9359,-123.6317,"","J Cooper","B.C Nest Record Scheme","GI-270","Tent Island","check",NA,"Kuper Island",48.9359,-123.6317,"name and coordinates set to KBB2020"
+"Kuper Island",1974,"",NA,2,NA,10,"Nests",48.9359,-123.6317,"","MS Rodway, RW Campbell","B.C Nest Record Scheme","GI-270","Tent Island","check",NA,"Kuper Island",48.9359,-123.6317,"name and coordinates set to KBB2020"
+"Kuper Island",1976,"",NA,2,NA,11,"Nests",48.9359,-123.6317,"","MS Rodway, RW Campbell","B.C Nest Record Scheme","GI-270","Tent Island","check",NA,"Kuper Island",48.9359,-123.6317,"name and coordinates set to KBB2020"
+"Kuper Island",1977,"",NA,2,NA,6,"Nests",48.9359,-123.6317,"","MS Rodway, RW Campbell","B.C Nest Record Scheme","GI-270","Tent Island","check",NA,"Kuper Island",48.9359,-123.6317,"name and coordinates set to KBB2020"
+"Kuper Island",1986,"Cliffs and cliff cavities",NA,2,NA,8,"Nests",48.9359,-123.6317,"","","Vermeer and Devito 1989","GI-270","Tent Island","check",NA,"Kuper Island",48.9359,-123.6317,"name and coordinates set to KBB2020"
+"Lion Islets",1977,"",NA,1,NA,2,"Nests",48.9009,-123.3372,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-380","Lion Islets",NA,"GI-380","Lion Islets",48.9003,-123.335,NA
+"Lion Islets",1986,"",NA,1,NA,1,"Nest",48.9009,-123.3372,"","","Vermeer and Devito 1989","GI-380","Lion Islets",NA,"GI-380","Lion Islets",48.9003,-123.335,NA
+"Little Group Islets",1986,"",NA,1,NA,6,"Nests",48.6708,-123.3578,"","","Vermeer and Devito 1989","GI-710","Little Group",NA,"GI-710","Little Group",48.6717,-123.3575,NA
+"Little Group Islets",1997,"",NA,1,NA,3,"Nests",48.6708,-123.3578,"","","Sullivan et al 2002","GI-710","Little Group",NA,"GI-710","Little Group",48.6717,-123.3575,NA
+"Little Group Islets",1999,"",NA,1,NA,1,"Nests",48.6708,-123.3578,"","","Moira Lemon BLOY egg collection 1999","GI-710","Little Group",NA,"GI-710","Little Group",48.6717,-123.3575,NA
+"Little Group Islets",2010,"",NA,1,NA,0,"Nests",48.6708,-123.3578,"","","","GI-710","Little Group",NA,"GI-710","Little Group",48.6717,-123.3575,NA
+"Little Rock 1",1974,"Caution - see notes",NA,1,NA,1,"Pair",50.0526,-124.9136,"","","Campbell 1976","SG-040","Three Islets",NA,"SG-040","Three Islets",50.0539,-124.9131,NA
+"Little Rock 1",2006,"Caution - see notes",NA,1,NA,0,"Nests (Orig notes read ""GWGU 2' where notes for other colonies mention pairs or nests)",50.0526,-124.9136,"","Rob Butler","Rob Butler pers. comm. 2009","SG-040","Three Islets",NA,"SG-040","Three Islets",50.0539,-124.9131,NA
+"Little Rock 2",1986,"Caution - see notes",NA,1,NA,1,"Nest",50.1581,-125.0945,"","","Vermeer and Devito 1989","SG-012","“Steamer” Island",NA,"SG-012","“Steamer” Island",50.1584,-125.0949,NA
+"Major Islet",1970,"",NA,1,NA,1,"Nests",49.989,-124.8165,"","R Foottit, R Butler, W Merilee","B.C. Nest Record Scheme","SG-070","Major Islet",NA,"SG-070","Major Islet",49.9894,-124.8161,NA
+"Major Islet",1974,"",NA,1,NA,3,"Pair",49.989,-124.8165,"","","Campbell 1976","SG-070","Major Islet",NA,"SG-070","Major Islet",49.9894,-124.8161,NA
+"Major Islet",1978,"",NA,1,NA,1,"Pair",49.989,-124.8165,"","MGS TES","B.C. Nest Record Scheme","SG-070","Major Islet",NA,"SG-070","Major Islet",49.9894,-124.8161,NA
+"Major Islet",2006,"",NA,1,NA,0,"Pair",49.989,-124.8165,"","Rob Butler","Rob Butler pers. comm. 2009","SG-070","Major Islet",NA,"SG-070","Major Islet",49.9894,-124.8161,NA
+"Mandarte Island",1915,"",NA,5,NA,450,"Pair.",48.6339,-123.29,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1921,"",NA,5,NA,350,"Pair",48.6339,-123.29,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1923,"",NA,5,NA,600,"Pair",48.6339,-123.29,"","JA Munro","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1927,"",NA,5,NA,1000,"Pair",48.6339,-123.29,"","Munro 1929","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1936,"",NA,5,NA,534,"Nests",48.6339,-123.29,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1955,"",NA,5,NA,1500,"Pair",48.6339,-123.29,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1957,"",NA,5,NA,1900,"Pair",48.6339,-123.29,"Orig est 1800-2000","G.F. van Tets and other UBCers","Drent and Guiguet 1961","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1958,"",NA,5,NA,1900,"Pair",48.6339,-123.29,"Orig est 1800-2000","G.F. van Tets and other UBCers","Drent and Guiguet 1961","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1959,"",NA,5,NA,1900,"Pair",48.6339,-123.29,"Orig est 1800-2000","G.F. van Tets and other UBCers","Drent and Guiguet 1961","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1960,"",NA,5,NA,1900,"Pair",48.6339,-123.29,"Orig est 1800-2000","G.F. van Tets and other UBCers","Drent and Guiguet 1961","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1961,"",NA,5,NA,1500,"Pair",48.6339,-123.29,"","GC Carl","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1962,"",NA,5,NA,2100,"Pair",48.6339,-123.29,"","Drent et al","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1969,"",NA,5,NA,2000,"Pair",48.6339,-123.29,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1970,"",NA,5,NA,2500,"Pair",48.6339,-123.29,"","I Robertson","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1971,"",NA,5,NA,2000,"Nests",48.6339,-123.29,"","J Ward","B.C Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1974,"",NA,5,NA,1047,"Pair",48.6339,-123.29,"","","Campbell 1976","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1977,"",NA,5,NA,1666,"Pair",48.6339,-123.29,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1985,"",NA,5,NA,2157,"Pair",48.6339,-123.29,"","","Louise - late record","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1986,"",NA,5,NA,2259,"Nests",48.6339,-123.29,"","","Vermeer and Devito 1989","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",1997,"",NA,5,NA,2124,"Nests",48.6339,-123.29,"","","Sullivan et al 2002","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",2005,"",NA,5,NA,1700,"Nests",48.6339,-123.29,"","P. Arcese?","Unpubl. Data - Haro Gulls file","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",2007,"",NA,5,NA,1100,"Nests",48.6339,-123.29,"","P. Arcese?","Unpubl. Data - Haro Gulls file","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte Island",2009,"",NA,5,NA,1892,"Nests",48.6339,-123.29,"","L Blight, H Carter, T Osler, A Medve","Mandarte Island GWGU nest counts 2009","GI-750","Mandarte Island",NA,"GI-750","Mandarte Island",48.6333,-123.2867,NA
+"Mandarte South Islet",1962,"",NA,3,NA,100,"Pair",48.6314,-123.2808,"","","Drent et al 1964","GI-750","Mandarte Island",NA,NA,"Mandarte South Islet",48.6314,-123.2808,"name and coordinates set to KBB2020"
+"Mandarte South Islet",1974,"",NA,3,NA,71,"Nests",48.6314,-123.2808,"","BC Provincial Museum","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,NA,"Mandarte South Islet",48.6314,-123.2808,"name and coordinates set to KBB2020"
+"Mandarte South Islet",1977,"",NA,3,NA,71,"Nests",48.6314,-123.2808,"","","B.C Nest Record Scheme","GI-750","Mandarte Island",NA,NA,"Mandarte South Islet",48.6314,-123.2808,"name and coordinates set to KBB2020"
+"Mandarte South Islet",1980,"",NA,3,NA,106,"Nests",48.6314,-123.2808,"","","B.C. Nest Record Scheme","GI-750","Mandarte Island",NA,NA,"Mandarte South Islet",48.6314,-123.2808,"name and coordinates set to KBB2020"
+"Mandarte South Islet",1985,"",NA,3,NA,100,"Nests",48.6314,-123.2808,"","","Vermeer and Devito 1989","GI-750","Mandarte Island",NA,NA,"Mandarte South Islet",48.6314,-123.2808,"name and coordinates set to KBB2020"
+"Mandarte South Islet",1986,"165m SE of Mandarte",NA,3,NA,104,"Nests",48.6314,-123.2808,"","","Vermeer and Devito 1989","GI-750","Mandarte Island",NA,NA,"Mandarte South Islet",48.6314,-123.2808,"name and coordinates set to KBB2020"
+"Mandarte South Islet",1997,"",NA,3,NA,97,"Nests",48.6314,-123.2808,"","","Sullivan et al 2002","GI-750","Mandarte Island",NA,NA,"Mandarte South Islet",48.6314,-123.2808,"name and coordinates set to KBB2020"
+"Mandarte South Islet",2007,"",NA,3,NA,0,"Nests",48.6314,-123.2808,"Don't think I believe this - there were at least 20 N there in 2008","P. Arcese?","Unpubl. Data - ""Arcese"" file in GWGU_laura","GI-750","Mandarte Island",NA,NA,"Mandarte South Islet",48.6314,-123.2808,"name and coordinates set to KBB2020"
+"Mandarte South Islet",2010,"",NA,3,NA,28,"Nests",48.6314,-123.2808,"","","","GI-750","Mandarte Island",NA,NA,"Mandarte South Islet",48.6314,-123.2808,"name and coordinates set to KBB2020"
+"Mary Tod Island",1986,"",NA,1,NA,1,"Nest",48.4275,-123.2987,"","","Vermeer and Devito 1989","GI-850","Mary Tod Island",NA,"GI-850","Mary Tod Island",48.4275,-123.2986,NA
+"Mary Tod Island",2007,"",NA,1,NA,2,"Nests",48.4275,-123.2987,"","L Blight from boat survey","Oak Bay islands GWGU nest counts 2009","GI-850","Mary Tod Island",NA,"GI-850","Mary Tod Island",48.4275,-123.2986,NA
+"Maude Island",1986,"",NA,1,NA,2,"Nests",49.2704,-124.0816,"","","Vermeer and Devito 1989","GI-040","Maude Island",NA,"GI-040","Maude Island",49.2706,-124.0819,NA
+"Maude Island",2010,"",NA,1,NA,0,"Nests",49.2704,-124.0816,"","","","GI-040","Maude Island",NA,"GI-040","Maude Island",49.2706,-124.0819,NA
+"McRae Islet",1969,"",NA,4,NA,97,"Nests",49.7435,-124.2927,"","","Campbell et al 1990","SG-130","McRae Islet",NA,"SG-130","McRae Islet",49.7436,-124.2925,NA
+"McRae Islet",1974,"",NA,4,NA,97,"Pair",49.7435,-124.2927,"","","Campbell 1976","SG-130","McRae Islet",NA,"SG-130","McRae Islet",49.7436,-124.2925,NA
+"McRae Islet",1986,"",NA,4,NA,262,"Nests",49.7435,-124.2927,"","","Vermeer and Devito 1989","SG-130","McRae Islet",NA,"SG-130","McRae Islet",49.7436,-124.2925,NA
+"Merry Island and Franklin Rock",1950,"",NA,5,NA,800,"Pair",49.4694,-123.9176,"Orig est 700-800, but separately for Merry & Franklin were 700-800 & 100","J.A. Brooks, Fisheries Guardian","Drent and Guiguet 1961","SG-370","Merry Island",NA,"SG-370","Merry Island",49.4692,-123.9189,NA
+"Merry Island and Franklin Rock",1960,"",NA,5,NA,600,"Pair",49.4694,-123.9176,"","","B.C Nest Record Scheme","SG-370","Merry Island",NA,"SG-370","Merry Island",49.4692,-123.9189,NA
+"Merry Island and Franklin Rock",1968,"",NA,5,NA,395,"Pair",49.4694,-123.9176,"","","B.C Nest Record Scheme","SG-370","Merry Island",NA,"SG-370","Merry Island",49.4692,-123.9189,NA
+"Merry Island and Franklin Rock",1974,"",NA,5,NA,1005,"Pair",49.4694,-123.9176,"Orig data point said 639, but sum from Campbell 1976 is 1005","","B.C Nest Record Scheme","SG-370","Merry Island",NA,"SG-370","Merry Island",49.4692,-123.9189,NA
+"Merry Island and Franklin Rock",1975,"",NA,5,NA,622,"Pair",49.4694,-123.9176,"Orig data point of 581 is not sum of sep Merry & Franklin counts","","B.C Nest Record Scheme","SG-370","Merry Island",NA,"SG-370","Merry Island",49.4692,-123.9189,NA
+"Merry Island and Franklin Rock",1976,"",NA,5,NA,779,"Pair",49.4694,-123.9176,"","","B.C Nest Record Scheme","SG-370","Merry Island",NA,"SG-370","Merry Island",49.4692,-123.9189,NA
+"Merry Island and Franklin Rock",1986,"",NA,5,NA,228,"Nests",49.4694,-123.9176,"Sum of Vermeer & Devito counts","","","SG-370","Merry Island",NA,"SG-370","Merry Island",49.4692,-123.9189,NA
+"Merry Island and Franklin Rock",2006,"",NA,5,NA,100,"Pair",49.4694,-123.9176,"Rob Butler est for Franklin; assume 0 on Merry","","","SG-370","Merry Island",NA,"SG-370","Merry Island",49.4692,-123.9189,NA
+"Merry Island and Franklin Rock",2010,"",NA,5,NA,46,"Nests",49.4694,-123.9176,"3 N on Merry","","LKB & TO","SG-370","Merry Island",NA,"SG-370","Merry Island",49.4692,-123.9189,NA
+"Miami Islet",1968,"",NA,3,NA,25,"Pair",49.0375,-123.7095,"","R and J Drent","B.C. Nest Record Scheme","GI-190","Miami Islet",NA,"GI-190","Miami Islet",49.0372,-123.7094,NA
+"Miami Islet",1974,"",NA,3,NA,52,"Pair",49.0375,-123.7095,"","","Campbell 1976","GI-190","Miami Islet",NA,"GI-190","Miami Islet",49.0372,-123.7094,NA
+"Miami Islet",1977,"",NA,3,NA,43,"Nests",49.0375,-123.7095,"","L Milnes, M Rodway","B.C. Nest Record Scheme","GI-190","Miami Islet",NA,"GI-190","Miami Islet",49.0372,-123.7094,NA
+"Miami Islet",1980,"",NA,3,NA,17,"Nests",49.0375,-123.7095,"","E Perkins, R Gibbs, J Goodall","B.C Nest Record Scheme","GI-190","Miami Islet",NA,"GI-190","Miami Islet",49.0372,-123.7094,NA
+"Miami Islet",1981,"",NA,3,NA,19,"Nests",49.0375,-123.7095,"","G Kiaser, S Webb, L Giliberti, M McNall","B.C Nest Record Scheme","GI-190","Miami Islet",NA,"GI-190","Miami Islet",49.0372,-123.7094,NA
+"Miami Islet",1986,"",NA,3,NA,38,"Nests",49.0375,-123.7095,"","","Vermeer and Devito 1989","GI-190","Miami Islet",NA,"GI-190","Miami Islet",49.0372,-123.7094,NA
+"Miami Islet",2010,"",NA,3,NA,5,"Nests",49.0375,-123.7095,"","","","GI-190","Miami Islet",NA,"GI-190","Miami Islet",49.0372,-123.7094,NA
+"Mitlenatch Island",1922,"",NA,5,NA,500,"Pair",49.9506,-125.005,"","T Pearse, Taverner, HM Laing, E Jackson","B.C. Nest Record Scheme","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1923,"",NA,5,NA,600,"Nests. Est 1500 individuals",49.9506,-125.005,"","Mr. R. M. Stewart","Pearse 1923","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1927,"",NA,5,NA,150,"Nests",49.9506,-125.005,"","Pearse 1929","Drent and Guiguet 1961","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1928,"",NA,5,NA,400,"Pair",49.9506,-125.005,"","Pearse 1929","Drent and Guiguet 1961","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1959,"",NA,5,NA,600,"Pair",49.9506,-125.005,"","D. Stirling BCNRS","Drent and Guiguet 1961","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1960,"",NA,5,NA,1200,"Pair",49.9506,-125.005,"","D Stirling","B.C. Nest Record Scheme","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1960,"",NA,5,NA,900,"Pair",49.9506,-125.005,"","R Barnes, WJ Merilees","B.C. Nest Record Scheme","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1963,"",NA,5,NA,3000,"Pair",49.9506,-125.005,"","","B.C. Nest Record Scheme","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1965,"",NA,5,NA,3000,"Pair",49.9506,-125.005,"","","B.C. Nest Record Scheme","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1967,"",NA,5,NA,3500,"Pair",49.9506,-125.005,"","Rob Butler","B.C. Nest Record Scheme","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1969,"",NA,5,NA,3000,"Pair",49.9506,-125.005,"","","B.C. Nest Record Scheme","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1970,"",NA,5,NA,100,"Nests",49.9506,-125.005,"","DR Drent, R Foottit","B.C. Nest Record Scheme","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1973,"",NA,5,NA,286,"Nests",49.9506,-125.005,"","","B.C Nest Record Scheme","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1974,"",NA,5,NA,1632,"Pair",49.9506,-125.005,"","","Campbell 1976","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1977,"",NA,5,NA,987,"Pair",49.9506,-125.005,"","","B.C. Nest Record Scheme","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",1986,"",NA,5,NA,2100,"Nests",49.9506,-125.005,"","","Vermeer and Devito 1989","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mitlenatch Island",2010,"",NA,5,NA,1152,"Nests",49.9506,-125.005,"","","","SG-090","Mitlenatch Island",NA,"SG-090","Mitlenatch Island",49.95,-125.0042,NA
+"Mouat Islands",1986,"",NA,2,NA,35,"Nests",49.6375,-124.4701,"","","Vermeer and Devito 1989","SG-180","Mouat Islands",NA,"SG-180","Mouat Islands",49.6331,-124.4625,NA
+"Mouat Islands",2006,"",NA,2,NA,45,"Nests",49.6375,-124.4701,"","Rob Butler","Rob Butler pers. comm. 2009","SG-180","Mouat Islands",NA,"SG-180","Mouat Islands",49.6331,-124.4625,NA
+"Nanoose Bay Island",1961,"",NA,3,NA,75,"Pair",49.2629,-124.1805,"","","","GI-015","Yeo Islands","check",NA,"Nanoose Bay Island",49.2629,-124.1805,"name and coordinates set to KBB2020"
+"Nanoose Bay Island",1963,"",NA,3,NA,100,"Pair",49.2629,-124.1805,"","","","GI-015","Yeo Islands","check",NA,"Nanoose Bay Island",49.2629,-124.1805,"name and coordinates set to KBB2020"
+"Norris Rocks",1960,"",NA,4,NA,20,"Pairs",49.4839,-124.648,"","R and J Drent","B.C. Nest Record Scheme","SG-230","Norris Rocks",NA,"SG-230","Norris Rocks",49.4836,-124.6475,NA
+"Norris Rocks",1968,"",NA,4,NA,17,"Nests",49.4839,-124.648,"","","Campbell et al 1990","SG-230","Norris Rocks",NA,"SG-230","Norris Rocks",49.4836,-124.6475,NA
+"Norris Rocks",1974,"",NA,4,NA,85,"Pair",49.4839,-124.648,"","","B.C. Nest Record Scheme","SG-230","Norris Rocks",NA,"SG-230","Norris Rocks",49.4836,-124.6475,NA
+"Norris Rocks",1975,"",NA,4,NA,170,"Nests",49.4839,-124.648,"","K. Kennedy","B.C. Nest Record Scheme","SG-230","Norris Rocks",NA,"SG-230","Norris Rocks",49.4836,-124.6475,NA
+"Norris Rocks",1977,"",NA,4,NA,104,"Pair",49.4839,-124.648,"","MG Shepard","B.C Nest Record Scheme","SG-230","Norris Rocks",NA,"SG-230","Norris Rocks",49.4836,-124.6475,NA
+"Norris Rocks",1978,"",NA,4,NA,58,"Nests",49.4839,-124.648,"","MGS TES","B.C Nest Record Scheme","SG-230","Norris Rocks",NA,"SG-230","Norris Rocks",49.4836,-124.6475,NA
+"Norris Rocks",1981,"",NA,4,NA,111,"Nests",49.4839,-124.648,"","M McNall, A Burger","B.C Nest Record Scheme","SG-230","Norris Rocks",NA,"SG-230","Norris Rocks",49.4836,-124.6475,NA
+"Norris Rocks",1986,"",NA,4,NA,287,"Nests",49.4839,-124.648,"","","Vermeer and Devito 1989","SG-230","Norris Rocks",NA,"SG-230","Norris Rocks",49.4836,-124.6475,NA
+"Norris Rocks",2010,"",NA,4,NA,111,"Nests",49.4839,-124.648,"","","","SG-230","Norris Rocks",NA,"SG-230","Norris Rocks",49.4836,-124.6475,NA
+"Pam Rocks",1956,"",NA,3,NA,10,"Pair. 7-8 nests examined",49.4878,-123.2985,"","J.K. Cooper","Drent and Guiguet 1961","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",1963,"",NA,3,NA,7,"Nests",49.4878,-123.2985,"","","B.C Nest Record Scheme","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",1968,"",NA,3,NA,109,"Pair",49.4878,-123.2985,"","","B.C. Nest Record Scheme","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",1969,"",NA,3,NA,99,"Pair",49.4878,-123.2985,"","","B.C Nest Record Scheme","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",1971,"",NA,3,NA,30,"Nests",49.4878,-123.2985,"","GR Waters","B.C Nest Record Scheme","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",1974,"",NA,3,NA,121,"Pair",49.4878,-123.2985,"","","Campbell 1976","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",1978,"",NA,3,NA,151,"Nests",49.4878,-123.2985,"","","Moira Lemon","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",1980,"",NA,3,NA,105,"Nests",49.4878,-123.2985,"","P Nott, M McNall","B.C Nest Record Scheme","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",1981,"",NA,3,NA,131,"Nests",49.4878,-123.2985,"","","Moira Lemon","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",1986,"incl small islet",NA,3,NA,109,"Nests",49.4878,-123.2985,"","","Vermeer and Devito 1989","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",1999,"incl small islet",NA,3,NA,25,"Nests",49.4878,-123.2985,"","","Moira Lemon, Sullivan et al. 2002","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Pam Rocks",2010,"incl small islet",NA,3,NA,7,"Nests",49.4878,-123.2985,"","","","SG-440","Pam Rock",NA,"SG-440","Pam Rock",49.4878,-123.2994,NA
+"Passage Island",1958,"S tip and rock immediately south",NA,5,NA,16,"Nests",49.3435,-123.3057,"","A Muir  and J.G. Sarles","Drent and Guiguet 1961","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Passage Island",1959,"S. Rock",NA,5,NA,50,"Pair. 38 nests with eggs",49.3435,-123.3057,"","J. Toochin","Drent and Guiguet 1961","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Passage Island",1963,"",NA,5,NA,125,"Pair",49.3435,-123.3057,"","","B.C Nest Record Scheme","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Passage Island",1964,"",NA,5,NA,300,"Nests (estimated)",49.3435,-123.3057,"","T Robertson","B.C. Nest Record Scheme","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Passage Island",1966,"",NA,5,NA,75,"Pair",49.3435,-123.3057,"","G Sink","B.C Nest Record Scheme","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Passage Island",1968,"",NA,5,NA,300,"Pair",49.3435,-123.3057,"orig est 275-325","R and P Drent","B.C Nest Record Scheme","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Passage Island",1971,"",NA,5,NA,400,"Pair",49.3435,-123.3057,"","GR Waters","B.C Nest Record Scheme","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Passage Island",1974,"",NA,5,NA,496,"Nests (371 eggs, 596 young)",49.3435,-123.3057,"","","Campbell 1976","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Passage Island",1978,"",NA,5,NA,798,"Nests",49.3435,-123.3057,"","","Campbell et al 1990","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Passage Island",1986,"",NA,5,NA,384,"Nests",49.3435,-123.3057,"","","Vermeer and Devito 1989","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Passage Island",2010,"",NA,5,NA,7,"Nests",49.3435,-123.3057,"","","","SG-530","Passage Island",NA,"SG-530","Passage Island",49.3431,-123.3056,NA
+"Point Atkinson",1968,"",NA,1,NA,4,"Nests",49.3301,-123.265,"","","""Colony"" file in GWGU_laura - source unk.","SG-550","Point Atkinson",NA,"SG-550","Point Atkinson",49.3297,-123.265,NA
+"Point Atkinson",1974,"",NA,1,NA,3,"Pair",49.3301,-123.265,"","","Campbell 1976","SG-550","Point Atkinson",NA,"SG-550","Point Atkinson",49.3297,-123.265,NA
+"Ragged Islets",1923,"",NA,3,NA,0,"Nests",49.0263,-123.6958,"","","Campbell et al 1990","GI-200","Ragged Islets",NA,"GI-200","Ragged Islets",49.0264,-123.6961,NA
+"Ragged Islets",1961,"",NA,3,NA,15,"Pair",49.0263,-123.6958,"","","B.C Nest Record Scheme","GI-200","Ragged Islets",NA,"GI-200","Ragged Islets",49.0264,-123.6961,NA
+"Ragged Islets",1963,"",NA,3,NA,15,"Pair",49.0263,-123.6958,"orig est 10-20","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-200","Ragged Islets",NA,"GI-200","Ragged Islets",49.0264,-123.6961,NA
+"Ragged Islets",1968,"",NA,3,NA,55,"Pair",49.0263,-123.6958,"orig est 50-60","R Drent","B.C Nest Record Scheme","GI-200","Ragged Islets",NA,"GI-200","Ragged Islets",49.0264,-123.6961,NA
+"Ragged Islets",1974,"",NA,3,NA,103,"Pair",49.0263,-123.6958,"","","Campbell 1976","GI-200","Ragged Islets",NA,"GI-200","Ragged Islets",49.0264,-123.6961,NA
+"Ragged Islets",1977,"",NA,3,NA,126,"Nests",49.0263,-123.6958,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-200","Ragged Islets",NA,"GI-200","Ragged Islets",49.0264,-123.6961,NA
+"Ragged Islets",1978,"",NA,3,NA,130,"Nests",49.0263,-123.6958,"","","Campbell et al 1990","GI-200","Ragged Islets",NA,"GI-200","Ragged Islets",49.0264,-123.6961,NA
+"Ragged Islets",1986,"",NA,3,NA,69,"Nests",49.0263,-123.6958,"","","Vermeer and Devito 1989","GI-200","Ragged Islets",NA,"GI-200","Ragged Islets",49.0264,-123.6961,NA
+"Ragged Islets",2010,"",NA,3,NA,18,"Nests",49.0263,-123.6958,"","","","GI-200","Ragged Islets",NA,"GI-200","Ragged Islets",49.0264,-123.6961,NA
+"Reay Island",1974,"",NA,1,NA,5,"Pair",48.6835,-123.3291,"","","Campbell 1976","GI-680","Reay Island",NA,"GI-680","Reay Island",48.6833,-123.3292,NA
+"Reay Island",1977,"",NA,1,NA,6,"Nests",48.6835,-123.3291,"","","B.C Nest Record Scheme","GI-680","Reay Island",NA,"GI-680","Reay Island",48.6833,-123.3292,NA
+"Reay Island",1999,"",NA,1,NA,0,"Nests, 1 start nest recorded",48.6835,-123.3291,"","","Moira Lemon BLOY egg collection 1999","GI-680","Reay Island",NA,"GI-680","Reay Island",48.6833,-123.3292,NA
+"Reay Island",2010,"",NA,1,NA,0,"Nests",48.6835,-123.3291,"","Todd Golumbia","T Golumbia pers comm","GI-680","Reay Island",NA,"GI-680","Reay Island",48.6833,-123.3292,NA
+"Reifel Refuge",1974,"",NA,1,NA,3,"Pair",49.1051,-123.1797,"","","Campbell 1976","SG-680","Westham Island",NA,"SG-680","Westham Island",49.0983,-123.1786,NA
+"Reifel Refuge",1987,"",NA,1,NA,1,"Nest",49.1051,-123.1797,"","J Perrs","B.C. Nest Record Scheme","SG-680","Westham Island",NA,"SG-680","Westham Island",49.0983,-123.1786,NA
+"Reifel Refuge",1988,"",NA,1,NA,0,"Nests",49.1051,-123.1797,"","J Perrs","B.C. Nest Record Scheme","SG-680","Westham Island",NA,"SG-680","Westham Island",49.0983,-123.1786,NA
+"Rose Islets",1963,"",NA,3,NA,50,"Pair",49.008,-123.644,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",1968,"",NA,3,NA,100,"Pair",49.008,-123.644,"","","B.C Nest Record Scheme","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",1969,"",NA,3,NA,100,"Pair",49.008,-123.644,"","","B.C Nest Record Scheme","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",1972,"",NA,3,NA,1,"Nests",49.008,-123.644,"","","Campbell et al 1990","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",1974,"",NA,3,NA,208,"Pair",49.008,-123.644,"","","Campbell 1976","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",1976,"",NA,3,NA,119,"Pair",49.008,-123.644,"","","B.C Nest Record Scheme","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",1977,"",NA,3,NA,167,"Pair",49.008,-123.644,"","","B.C Nest Record Scheme","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",1981,"",NA,3,NA,211,"Nests",49.008,-123.644,"","","Campbell et al 1990","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",1984,"",NA,3,NA,41,"Nests",49.008,-123.644,"","","B.C Nest Record Scheme","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",1985,"",NA,3,NA,112,"Nests",49.008,-123.644,"","","Vermeer and Devito 1989","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",1986,"",NA,3,NA,116,"Nests",49.008,-123.644,"","","Vermeer and Devito 1989","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Rose Islets",2010,"",NA,3,NA,12,"Nests",49.008,-123.644,"","","","GI-210","Rose Islets",NA,"GI-210","Rose Islets",49.0081,-123.6439,NA
+"Ruxton Island",1977,"Cliffs",NA,1,NA,2,"Nests",49.0723,-123.6999,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-171","Whaleboat Island",NA,"GI-171","Whaleboat Island",49.0739,-123.6925,NA
+"Ruxton Island",1986,"",NA,1,NA,2,"Nests",49.0723,-123.6999,"","","Vermeer and Devito 1989","GI-171","Whaleboat Island",NA,"GI-171","Whaleboat Island",49.0739,-123.6925,NA
+"Sallas Rocks",1986,"",NA,2,NA,29,"Nests",48.585,-123.2903,"","","Vermeer and Devito 1989","GI-770","Sallas Rocks",NA,"GI-770","Sallas Rocks",48.5847,-123.2903,NA
+"Sallas Rocks",1997,"",NA,2,NA,13,"Nests",48.585,-123.2903,"","","Sullivan et al 2002","GI-770","Sallas Rocks",NA,"GI-770","Sallas Rocks",48.5847,-123.2903,NA
+"Sallas Rocks",2006,"",NA,2,NA,0,"Nests",48.585,-123.2903,"","R. Butler","Butler pers. comm.","GI-770","Sallas Rocks",NA,"GI-770","Sallas Rocks",48.5847,-123.2903,NA
+"Sallas Rocks",2009,"",NA,2,NA,9,"Nests",48.585,-123.2903,"","T. Golumbia","Todd Golumbia pers. comm. 2009","GI-770","Sallas Rocks",NA,"GI-770","Sallas Rocks",48.5847,-123.2903,NA
+"Saltspring Island",1974,"Unnamed rock in mouth of Long Harbour",NA,1,NA,3,"Nests",48.8522,-123.4413,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-408","Clamshell Islet",NA,"GI-408","Clamshell Islet",48.8519,-123.4414,NA
+"Saltspring Island",1977,"Unnamed rock in mouth of Long Harbour",NA,1,NA,1,"Nest",48.8522,-123.4413,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-408","Clamshell Islet",NA,"GI-408","Clamshell Islet",48.8519,-123.4414,NA
+"Saturna Island",1977,"South of East Point",NA,1,NA,7,"Nests",48.7839,-123.0448,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-510","East Point - Cliffs",NA,"GI-510","East Point - Cliffs",48.7817,-123.0469,NA
+"Saturna Island",1986,"East Point",NA,1,NA,7,"Nests",48.7839,-123.0448,"","","Vermeer and Devito 1989","GI-510","East Point - Cliffs",NA,"GI-510","East Point - Cliffs",48.7817,-123.0469,NA
+"Sisters Islets",1940,"",NA,3,NA,100,"Pair. Gulls observed nesting  (with eggs and young)",49.4867,-124.4349,"","O.S. Dean (lightkeeper)","Drent and Guiguet 1961","SG-250","Sisters Islets",NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Sisters Islets",1941,"",NA,3,NA,100,"Pair. Gulls observed nesting  (with eggs and young)",49.4867,-124.4349,"","O.S. Dean (lightkeeper)","Drent and Guiguet 1961","SG-250","Sisters Islets",NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Sisters Islets",1942,"",NA,3,NA,100,"Pair. Gulls observed nesting  (with eggs and young)",49.4867,-124.4349,"","O.S. Dean (lightkeeper)","Drent and Guiguet 1961","SG-250","Sisters Islets",NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Sisters Islets",1943,"",NA,3,NA,100,"Pair. Gulls observed nesting  (with eggs and young)",49.4867,-124.4349,"","O.S. Dean (lightkeeper)","Drent and Guiguet 1961","SG-250","Sisters Islets",NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Sisters Islets",1951,"",NA,3,NA,100,"Pair. Gulls observed nesting  (with eggs and young)",49.4867,-124.4349,"","Mrs. A.G. Waldon","Drent and Guiguet 1961","SG-250","Sisters Islets",NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Sisters Islets",1968,"",NA,3,NA,74,"Pair",49.4867,-124.4349,"","R and N Drent","B.C Nest Record Scheme","SG-250","Sisters Islets",NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Sisters Islets",1974,"",NA,3,NA,108,"Pair",49.4867,-124.4349,"","","Campbell 1976","SG-250","Sisters Islets",NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Sisters Islets",1978,"",NA,3,NA,85,"Nests",49.4867,-124.4349,"","MGS TES","B.C. Nest Record Scheme","SG-250","Sisters Islets",NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Sisters Islets",1981,"",NA,3,NA,151,"Nests",49.4867,-124.4349,"","RW Campbell","Campbell et al 1990","SG-250","Sisters Islets",NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Sisters Islets",1986,"",NA,3,NA,25,"Nests",49.4867,-124.4349,"","","Vermeer and Devito 1989","SG-250","Sisters Islets",NA,"SG-250","Sisters Islets",49.4867,-124.435,NA
+"Siwash Rock",1958,"",NA,1,NA,4,"Pair",49.3088,-123.156,"Orig est 3-4","E. Moody via J. Toochin","Drent and Guiguet 1961","SG-630","Siwash Rock",NA,"SG-630","Siwash Rock",49.3089,-123.1567,NA
+"Siwash Rock",1961,"",NA,1,NA,2,"Pair",49.3088,-123.156,"","","B.C Nest Record Scheme","SG-630","Siwash Rock",NA,"SG-630","Siwash Rock",49.3089,-123.1567,NA
+"Siwash Rock",1962,"",NA,1,NA,1,"Pair",49.3088,-123.156,"","","B.C Nest Record Scheme","SG-630","Siwash Rock",NA,"SG-630","Siwash Rock",49.3089,-123.1567,NA
+"Siwash Rock",1967,"",NA,1,NA,2,"Pair",49.3088,-123.156,"","","B.C Nest Record Scheme","SG-630","Siwash Rock",NA,"SG-630","Siwash Rock",49.3089,-123.1567,NA
+"Siwash Rock",1974,"",NA,1,NA,6,"Pair",49.3088,-123.156,"","","Campbell 1976","SG-630","Siwash Rock",NA,"SG-630","Siwash Rock",49.3089,-123.1567,NA
+"Siwash Rock",1976,"",NA,1,NA,3,"Nests",49.3088,-123.156,"","","B.C Nest Record Scheme","SG-630","Siwash Rock",NA,"SG-630","Siwash Rock",49.3089,-123.1567,NA
+"Siwash Rock",1977,"",NA,1,NA,4,"Pair",49.3088,-123.156,"","","B.C Nest Record Scheme","SG-630","Siwash Rock",NA,"SG-630","Siwash Rock",49.3089,-123.1567,NA
+"Siwash Rock",1986,"",NA,1,NA,8,"Nests",49.3088,-123.156,"","","Vermeer and Devito 1989","SG-630","Siwash Rock",NA,"SG-630","Siwash Rock",49.3089,-123.1567,NA
+"Siwash Rock",2010,"",NA,1,NA,0,"Nests",49.3088,-123.156,"","","","SG-630","Siwash Rock",NA,"SG-630","Siwash Rock",49.3089,-123.1567,NA
+"Snake Island",1958,"",NA,5,NA,350,"Pair",49.216,-123.8907,"orig est 300-400","J.G. Sarles","Drent and Guiguet 1961","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1959,"",NA,5,NA,500,"Pair",49.216,-123.8907,"","Wm. Merilees","Drent and Guiguet 1961","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1960,"",NA,5,NA,350,"Pair",49.216,-123.8907,"orig est 300-400","R. Drent","Drent and Guiguet 1961","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1964,"",NA,5,NA,300,"Pair",49.216,-123.8907,"","","B.C Nest Record Scheme","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1968,"",NA,5,NA,330,"Pair",49.216,-123.8907,"","R and P Drent","B.C. Nest Record Scheme","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1974,"",NA,5,NA,558,"Pair",49.216,-123.8907,"","","Campbell 1976","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1975,"",NA,5,NA,610,"Nests",49.216,-123.8907,"","","Moira Lemon","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1977,"",NA,5,NA,400,"Pair",49.216,-123.8907,"","","B.C Nest Record Scheme","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1978,"",NA,5,NA,615,"Nests",49.216,-123.8907,"","","Moira Lemon","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1980,"",NA,5,NA,426,"Nests",49.216,-123.8907,"","","Moira Lemon","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1981,"",NA,5,NA,719,"Nests",49.216,-123.8907,"","","Moira Lemon","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1986,"",NA,5,NA,673,"Nests",49.216,-123.8907,"","","Vermeer and Devito 1989","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",1999,"",NA,5,NA,204,"Nests",49.216,-123.8907,"","","Moira Lemon, Sullivan et al. 2002","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Snake Island",2010,"",NA,5,NA,20,"Nests",49.216,-123.8907,"","","","GI-070","Snake Island",NA,"GI-070","Snake Island",49.2156,-123.8906,NA
+"Tent Island",1972,"",NA,2,NA,1,"Pair",48.9283,-123.6292,"","MS Rodway, RW Campbell","B.C Nest Record Scheme","GI-270","Tent Island",NA,"GI-270","Tent Island",48.925,-123.6303,NA
+"Tent Island",1974,"",NA,2,NA,3,"Pair",48.9283,-123.6292,"","MS Rodway, RW Campbell","Campbell 1976","GI-270","Tent Island",NA,"GI-270","Tent Island",48.925,-123.6303,NA
+"Tent Island",1976,"",NA,2,NA,5,"Nests",48.9283,-123.6292,"","MS Rodway, RW Campbell","B.C Nest Record Scheme","GI-270","Tent Island",NA,"GI-270","Tent Island",48.925,-123.6303,NA
+"Tent Island",1977,"",NA,2,NA,16,"Pair",48.9283,-123.6292,"","MS Rodway, RW Campbell","B.C Nest Record Scheme","GI-270","Tent Island",NA,"GI-270","Tent Island",48.925,-123.6303,NA
+"Tent Island",1985,"",NA,2,NA,11,"Nests",48.9283,-123.6292,"","","Vermeer and Devito 1989","GI-270","Tent Island",NA,"GI-270","Tent Island",48.925,-123.6303,NA
+"Tent Island",1986,"Cliffs and cliff cavities",NA,2,NA,12,"Nests",48.9283,-123.6292,"","","Vermeer and Devito 1989","GI-270","Tent Island",NA,"GI-270","Tent Island",48.925,-123.6303,NA
+"Toby Island",2010,NA,NA,NA,NA,1,"Nest",49.4877,-124.6596,"Missing from original data sheet; error found and corrected April 2024",NA,"Blight and Osler 2010","SG-230","Norris Rocks",NA,NA,"Toby Island",49.4877,-124.6596,"name and coordinates set to KBB2020"
+"Trial Island",1953,"",NA,3,NA,50,"Pair",48.3976,-123.3057,"","CJG MS","Drent and Guiguet 1961","GI-900","Trial Islands",NA,"GI-900","Trial Islands",48.3972,-123.3056,NA
+"Trial Island",1959,"",NA,3,NA,50,"Pair",48.3976,-123.3057,"","D.H. Franklin (lightkeeper)","Drent and Guiguet 1961","GI-900","Trial Islands",NA,"GI-900","Trial Islands",48.3972,-123.3056,NA
+"Trial Island",1960,"",NA,3,NA,46,"Nests",48.3976,-123.3057,"","Miss June Franklin","Drent and Guiguet 1961","GI-900","Trial Islands",NA,"GI-900","Trial Islands",48.3972,-123.3056,NA
+"Trial Island",1961,"",NA,3,NA,39,"Pair",48.3976,-123.3057,"","","B.C Nest Record Scheme","GI-900","Trial Islands",NA,"GI-900","Trial Islands",48.3972,-123.3056,NA
+"Trial Island",1973,"",NA,3,NA,2,"Nests",48.3976,-123.3057,"","","B.C Nest Record Scheme","GI-900","Trial Islands",NA,"GI-900","Trial Islands",48.3972,-123.3056,NA
+"Trial Island",1974,"",NA,3,NA,3,"Pair",48.3976,-123.3057,"","","Campbell 1976","GI-900","Trial Islands",NA,"GI-900","Trial Islands",48.3972,-123.3056,NA
+"Trial Island",2010,"",NA,3,NA,100,"Nests",48.3976,-123.3057,"Rough estimate from memory","Meredith Dickman, lightkepper","M Dickman, pers comm","GI-900","Trial Islands",NA,"GI-900","Trial Islands",48.3972,-123.3056,NA
+"Tsawwassen Breakwater",1974,"Breakwater",NA,3,NA,115,"Pair",48.9967,-123.0953,"","","Campbell 1976","SG-720","Tsawwassen - Breakwater","check","SG-720","Tsawwassen - Breakwater",49.0033,-123.1256,NA
+"Tsawwassen Breakwater",1977,"Breakwater",NA,3,NA,160,"Pair",48.9967,-123.0953,"","","B.C Nest Record Scheme","SG-720","Tsawwassen - Breakwater","check","SG-720","Tsawwassen - Breakwater",49.0033,-123.1256,NA
+"Tsawwassen Breakwater",1986,"Breakwater",NA,3,NA,238,"Nests",48.9967,-123.0953,"","","Vermeer and Devito 1989","SG-720","Tsawwassen - Breakwater","check","SG-720","Tsawwassen - Breakwater",49.0033,-123.1256,NA
+"Tsawwassen Jetty",1974,"Jetty",NA,3,NA,9,"Pair",49.0191,-123.1121,"","","Campbell 1976","SG-710","Tsawwassen - Ferry Terminal",NA,"SG-710","Tsawwassen - Ferry Terminal",49.0158,-123.1167,NA
+"Tsawwassen Jetty",2010,"Jetty",NA,3,NA,4,"Pair",49.0191,-123.1121,"","","R. Butler pers. comm.","SG-710","Tsawwassen - Ferry Terminal",NA,"SG-710","Tsawwassen - Ferry Terminal",49.0158,-123.1167,NA
+"Valdes Island",1977,"Cliffs",NA,1,NA,1,"Nest",49.0581,-123.6333,"","MS Rodway, RW Campbell","B.C. Nest Record Scheme","GI-171","Whaleboat Island","check","GI-160","Valdes Island - West Cliffs",49.1056,-123.7028,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Valdes Island",1978,"Cliffs",NA,1,NA,1,"Pair",49.0581,-123.6333,"","GP Sink, UBC Con't Ed Tour","B.C. Nest Record Scheme","GI-171","Whaleboat Island","check","GI-160","Valdes Island - West Cliffs",49.1056,-123.7028,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Vancouver Buildings",1974,"Buildings",NA,NA,NA,4,"Pair",49.2737,-123.102,"","","Campbell 1976","SG-660","False Creek",NA,"SG-660","False Creek",49.2717,-123.1083,NA
+"Vancouver Buildings",1986,"Buildings",NA,NA,NA,500,"Pair",49.2737,-123.102,"","Vermeer et al 1988","Vermeer 1992","SG-660","False Creek",NA,"SG-660","False Creek",49.2717,-123.1083,NA
+"Vancouver Burrard Bridge",1986,"Burrard Bridge",NA,1,NA,9,"Nests",49.2747,-123.1392,"","","Vermeer and Devito 1989","SG-640","Burrard Bridge",NA,"SG-640","Burrard Bridge",49.2753,-123.1375,NA
+"Vancouver Burrard Bridge",2010,"Burrard Bridge",NA,1,NA,1,"Nests",49.2747,-123.1392,"","","","SG-640","Burrard Bridge",NA,"SG-640","Burrard Bridge",49.2753,-123.1375,NA
+"Vancouver Burrard Inlet",1986,"Burrard Inlet",NA,1,NA,8,"Nests",49.3105,-123.1045,"","","Vermeer and Devito 1989","SG-590","North Vancouver","check","SG-590","North Vancouver",49.3083,-123.0786,NA
+"Vancouver Harbour",1986,"Harbour",NA,NA,NA,112,"Pair",49.2853,-123.0989,"","Vermeer et al 1988","Rodway 1991","SG-600","Vancouver Harbour",NA,"SG-600","Vancouver Harbour",49.2861,-123.0992,NA
+"Vancouver Lions Gate Bridge",1974,"Lions Gate Bridge",NA,1,NA,1,"Pair",49.3141,-123.1399,"","","Campbell 1976","SG-620","Prospect Point",NA,NA,"Vancouver Lions Gate Bridge",49.3141,-123.1399,"name and coordinates set to KBB2020"
+"Vancouver Lions Gate Bridge",1986,"Lions Gate Bridge",NA,1,NA,1,"Nest",49.3141,-123.1399,"","","Vermeer and Devito 1989","SG-620","Prospect Point",NA,NA,"Vancouver Lions Gate Bridge",49.3141,-123.1399,"name and coordinates set to KBB2020"
+"Vancouver Lions Gate Bridge",2010,"Lions Gate Bridge",NA,1,NA,2,"Nests",49.3141,-123.1399,"","","","SG-620","Prospect Point",NA,NA,"Vancouver Lions Gate Bridge",49.3141,-123.1399,"name and coordinates set to KBB2020"
+"Vancouver Prospect Point",1959,"Prospect Point",NA,1,NA,2,"Pair",49.314,-123.1415,"","W. Hughes","Drent and Guiguet 1961","SG-620","Prospect Point",NA,"SG-620","Prospect Point",49.3136,-123.1419,NA
+"Vancouver Prospect Point",1974,"Prospect Point",NA,1,NA,5,"Pair",49.314,-123.1415,"","","Campbell 1976","SG-620","Prospect Point",NA,"SG-620","Prospect Point",49.3136,-123.1419,NA
+"Vancouver Prospect Point",1986,"Prospect Point",NA,1,NA,4,"Nests",49.314,-123.1415,"","","Vermeer and Devito 1989","SG-620","Prospect Point",NA,"SG-620","Prospect Point",49.3136,-123.1419,NA
+"Vancouver Prospect Point",2010,"Prospect Point",NA,1,NA,0,"Nests",49.314,-123.1415,"","","","SG-620","Prospect Point",NA,"SG-620","Prospect Point",49.3136,-123.1419,NA
+"Vancouver Second Narrows Bridge",1984,"Second Narrows Bridge",NA,2,NA,40,"Nests",49.2948,-123.0263,"","D Wilson, O Dunbar, K Hobson","B.C Nest Record Scheme","SG-580","Second Narrows",NA,"SG-580","Second Narrows",49.295,-123.0261,NA
+"Vancouver Second Narrows Bridge",1986,"Second Narrows Bridge",NA,2,NA,40,"Nests",49.2948,-123.0263,"","","Vermeer and Devito 1989","SG-580","Second Narrows",NA,"SG-580","Second Narrows",49.295,-123.0261,NA
+"VictoriaBBS",1974,"",NA,NA,NA,314,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1975,"",NA,NA,NA,230,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1976,"",NA,NA,NA,209,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1977,"",NA,NA,NA,341,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1978,"",NA,NA,NA,173,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1979,"",NA,NA,NA,220,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1980,"",NA,NA,NA,340,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1981,"",NA,NA,NA,310,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1982,"",NA,NA,NA,233,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1988,"",NA,NA,NA,215,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1989,"",NA,NA,NA,269,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1990,"",NA,NA,NA,312,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1991,"",NA,NA,NA,116,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1992,"",NA,NA,NA,110,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1993,"",NA,NA,NA,208,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1994,"",NA,NA,NA,226,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1995,"",NA,NA,NA,55,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1996,"",NA,NA,NA,50,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1998,"",NA,NA,NA,85,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",1999,"",NA,NA,NA,66,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",2000,"",NA,NA,NA,55,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",2001,"",NA,NA,NA,61,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"VictoriaBBS",2002,"",NA,NA,NA,52,"Nests",48.40459,-123.34957,"","","","GI-930","Victoria","check",NA,"VictoriaBBS",48.40459,-123.34957,"name and coordinates set to KBB2020"
+"Vivian Island",1966,"",NA,3,NA,59,"Nests",49.841,-124.7011,"","","Campbell et al 1990","SG-110","Vivian Island",NA,"SG-110","Vivian Island",49.8406,-124.7014,NA
+"Vivian Island",1970,"",NA,3,NA,75,"Pair",49.841,-124.7011,"","","B.C Nest Record Scheme","SG-110","Vivian Island",NA,"SG-110","Vivian Island",49.8406,-124.7014,NA
+"Vivian Island",1972,"",NA,3,NA,240,"Nests",49.841,-124.7011,"","","B.C Nest Record Scheme","SG-110","Vivian Island",NA,"SG-110","Vivian Island",49.8406,-124.7014,NA
+"Vivian Island",1974,"",NA,3,NA,218,"Pair",49.841,-124.7011,"","","Campbell 1976","SG-110","Vivian Island",NA,"SG-110","Vivian Island",49.8406,-124.7014,NA
+"Vivian Island",1975,"",NA,3,NA,245,"Nests",49.841,-124.7011,"","","Campbell et al 1990","SG-110","Vivian Island",NA,"SG-110","Vivian Island",49.8406,-124.7014,NA
+"Vivian Island",1978,"",NA,3,NA,240,"Pair",49.841,-124.7011,"","","B.C Nest Record Scheme","SG-110","Vivian Island",NA,"SG-110","Vivian Island",49.8406,-124.7014,NA
+"Vivian Island",1986,"",NA,3,NA,208,"Nests",49.841,-124.7011,"","","Vermeer and Devito 1989","SG-110","Vivian Island",NA,"SG-110","Vivian Island",49.8406,-124.7014,NA
+"Vivian Island",2006,"",NA,3,NA,0,"Adults",49.841,-124.7011,"","Rob Butler","Rob Butler pers. comm. 2009","SG-110","Vivian Island",NA,"SG-110","Vivian Island",49.8406,-124.7014,NA
+"Wallace Island",1974,"",NA,2,NA,3,"Nests",48.9394,-123.5562,"","MS Rodway, RW Campbell","B.C Nest Record Scheme","GI-260","Wallace Island",NA,"GI-260","Wallace Island",48.9386,-123.55,NA
+"Wallace Island",1977,"",NA,2,NA,12,"Pair",48.9394,-123.5562,"","MS Rodway, RW Campbell","B.C Nest Record Scheme","GI-260","Wallace Island",NA,"GI-260","Wallace Island",48.9386,-123.55,NA
+"Wallace Island",1985,"Unnamed rocks",NA,2,NA,3,"Nests",48.9394,-123.5562,"","","Vermeer and Devito 1989","GI-260","Wallace Island",NA,"GI-260","Wallace Island",48.9386,-123.55,NA
+"Wallace Island",1986,"Unnamed rocks",NA,2,NA,3,"Nests",48.9394,-123.5562,"","","Vermeer and Devito 1989","GI-260","Wallace Island",NA,"GI-260","Wallace Island",48.9386,-123.55,NA
+"White Islets",1968,"",NA,4,NA,340,"Pair",49.4183,-123.712,"","","B.C Nest Record Scheme","SG-400","White Islets",NA,"SG-400","White Islets",49.4181,-123.7119,NA
+"White Islets",1974,"",NA,4,NA,279,"Pair",49.4183,-123.712,"","","Campbell 1976","SG-400","White Islets",NA,"SG-400","White Islets",49.4181,-123.7119,NA
+"White Islets",1986,"",NA,4,NA,490,"Nests",49.4183,-123.712,"","","Vermeer and Devito 1989","SG-400","White Islets",NA,"SG-400","White Islets",49.4181,-123.7119,NA
+"White Islets",2010,"",NA,4,NA,253,"Nests",49.4183,-123.712,"","","","SG-400","White Islets",NA,"SG-400","White Islets",49.4181,-123.7119,NA
+"Whyte Islet",1978,"",NA,2,NA,6,"Nests",49.3661,-123.2835,"","R W Campbell","B.C Nest Record Scheme","SG-505","Kettle Point",NA,"SG-490","Whyte Islet",49.37,-123.2919,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Whyte Islet",1981,"",NA,2,NA,22,"Nests",49.3661,-123.2835,"","","Moira Lemon","SG-505","Kettle Point",NA,"SG-490","Whyte Islet",49.37,-123.2919,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Whyte Islet",1986,"",NA,2,NA,10,"Nests",49.3661,-123.2835,"Based on being there in the boat, assumed this was ""Unnamed It"" in Vermeer & Devito 1986","","","SG-505","Kettle Point",NA,"SG-490","Whyte Islet",49.37,-123.2919,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Whyte Islet",1999,"",NA,2,NA,0,"Nests",49.3661,-123.2835,"","","Moira Lemon","SG-505","Kettle Point",NA,"SG-490","Whyte Islet",49.37,-123.2919,"wrongly named in KBB2020 and changed to new SCoB2023 location"
+"Whyte Islet",2010,"",NA,2,NA,0,"Nests",49.3661,-123.2835,"","","","SG-505","Kettle Point",NA,"SG-490","Whyte Islet",49.37,-123.2919,"wrongly named in KBB2020 and changed to new SCoB2023 location"

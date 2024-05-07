@@ -1,0 +1,447 @@
+"ID","Region","LocationName","Latitude","Longitude","Year","Count"
+"GI-010","Gulf Islands","Ballenas Islands",49.3464,-124.1581,1974,0
+"GI-010","Gulf Islands","Ballenas Islands",49.3464,-124.1581,1981,2
+"GI-010","Gulf Islands","Ballenas Islands",49.3464,-124.1581,1986,0
+"GI-015","Gulf Islands","Yeo Islands",49.3053,-124.135,1978,1
+"GI-020","Gulf Islands","Ada Islands",49.2853,-124.0939,1974,171
+"GI-020","Gulf Islands","Ada Islands",49.2853,-124.0939,1978,154
+"GI-020","Gulf Islands","Ada Islands",49.2853,-124.0939,1981,155
+"GI-020","Gulf Islands","Ada Islands",49.2853,-124.0939,1986,124
+"GI-020","Gulf Islands","Ada Islands",49.2853,-124.0939,2010,73
+"GI-040","Gulf Islands","Maude Island",49.2706,-124.0819,1974,0
+"GI-040","Gulf Islands","Maude Island",49.2706,-124.0819,1986,2
+"GI-040","Gulf Islands","Maude Island",49.2706,-124.0819,2010,0
+"GI-045","Gulf Islands","Long Lake",49.2111,-124.0208,1986,1
+"GI-050","Gulf Islands","Five Finger Island",49.2311,-123.9158,1974,311
+"GI-050","Gulf Islands","Five Finger Island",49.2311,-123.9158,1977,459
+"GI-050","Gulf Islands","Five Finger Island",49.2311,-123.9158,1978,473
+"GI-050","Gulf Islands","Five Finger Island",49.2311,-123.9158,1981,599
+"GI-050","Gulf Islands","Five Finger Island",49.2311,-123.9158,1986,671
+"GI-050","Gulf Islands","Five Finger Island",49.2311,-123.9158,1999,288
+"GI-050","Gulf Islands","Five Finger Island",49.2311,-123.9158,2010,9
+"GI-060","Gulf Islands","Hudson Rocks",49.2258,-123.925,1960,75
+"GI-060","Gulf Islands","Hudson Rocks",49.2258,-123.925,1974,248
+"GI-060","Gulf Islands","Hudson Rocks",49.2258,-123.925,1977,330
+"GI-060","Gulf Islands","Hudson Rocks",49.2258,-123.925,1978,236
+"GI-060","Gulf Islands","Hudson Rocks",49.2258,-123.925,1981,308
+"GI-060","Gulf Islands","Hudson Rocks",49.2258,-123.925,1986,247
+"GI-060","Gulf Islands","Hudson Rocks",49.2258,-123.925,1999,122
+"GI-060","Gulf Islands","Hudson Rocks",49.2258,-123.925,2010,10
+"GI-070","Gulf Islands","Snake Island",49.2156,-123.8906,1960,400
+"GI-070","Gulf Islands","Snake Island",49.2156,-123.8906,1974,558
+"GI-070","Gulf Islands","Snake Island",49.2156,-123.8906,1978,615
+"GI-070","Gulf Islands","Snake Island",49.2156,-123.8906,1981,719
+"GI-070","Gulf Islands","Snake Island",49.2156,-123.8906,1986,673
+"GI-070","Gulf Islands","Snake Island",49.2156,-123.8906,1999,204
+"GI-070","Gulf Islands","Snake Island",49.2156,-123.8906,2010,23
+"GI-076","Gulf Islands","Brandon Islands",49.2069,-123.9569,1999,3
+"GI-090","Gulf Islands","Gabriola Island - West Cliffs",49.1558,-123.8569,1974,4
+"GI-090","Gulf Islands","Gabriola Island - West Cliffs",49.1558,-123.8569,1977,5
+"GI-090","Gulf Islands","Gabriola Island - West Cliffs",49.1558,-123.8569,1978,3
+"GI-090","Gulf Islands","Gabriola Island - West Cliffs",49.1558,-123.8569,2010,4
+"GI-100","Gulf Islands","Gabriola Island - East Cliffs",49.1608,-123.7278,1977,1
+"GI-110","Gulf Islands","Carlos Island",49.1592,-123.6969,1974,0
+"GI-110","Gulf Islands","Carlos Island",49.1592,-123.6969,1978,1
+"GI-130","Gulf Islands","Round Island",49.1147,-123.7956,1977,5
+"GI-130","Gulf Islands","Round Island",49.1147,-123.7956,1978,3
+"GI-130","Gulf Islands","Round Island",49.1147,-123.7956,1981,3
+"GI-150","Gulf Islands","De Courcy Island",49.0983,-123.7458,1977,3
+"GI-150","Gulf Islands","De Courcy Island",49.0983,-123.7458,1978,2
+"GI-150","Gulf Islands","De Courcy Island",49.0983,-123.7458,1986,2
+"GI-150","Gulf Islands","De Courcy Island",49.0983,-123.7458,2010,0
+"GI-160","Gulf Islands","Valdes Island - West Cliffs",49.1056,-123.7028,1974,0
+"GI-160","Gulf Islands","Valdes Island - West Cliffs",49.1056,-123.7028,1977,1
+"GI-160","Gulf Islands","Valdes Island - West Cliffs",49.1056,-123.7028,1978,1
+"GI-160","Gulf Islands","Valdes Island - West Cliffs",49.1056,-123.7028,1981,0
+"GI-170","Gulf Islands","Ruxton Island",49.0758,-123.7064,1977,2
+"GI-170","Gulf Islands","Ruxton Island",49.0758,-123.7064,1978,2
+"GI-170","Gulf Islands","Ruxton Island",49.0758,-123.7064,1986,2
+"GI-171","Gulf Islands","Whaleboat Island",49.0739,-123.6925,1977,0
+"GI-171","Gulf Islands","Whaleboat Island",49.0739,-123.6925,1978,0
+"GI-171","Gulf Islands","Whaleboat Island",49.0739,-123.6925,1986,1
+"GI-180","Gulf Islands","Tree Island",49.0608,-123.6978,1977,1
+"GI-180","Gulf Islands","Tree Island",49.0608,-123.6978,1978,2
+"GI-190","Gulf Islands","Miami Islet",49.0372,-123.7094,1974,52
+"GI-190","Gulf Islands","Miami Islet",49.0372,-123.7094,1977,43
+"GI-190","Gulf Islands","Miami Islet",49.0372,-123.7094,1978,32
+"GI-190","Gulf Islands","Miami Islet",49.0372,-123.7094,1981,26
+"GI-190","Gulf Islands","Miami Islet",49.0372,-123.7094,1986,38
+"GI-190","Gulf Islands","Miami Islet",49.0372,-123.7094,2010,5
+"GI-200","Gulf Islands","Ragged Islets",49.0264,-123.6961,1974,103
+"GI-200","Gulf Islands","Ragged Islets",49.0264,-123.6961,1977,126
+"GI-200","Gulf Islands","Ragged Islets",49.0264,-123.6961,1978,130
+"GI-200","Gulf Islands","Ragged Islets",49.0264,-123.6961,1981,89
+"GI-200","Gulf Islands","Ragged Islets",49.0264,-123.6961,1986,69
+"GI-200","Gulf Islands","Ragged Islets",49.0264,-123.6961,2010,28
+"GI-210","Gulf Islands","Rose Islets",49.0081,-123.6439,1974,208
+"GI-210","Gulf Islands","Rose Islets",49.0081,-123.6439,1977,167
+"GI-210","Gulf Islands","Rose Islets",49.0081,-123.6439,1978,167
+"GI-210","Gulf Islands","Rose Islets",49.0081,-123.6439,1981,211
+"GI-210","Gulf Islands","Rose Islets",49.0081,-123.6439,1986,116
+"GI-210","Gulf Islands","Rose Islets",49.0081,-123.6439,2010,21
+"GI-220","Gulf Islands","Canoe Islet",49.0281,-123.5886,1974,67
+"GI-220","Gulf Islands","Canoe Islet",49.0281,-123.5886,1977,57
+"GI-220","Gulf Islands","Canoe Islet",49.0281,-123.5886,1978,50
+"GI-220","Gulf Islands","Canoe Islet",49.0281,-123.5886,1981,62
+"GI-220","Gulf Islands","Canoe Islet",49.0281,-123.5886,1986,56
+"GI-230","Gulf Islands","Galiano Island - North Cliffs",48.9725,-123.5631,1977,2
+"GI-230","Gulf Islands","Galiano Island - North Cliffs",48.9725,-123.5631,1978,1
+"GI-230","Gulf Islands","Galiano Island - North Cliffs",48.9725,-123.5631,1986,6
+"GI-240","Gulf Islands","Preedy Rock",48.9675,-123.6756,1978,2
+"GI-250","Gulf Islands","Augustus Point",48.945,-123.6528,1974,10
+"GI-250","Gulf Islands","Augustus Point",48.945,-123.6528,1977,6
+"GI-250","Gulf Islands","Augustus Point",48.945,-123.6528,1978,3
+"GI-250","Gulf Islands","Augustus Point",48.945,-123.6528,1981,6
+"GI-250","Gulf Islands","Augustus Point",48.945,-123.6528,1986,8
+"GI-260","Gulf Islands","Wallace Island",48.9386,-123.55,1974,3
+"GI-260","Gulf Islands","Wallace Island",48.9386,-123.55,1977,12
+"GI-260","Gulf Islands","Wallace Island",48.9386,-123.55,1978,10
+"GI-260","Gulf Islands","Wallace Island",48.9386,-123.55,1981,7
+"GI-260","Gulf Islands","Wallace Island",48.9386,-123.55,1986,3
+"GI-270","Gulf Islands","Tent Island",48.925,-123.6303,1974,3
+"GI-270","Gulf Islands","Tent Island",48.925,-123.6303,1977,16
+"GI-270","Gulf Islands","Tent Island",48.925,-123.6303,1978,7
+"GI-270","Gulf Islands","Tent Island",48.925,-123.6303,1981,15
+"GI-270","Gulf Islands","Tent Island",48.925,-123.6303,1986,12
+"GI-280","Gulf Islands","Bare Point",48.9278,-123.7064,1974,11
+"GI-280","Gulf Islands","Bare Point",48.9278,-123.7064,1977,8
+"GI-280","Gulf Islands","Bare Point",48.9278,-123.7064,1978,4
+"GI-280","Gulf Islands","Bare Point",48.9278,-123.7064,1981,16
+"GI-280","Gulf Islands","Bare Point",48.9278,-123.7064,1986,5
+"GI-280","Gulf Islands","Bare Point",48.9278,-123.7064,2010,3
+"GI-290","Gulf Islands","Shoal Islands",48.9,-123.6667,1974,1
+"GI-290","Gulf Islands","Shoal Islands",48.9,-123.6667,1978,1
+"GI-310","Gulf Islands","Vesuvius Bay",48.8811,-123.5733,1986,4
+"GI-320","Gulf Islands","Ballingall Islets",48.9072,-123.4594,1960,57
+"GI-320","Gulf Islands","Ballingall Islets",48.9072,-123.4594,1974,96
+"GI-320","Gulf Islands","Ballingall Islets",48.9072,-123.4594,1977,118
+"GI-320","Gulf Islands","Ballingall Islets",48.9072,-123.4594,1978,106
+"GI-320","Gulf Islands","Ballingall Islets",48.9072,-123.4594,1981,63
+"GI-320","Gulf Islands","Ballingall Islets",48.9072,-123.4594,1986,145
+"GI-320","Gulf Islands","Ballingall Islets",48.9072,-123.4594,2010,22
+"GI-330","Gulf Islands","Galiano Island - Central Cliffs",48.9119,-123.4314,1977,1
+"GI-330","Gulf Islands","Galiano Island - Central Cliffs",48.9119,-123.4314,1978,1
+"GI-340","Gulf Islands","Wise Rock",48.8978,-123.4389,1977,1
+"GI-340","Gulf Islands","Wise Rock",48.8978,-123.4389,1978,0
+"GI-370","Gulf Islands","Galiano Island - South Cliffs",48.8694,-123.3897,1977,1
+"GI-370","Gulf Islands","Galiano Island - South Cliffs",48.8694,-123.3897,1978,0
+"GI-380","Gulf Islands","Lion Islets",48.9003,-123.335,1977,2
+"GI-380","Gulf Islands","Lion Islets",48.9003,-123.335,1978,2
+"GI-380","Gulf Islands","Lion Islets",48.9003,-123.335,1986,1
+"GI-390","Gulf Islands","“Gossip” Rock",48.8925,-123.3292,1977,0
+"GI-390","Gulf Islands","“Gossip” Rock",48.8925,-123.3292,1978,0
+"GI-390","Gulf Islands","“Gossip” Rock",48.8925,-123.3292,1986,11
+"GI-410","Gulf Islands","“Long Harbour” Islet",48.8453,-123.4264,1974,3
+"GI-410","Gulf Islands","“Long Harbour” Islet",48.8453,-123.4264,1977,1
+"GI-410","Gulf Islands","“Long Harbour” Islet",48.8453,-123.4264,1978,1
+"GI-420","Gulf Islands","Chain Islands",48.8375,-123.4539,1977,4
+"GI-420","Gulf Islands","Chain Islands",48.8375,-123.4539,1978,16
+"GI-420","Gulf Islands","Chain Islands",48.8375,-123.4539,1986,5
+"GI-424","Gulf Islands","Hawkins Island",48.8403,-123.3717,1977,0
+"GI-424","Gulf Islands","Hawkins Island",48.8403,-123.3717,1978,0
+"GI-440","Gulf Islands","Red Islets",48.8161,-123.3561,1977,1
+"GI-440","Gulf Islands","Red Islets",48.8161,-123.3561,1978,1
+"GI-450","Gulf Islands","Prevost Island - South Cliffs",48.8128,-123.375,1977,2
+"GI-450","Gulf Islands","Prevost Island - South Cliffs",48.8128,-123.375,1978,3
+"GI-460","Gulf Islands","Channel Islands",48.7994,-123.3842,1977,1
+"GI-460","Gulf Islands","Channel Islands",48.7994,-123.3842,1978,1
+"GI-470","Gulf Islands","Belle Chain Islets",48.8244,-123.1842,1974,6
+"GI-470","Gulf Islands","Belle Chain Islets",48.8244,-123.1842,1977,29
+"GI-470","Gulf Islands","Belle Chain Islets",48.8244,-123.1842,1978,50
+"GI-470","Gulf Islands","Belle Chain Islets",48.8244,-123.1842,1981,78
+"GI-470","Gulf Islands","Belle Chain Islets",48.8244,-123.1842,1986,56
+"GI-470","Gulf Islands","Belle Chain Islets",48.8244,-123.1842,2010,18
+"GI-490","Gulf Islands","Pine Islet",48.8003,-123.0953,1977,4
+"GI-490","Gulf Islands","Pine Islet",48.8003,-123.0953,1978,1
+"GI-510","Gulf Islands","East Point - Cliffs",48.7817,-123.0469,1974,0
+"GI-510","Gulf Islands","East Point - Cliffs",48.7817,-123.0469,1977,7
+"GI-510","Gulf Islands","East Point - Cliffs",48.7817,-123.0469,1978,6
+"GI-510","Gulf Islands","East Point - Cliffs",48.7817,-123.0469,1981,3
+"GI-510","Gulf Islands","East Point - Cliffs",48.7817,-123.0469,1986,7
+"GI-520","Gulf Islands","Lyall Harbour - Cliffs",48.8017,-123.1892,1977,0
+"GI-520","Gulf Islands","Lyall Harbour - Cliffs",48.8017,-123.1892,1986,1
+"GI-540","Gulf Islands","Croker Rock",48.7731,-123.1961,1977,0
+"GI-540","Gulf Islands","Croker Rock",48.7731,-123.1961,1978,0
+"GI-550","Gulf Islands","Java Islets",48.7597,-123.1097,1960,372
+"GI-550","Gulf Islands","Java Islets",48.7597,-123.1097,1974,372
+"GI-550","Gulf Islands","Java Islets",48.7597,-123.1097,1977,374
+"GI-550","Gulf Islands","Java Islets",48.7597,-123.1097,1978,499
+"GI-550","Gulf Islands","Java Islets",48.7597,-123.1097,1981,384
+"GI-550","Gulf Islands","Java Islets",48.7597,-123.1097,1986,298
+"GI-550","Gulf Islands","Java Islets",48.7597,-123.1097,2010,25
+"GI-560","Gulf Islands","Blunden Islet",48.7442,-123.1681,1977,0
+"GI-560","Gulf Islands","Blunden Islet",48.7442,-123.1681,1978,0
+"GI-590","Gulf Islands","Jackson Rock",48.7539,-123.4283,1977,0
+"GI-590","Gulf Islands","Jackson Rock",48.7539,-123.4283,1978,1
+"GI-620","Gulf Islands","Tortoise Islets",48.7161,-123.3686,1977,1
+"GI-620","Gulf Islands","Tortoise Islets",48.7161,-123.3686,1978,1
+"GI-630","Gulf Islands","Arbutus Island",48.7061,-123.4353,1978,69
+"GI-630","Gulf Islands","Arbutus Island",48.7061,-123.4353,1981,89
+"GI-630","Gulf Islands","Arbutus Island",48.7061,-123.4353,1986,150
+"GI-630","Gulf Islands","Arbutus Island",48.7061,-123.4353,1999,55
+"GI-630","Gulf Islands","Arbutus Island",48.7061,-123.4353,2010,68
+"GI-640","Gulf Islands","Hatch Point - Wharf",48.6969,-123.5406,1981,2
+"GI-660","Gulf Islands","Swartz Head Rocks",48.6864,-123.4,1960,270
+"GI-660","Gulf Islands","Swartz Head Rocks",48.6864,-123.4,1978,1
+"GI-670","Gulf Islands","Imrie Island",48.6944,-123.3331,1974,298
+"GI-670","Gulf Islands","Imrie Island",48.6944,-123.3331,1977,315
+"GI-670","Gulf Islands","Imrie Island",48.6944,-123.3331,1978,355
+"GI-670","Gulf Islands","Imrie Island",48.6944,-123.3331,1981,279
+"GI-670","Gulf Islands","Imrie Island",48.6944,-123.3331,1986,216
+"GI-670","Gulf Islands","Imrie Island",48.6944,-123.3331,1999,41
+"GI-680","Gulf Islands","Reay Island",48.6833,-123.3292,1974,5
+"GI-680","Gulf Islands","Reay Island",48.6833,-123.3292,1977,6
+"GI-680","Gulf Islands","Reay Island",48.6833,-123.3292,1978,1
+"GI-680","Gulf Islands","Reay Island",48.6833,-123.3292,1999,0
+"GI-680","Gulf Islands","Reay Island",48.6833,-123.3292,2010,0
+"GI-690","Gulf Islands","Greig Island",48.6781,-123.3392,1974,40
+"GI-690","Gulf Islands","Greig Island",48.6781,-123.3392,1978,44
+"GI-690","Gulf Islands","Greig Island",48.6781,-123.3392,1981,53
+"GI-690","Gulf Islands","Greig Island",48.6781,-123.3392,1986,52
+"GI-690","Gulf Islands","Greig Island",48.6781,-123.3392,1999,14
+"GI-690","Gulf Islands","Greig Island",48.6781,-123.3392,2010,17
+"GI-710","Gulf Islands","Little Group",48.6717,-123.3575,1977,35
+"GI-710","Gulf Islands","Little Group",48.6717,-123.3575,1978,2
+"GI-710","Gulf Islands","Little Group",48.6717,-123.3575,1986,6
+"GI-710","Gulf Islands","Little Group",48.6717,-123.3575,1999,1
+"GI-710","Gulf Islands","Little Group",48.6717,-123.3575,2010,0
+"GI-720","Gulf Islands","Rubly Island",48.6653,-123.3125,1978,0
+"GI-740","Gulf Islands","Sidney",48.6433,-123.3969,1981,2
+"GI-740","Gulf Islands","Sidney",48.6433,-123.3969,1986,4
+"GI-750","Gulf Islands","Mandarte Island",48.6333,-123.2867,1960,1900
+"GI-750","Gulf Islands","Mandarte Island",48.6333,-123.2867,1974,1047
+"GI-750","Gulf Islands","Mandarte Island",48.6333,-123.2867,1977,1666
+"GI-750","Gulf Islands","Mandarte Island",48.6333,-123.2867,1978,544
+"GI-750","Gulf Islands","Mandarte Island",48.6333,-123.2867,1981,1386
+"GI-750","Gulf Islands","Mandarte Island",48.6333,-123.2867,1986,2363
+"GI-750","Gulf Islands","Mandarte Island",48.6333,-123.2867,2010,2432
+"GI-770","Gulf Islands","Sallas Rocks",48.5847,-123.2903,1986,29
+"GI-770","Gulf Islands","Sallas Rocks",48.5847,-123.2903,2010,9
+"GI-800","Gulf Islands","Ten Mile Point",48.4553,-123.2653,1960,1
+"GI-820","Gulf Islands","Jemmy Jones Island",48.4444,-123.2728,1978,1
+"GI-850","Gulf Islands","Mary Tod Island",48.4275,-123.2986,1986,1
+"GI-850","Gulf Islands","Mary Tod Island",48.4275,-123.2986,2010,2
+"GI-880","Gulf Islands","Harris Island",48.4231,-123.2897,1977,28
+"GI-880","Gulf Islands","Harris Island",48.4231,-123.2897,1978,47
+"GI-880","Gulf Islands","Harris Island",48.4231,-123.2897,1981,19
+"GI-880","Gulf Islands","Harris Island",48.4231,-123.2897,1986,22
+"GI-890","Gulf Islands","Chain Islets/Great Chain Island",48.4206,-123.2753,1960,850
+"GI-890","Gulf Islands","Chain Islets/Great Chain Island",48.4206,-123.2753,1974,1764
+"GI-890","Gulf Islands","Chain Islets/Great Chain Island",48.4206,-123.2753,1977,1838
+"GI-890","Gulf Islands","Chain Islets/Great Chain Island",48.4206,-123.2753,1978,1956
+"GI-890","Gulf Islands","Chain Islets/Great Chain Island",48.4206,-123.2753,1981,1880
+"GI-890","Gulf Islands","Chain Islets/Great Chain Island",48.4206,-123.2753,1986,2432
+"GI-890","Gulf Islands","Chain Islets/Great Chain Island",48.4206,-123.2753,2010,2066
+"GI-900","Gulf Islands","Trial Islands",48.3972,-123.3056,1960,50
+"GI-900","Gulf Islands","Trial Islands",48.3972,-123.3056,1974,0
+"GI-900","Gulf Islands","Trial Islands",48.3972,-123.3056,1978,2
+"GI-900","Gulf Islands","Trial Islands",48.3972,-123.3056,2010,100
+"GI-930","Gulf Islands","Victoria",48.425,-123.3694,1986,110
+"GI-940","Gulf Islands","Brothers Islands",48.4253,-123.4342,1981,143
+"SG-020","Northern Strait of Georgia","Copper Cliffs",50.0994,-125.2711,1978,0
+"SG-030","Northern Strait of Georgia","Guide Islets",50.0808,-125.0178,1974,1
+"SG-030","Northern Strait of Georgia","Guide Islets",50.0808,-125.0178,1977,1
+"SG-030","Northern Strait of Georgia","Guide Islets",50.0808,-125.0178,1978,2
+"SG-030","Northern Strait of Georgia","Guide Islets",50.0808,-125.0178,1981,1
+"SG-050","Northern Strait of Georgia","Little Rock",50.0361,-124.9575,1974,1
+"SG-050","Northern Strait of Georgia","Little Rock",50.0361,-124.9575,1977,0
+"SG-050","Northern Strait of Georgia","Little Rock",50.0361,-124.9575,1978,0
+"SG-050","Northern Strait of Georgia","Little Rock",50.0361,-124.9575,1981,1
+"SG-050","Northern Strait of Georgia","Little Rock",50.0361,-124.9575,1986,1
+"SG-055","Northern Strait of Georgia","Ray Rock",50.1108,-124.7228,2010,10
+"SG-060","Northern Strait of Georgia","Powell Islets",50.0417,-124.8531,1974,0
+"SG-060","Northern Strait of Georgia","Powell Islets",50.0417,-124.8531,1977,0
+"SG-060","Northern Strait of Georgia","Powell Islets",50.0417,-124.8531,1978,1
+"SG-060","Northern Strait of Georgia","Powell Islets",50.0417,-124.8531,1981,0
+"SG-070","Northern Strait of Georgia","Major Islet",49.9894,-124.8161,1974,3
+"SG-070","Northern Strait of Georgia","Major Islet",49.9894,-124.8161,1977,0
+"SG-070","Northern Strait of Georgia","Major Islet",49.9894,-124.8161,1978,1
+"SG-070","Northern Strait of Georgia","Major Islet",49.9894,-124.8161,1981,1
+"SG-080","Northern Strait of Georgia","Keefer Rock",49.9681,-124.8772,1977,20
+"SG-080","Northern Strait of Georgia","Keefer Rock",49.9681,-124.8772,1978,14
+"SG-080","Northern Strait of Georgia","Keefer Rock",49.9681,-124.8772,1981,28
+"SG-080","Northern Strait of Georgia","Keefer Rock",49.9681,-124.8772,1986,28
+"SG-090","Northern Strait of Georgia","Mitlenatch Island",49.95,-125.0042,1960,900
+"SG-090","Northern Strait of Georgia","Mitlenatch Island",49.95,-125.0042,1974,1632
+"SG-090","Northern Strait of Georgia","Mitlenatch Island",49.95,-125.0042,1977,987
+"SG-090","Northern Strait of Georgia","Mitlenatch Island",49.95,-125.0042,1978,2558
+"SG-090","Northern Strait of Georgia","Mitlenatch Island",49.95,-125.0042,1981,1922
+"SG-090","Northern Strait of Georgia","Mitlenatch Island",49.95,-125.0042,1986,2100
+"SG-090","Northern Strait of Georgia","Mitlenatch Island",49.95,-125.0042,2010,2493
+"SG-100","Northern Strait of Georgia","Powell River",49.8667,-124.5528,1986,6
+"SG-110","Northern Strait of Georgia","Vivian Island",49.8406,-124.7014,1974,218
+"SG-110","Northern Strait of Georgia","Vivian Island",49.8406,-124.7014,1978,240
+"SG-110","Northern Strait of Georgia","Vivian Island",49.8406,-124.7014,1981,229
+"SG-110","Northern Strait of Georgia","Vivian Island",49.8406,-124.7014,1986,208
+"SG-130","Northern Strait of Georgia","McRae Islet",49.7436,-124.2925,1978,150
+"SG-130","Northern Strait of Georgia","McRae Islet",49.7436,-124.2925,1981,164
+"SG-130","Northern Strait of Georgia","McRae Islet",49.7436,-124.2925,1986,262
+"SG-140","Northern Strait of Georgia","Blind Islets",49.7147,-124.2175,1978,0
+"SG-140","Northern Strait of Georgia","Blind Islets",49.7147,-124.2175,1981,0
+"SG-140","Northern Strait of Georgia","Blind Islets",49.7147,-124.2175,1986,2
+"SG-145","Northern Strait of Georgia","“Cockburn” Islets",49.6681,-124.1847,1978,0
+"SG-145","Northern Strait of Georgia","“Cockburn” Islets",49.6681,-124.1847,1981,0
+"SG-148","Northern Strait of Georgia","“Trafalgar” Rock",49.6514,-124.1164,1981,0
+"SG-148","Northern Strait of Georgia","“Trafalgar” Rock",49.6514,-124.1164,1986,1
+"SG-150","Northern Strait of Georgia","Fearney Point",49.6481,-124.0894,1978,0
+"SG-150","Northern Strait of Georgia","Fearney Point",49.6481,-124.0894,1981,0
+"SG-150","Northern Strait of Georgia","Fearney Point",49.6481,-124.0894,1986,1
+"SG-180","Northern Strait of Georgia","Mouat Islands",49.6331,-124.4625,1978,0
+"SG-180","Northern Strait of Georgia","Mouat Islands",49.6331,-124.4625,1981,16
+"SG-180","Northern Strait of Georgia","Mouat Islands",49.6331,-124.4625,1986,35
+"SG-190","Northern Strait of Georgia","Davie Islet",49.6003,-124.3964,1981,0
+"SG-190","Northern Strait of Georgia","Davie Islet",49.6003,-124.3964,1986,3
+"SG-200","Northern Strait of Georgia","Denman Island - West Dock",49.5347,-124.8236,1986,1
+"SG-210","Northern Strait of Georgia","Denman Island - East Dock",49.4939,-124.7089,1986,1
+"SG-210","Northern Strait of Georgia","Denman Island - East Dock",49.4939,-124.7089,2010,1
+"SG-220","Northern Strait of Georgia","St. John Point",49.5167,-124.5861,1974,5
+"SG-220","Northern Strait of Georgia","St. John Point",49.5167,-124.5861,1977,2
+"SG-220","Northern Strait of Georgia","St. John Point",49.5167,-124.5861,1981,5
+"SG-220","Northern Strait of Georgia","St. John Point",49.5167,-124.5861,1986,6
+"SG-230","Northern Strait of Georgia","Norris Rocks",49.4836,-124.6475,1974,85
+"SG-230","Northern Strait of Georgia","Norris Rocks",49.4836,-124.6475,1977,104
+"SG-230","Northern Strait of Georgia","Norris Rocks",49.4836,-124.6475,1978,58
+"SG-230","Northern Strait of Georgia","Norris Rocks",49.4836,-124.6475,1981,111
+"SG-230","Northern Strait of Georgia","Norris Rocks",49.4836,-124.6475,1986,287
+"SG-230","Northern Strait of Georgia","Norris Rocks",49.4836,-124.6475,2010,185
+"SG-240","Northern Strait of Georgia","Chrome Island",49.4719,-124.6844,1974,1
+"SG-240","Northern Strait of Georgia","Chrome Island",49.4719,-124.6844,1978,1
+"SG-240","Northern Strait of Georgia","Chrome Island",49.4719,-124.6844,1981,3
+"SG-240","Northern Strait of Georgia","Chrome Island",49.4719,-124.6844,1986,3
+"SG-240","Northern Strait of Georgia","Chrome Island",49.4719,-124.6844,2010,1
+"SG-250","Northern Strait of Georgia","Sisters Islets",49.4867,-124.435,1974,108
+"SG-250","Northern Strait of Georgia","Sisters Islets",49.4867,-124.435,1978,85
+"SG-250","Northern Strait of Georgia","Sisters Islets",49.4867,-124.435,1981,151
+"SG-250","Northern Strait of Georgia","Sisters Islets",49.4867,-124.435,1986,25
+"SG-260","Northern Strait of Georgia","Finnerty Islands",49.4989,-124.3953,1974,10
+"SG-260","Northern Strait of Georgia","Finnerty Islands",49.4989,-124.3953,1978,0
+"SG-260","Northern Strait of Georgia","Finnerty Islands",49.4989,-124.3953,1981,6
+"SG-260","Northern Strait of Georgia","Finnerty Islands",49.4989,-124.3953,1986,4
+"SG-270","Northern Strait of Georgia","Fegen Islets",49.53,-124.3806,1974,2
+"SG-270","Northern Strait of Georgia","Fegen Islets",49.53,-124.3806,1978,0
+"SG-270","Northern Strait of Georgia","Fegen Islets",49.53,-124.3806,1981,1
+"SG-270","Northern Strait of Georgia","Fegen Islets",49.53,-124.3806,1986,1
+"SG-278","Northern Strait of Georgia","“Sabine” Islets",49.5128,-124.2594,1981,0
+"SG-278","Northern Strait of Georgia","“Sabine” Islets",49.5128,-124.2594,1986,1
+"SG-290","Northern Strait of Georgia","Upwood Islet",49.4886,-124.1342,1981,3
+"SG-300","Northern Strait of Georgia","Sheer Island",49.4869,-124.1714,1981,7
+"SG-300","Northern Strait of Georgia","Sheer Island",49.4869,-124.1714,1986,50
+"SG-302","Northern Strait of Georgia","Rabbit Island",49.4786,-124.175,1981,0
+"SG-302","Northern Strait of Georgia","Rabbit Island",49.4786,-124.175,1986,22
+"SG-305","Northern Strait of Georgia","“Windy” Rock",49.4658,-124.1725,1981,0
+"SG-305","Northern Strait of Georgia","“Windy” Rock",49.4658,-124.1725,1986,1
+"SG-310","Northern Strait of Georgia","Sea Egg Rocks",49.4522,-124.3111,1978,0
+"SG-310","Northern Strait of Georgia","Sea Egg Rocks",49.4522,-124.3111,1981,0
+"SG-310","Northern Strait of Georgia","Sea Egg Rocks",49.4522,-124.3111,1986,5
+"SG-330","Northern Strait of Georgia","Priestland Rocks",49.5078,-123.9128,1981,1
+"SG-340","Northern Strait of Georgia","Jeddah Rocks",49.5019,-123.9467,1981,2
+"SG-360","Northern Strait of Georgia","Franklin Island",49.4667,-123.9192,1960,500
+"SG-360","Northern Strait of Georgia","Franklin Island",49.4667,-123.9192,1974,387
+"SG-360","Northern Strait of Georgia","Franklin Island",49.4667,-123.9192,1977,287
+"SG-360","Northern Strait of Georgia","Franklin Island",49.4667,-123.9192,1978,478
+"SG-360","Northern Strait of Georgia","Franklin Island",49.4667,-123.9192,1981,443
+"SG-360","Northern Strait of Georgia","Franklin Island",49.4667,-123.9192,1986,216
+"SG-360","Northern Strait of Georgia","Franklin Island",49.4667,-123.9192,2010,47
+"SG-370","Northern Strait of Georgia","Merry Island",49.4692,-123.9189,1960,100
+"SG-370","Northern Strait of Georgia","Merry Island",49.4692,-123.9189,1974,252
+"SG-370","Northern Strait of Georgia","Merry Island",49.4692,-123.9189,1977,310
+"SG-370","Northern Strait of Georgia","Merry Island",49.4692,-123.9189,1978,362
+"SG-370","Northern Strait of Georgia","Merry Island",49.4692,-123.9189,1981,158
+"SG-370","Northern Strait of Georgia","Merry Island",49.4692,-123.9189,1986,6
+"SG-370","Northern Strait of Georgia","Merry Island",49.4692,-123.9189,2010,3
+"SG-380","Northern Strait of Georgia","Porpoise Bay",49.4836,-123.7617,1978,1
+"SG-380","Northern Strait of Georgia","Porpoise Bay",49.4836,-123.7617,1981,1
+"SG-390","Northern Strait of Georgia","Trail Islands",49.4544,-123.815,1974,3
+"SG-390","Northern Strait of Georgia","Trail Islands",49.4544,-123.815,1978,4
+"SG-390","Northern Strait of Georgia","Trail Islands",49.4544,-123.815,1981,5
+"SG-400","Northern Strait of Georgia","White Islets",49.4181,-123.7119,1974,279
+"SG-400","Northern Strait of Georgia","White Islets",49.4181,-123.7119,1978,458
+"SG-400","Northern Strait of Georgia","White Islets",49.4181,-123.7119,1981,314
+"SG-400","Northern Strait of Georgia","White Islets",49.4181,-123.7119,1986,490
+"SG-400","Northern Strait of Georgia","White Islets",49.4181,-123.7119,2010,328
+"SG-430","Northern Strait of Georgia","Christie Islet",49.4994,-123.3017,1960,299
+"SG-430","Northern Strait of Georgia","Christie Islet",49.4994,-123.3017,1974,477
+"SG-430","Northern Strait of Georgia","Christie Islet",49.4994,-123.3017,1978,722
+"SG-430","Northern Strait of Georgia","Christie Islet",49.4994,-123.3017,1981,558
+"SG-430","Northern Strait of Georgia","Christie Islet",49.4994,-123.3017,1986,454
+"SG-430","Northern Strait of Georgia","Christie Islet",49.4994,-123.3017,1999,246
+"SG-430","Northern Strait of Georgia","Christie Islet",49.4994,-123.3017,2010,255
+"SG-440","Northern Strait of Georgia","Pam Rock",49.4878,-123.2994,1974,121
+"SG-440","Northern Strait of Georgia","Pam Rock",49.4878,-123.2994,1978,151
+"SG-440","Northern Strait of Georgia","Pam Rock",49.4878,-123.2994,1981,131
+"SG-440","Northern Strait of Georgia","Pam Rock",49.4878,-123.2994,1986,109
+"SG-440","Northern Strait of Georgia","Pam Rock",49.4878,-123.2994,1999,25
+"SG-440","Northern Strait of Georgia","Pam Rock",49.4878,-123.2994,2010,11
+"SG-444","Northern Strait of Georgia","Squamish Harbour",49.6822,-123.1742,2010,1
+"SG-450","Northern Strait of Georgia","Bowyer Island",49.4264,-123.2689,1974,0
+"SG-450","Northern Strait of Georgia","Bowyer Island",49.4264,-123.2689,1978,11
+"SG-450","Northern Strait of Georgia","Bowyer Island",49.4264,-123.2689,1981,12
+"SG-490","Northern Strait of Georgia","Whyte Islet",49.37,-123.2919,1978,6
+"SG-490","Northern Strait of Georgia","Whyte Islet",49.37,-123.2919,1981,22
+"SG-490","Northern Strait of Georgia","Whyte Islet",49.37,-123.2919,1986,0
+"SG-490","Northern Strait of Georgia","Whyte Islet",49.37,-123.2919,1999,0
+"SG-490","Northern Strait of Georgia","Whyte Islet",49.37,-123.2919,2010,0
+"SG-500","Northern Strait of Georgia","Bird Islet",49.3633,-123.2911,1974,3
+"SG-500","Northern Strait of Georgia","Bird Islet",49.3633,-123.2911,1986,38
+"SG-500","Northern Strait of Georgia","Bird Islet",49.3633,-123.2911,1999,35
+"SG-500","Northern Strait of Georgia","Bird Islet",49.3633,-123.2911,2010,45
+"SG-505","Northern Strait of Georgia","Kettle Point",49.3622,-123.2867,1981,2
+"SG-520","Northern Strait of Georgia","Eagle Rocks",49.3544,-123.2789,1974,2
+"SG-520","Northern Strait of Georgia","Eagle Rocks",49.3544,-123.2789,1981,17
+"SG-520","Northern Strait of Georgia","Eagle Rocks",49.3544,-123.2789,1986,10
+"SG-520","Northern Strait of Georgia","Eagle Rocks",49.3544,-123.2789,1999,1
+"SG-530","Northern Strait of Georgia","Passage Island",49.3431,-123.3056,1960,50
+"SG-530","Northern Strait of Georgia","Passage Island",49.3431,-123.3056,1974,496
+"SG-530","Northern Strait of Georgia","Passage Island",49.3431,-123.3056,1978,798
+"SG-530","Northern Strait of Georgia","Passage Island",49.3431,-123.3056,1981,709
+"SG-530","Northern Strait of Georgia","Passage Island",49.3431,-123.3056,1986,384
+"SG-530","Northern Strait of Georgia","Passage Island",49.3431,-123.3056,2010,25
+"SG-540","Northern Strait of Georgia","Grebe Islets",49.3408,-123.2756,1974,7
+"SG-540","Northern Strait of Georgia","Grebe Islets",49.3408,-123.2756,1978,12
+"SG-540","Northern Strait of Georgia","Grebe Islets",49.3408,-123.2756,1981,22
+"SG-540","Northern Strait of Georgia","Grebe Islets",49.3408,-123.2756,1986,108
+"SG-540","Northern Strait of Georgia","Grebe Islets",49.3408,-123.2756,1999,257
+"SG-540","Northern Strait of Georgia","Grebe Islets",49.3408,-123.2756,2010,58
+"SG-555","Northern Strait of Georgia","Capilano Lake",49.3639,-123.1097,1974,1
+"SG-570","Northern Strait of Georgia","Barnet",49.2922,-122.9367,1977,2
+"SG-580","Northern Strait of Georgia","Second Narrows",49.295,-123.0261,1978,4
+"SG-580","Northern Strait of Georgia","Second Narrows",49.295,-123.0261,1986,40
+"SG-590","Northern Strait of Georgia","North Vancouver",49.3083,-123.0786,1974,72
+"SG-590","Northern Strait of Georgia","North Vancouver",49.3083,-123.0786,1977,25
+"SG-590","Northern Strait of Georgia","North Vancouver",49.3083,-123.0786,1978,28
+"SG-590","Northern Strait of Georgia","North Vancouver",49.3083,-123.0786,1981,21
+"SG-590","Northern Strait of Georgia","North Vancouver",49.3083,-123.0786,1986,158
+"SG-600","Northern Strait of Georgia","Vancouver Harbour",49.2861,-123.0992,1986,112
+"SG-610","Northern Strait of Georgia","Lions Gate Bridge",49.3153,-123.1386,1974,1
+"SG-610","Northern Strait of Georgia","Lions Gate Bridge",49.3153,-123.1386,1981,4
+"SG-610","Northern Strait of Georgia","Lions Gate Bridge",49.3153,-123.1386,1986,12
+"SG-610","Northern Strait of Georgia","Lions Gate Bridge",49.3153,-123.1386,2010,2
+"SG-620","Northern Strait of Georgia","Prospect Point",49.3136,-123.1419,1960,2
+"SG-620","Northern Strait of Georgia","Prospect Point",49.3136,-123.1419,1974,5
+"SG-620","Northern Strait of Georgia","Prospect Point",49.3136,-123.1419,1977,4
+"SG-620","Northern Strait of Georgia","Prospect Point",49.3136,-123.1419,1978,1
+"SG-620","Northern Strait of Georgia","Prospect Point",49.3136,-123.1419,1981,9
+"SG-620","Northern Strait of Georgia","Prospect Point",49.3136,-123.1419,1986,4
+"SG-620","Northern Strait of Georgia","Prospect Point",49.3136,-123.1419,2010,0
+"SG-630","Northern Strait of Georgia","Siwash Rock",49.3089,-123.1567,1974,6
+"SG-630","Northern Strait of Georgia","Siwash Rock",49.3089,-123.1567,1977,4
+"SG-630","Northern Strait of Georgia","Siwash Rock",49.3089,-123.1567,1981,5
+"SG-630","Northern Strait of Georgia","Siwash Rock",49.3089,-123.1567,1986,8
+"SG-630","Northern Strait of Georgia","Siwash Rock",49.3089,-123.1567,2010,0
+"SG-640","Northern Strait of Georgia","Burrard Bridge",49.2753,-123.1375,1986,9
+"SG-640","Northern Strait of Georgia","Burrard Bridge",49.2753,-123.1375,2010,1
+"SG-650","Northern Strait of Georgia","Granville Bridge",49.2719,-123.1339,1986,10
+"SG-660","Northern Strait of Georgia","False Creek",49.2717,-123.1083,1986,172
+"SG-700","Northern Strait of Georgia","Roberts Bank - Superport",49.0194,-123.1619,1981,0
+"SG-710","Northern Strait of Georgia","Tsawwassen - Ferry Terminal",49.0158,-123.1167,1974,9
+"SG-710","Northern Strait of Georgia","Tsawwassen - Ferry Terminal",49.0158,-123.1167,1977,3
+"SG-710","Northern Strait of Georgia","Tsawwassen - Ferry Terminal",49.0158,-123.1167,1978,4
+"SG-710","Northern Strait of Georgia","Tsawwassen - Ferry Terminal",49.0158,-123.1167,1981,7
+"SG-710","Northern Strait of Georgia","Tsawwassen - Ferry Terminal",49.0158,-123.1167,2010,4
+"SG-720","Northern Strait of Georgia","Tsawwassen - Breakwater",49.0033,-123.1256,1974,115
+"SG-720","Northern Strait of Georgia","Tsawwassen - Breakwater",49.0033,-123.1256,1977,160
+"SG-720","Northern Strait of Georgia","Tsawwassen - Breakwater",49.0033,-123.1256,1978,150
+"SG-720","Northern Strait of Georgia","Tsawwassen - Breakwater",49.0033,-123.1256,1981,223
+"SG-720","Northern Strait of Georgia","Tsawwassen - Breakwater",49.0033,-123.1256,1986,238
+"SG-720","Northern Strait of Georgia","Tsawwassen - Breakwater",49.0033,-123.1256,2010,250
+"SG-730","Northern Strait of Georgia","White Rock",49.0231,-122.7978,2010,1
