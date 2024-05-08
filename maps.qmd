@@ -35,7 +35,12 @@ library(sf)
 
 #library(webshot2)
 # load data
-all.GWGU <- read.csv("b.data.clean/KBB2020andSCoBC2023combined_final.csv")
+
+wk.dir <- getwd() # location of thee working directory
+folder.names <- c("a.data.raw","b.data.clean", "c.results","d.figures")
+p.data.clean <- paste(wk.dir, "/", folder.names[2], "/", sep = "")
+all.GWGU <- read.csv(paste(p.data.clean, "KBB2020andSCoBC2023combined_final.csv", sep = ""))
+
 
 ```
 
@@ -342,15 +347,13 @@ map
 ### 2024 Survey methods
 
 ```{r}
-# check these setting in the survey.and.map.prep.R file
+# NOTE check these setting in the 3.survey.and.map.prep.R file
 # Threshold year
 # threshold_year <- 2004
 # threshold to include colonies of a certain number of breeding pairs or higher before the threshold_year (not to miss large colonies)
 #threshold_count <- 10
 
-
 final_locations <- unique(all.GWGU$LocationName[all.GWGU$Selected == 1])
-
 n.colonies <- length(final_locations)
 
 # Filter the original data frame to include only the final selected locations and all their entries
@@ -361,11 +364,14 @@ GWGU.select <- all.GWGU %>%
 GWGU.not.select <- all.GWGU %>%
   filter(!(LocationName %in% final_locations))
 
-# Group data by LocationName, sort by Year, and concatenate counts for each year for all the data
+
+# Group data by LocationName, sort by Year, and concatenate counts for each year
 popup_data <- all.GWGU %>%
   group_by(LocationName) %>%
   arrange(Year) %>%
   summarise(Counts = paste(Year, Count, sep = ": ", collapse = "<br>"))
+
+
 
 # make selection for sites which are covered
 locations_covered <- all.GWGU %>%
@@ -383,6 +389,7 @@ locations_ProvincialPark <- all.GWGU %>%
 locations_EcolReserve <- all.GWGU %>%
   filter(EcolReserve == "EcolReserve")
 
+
 # read shapefile
 PowelRiver <- st_read("shp/PowelRiver.shx") # included with sf package
 central <- st_read("shp/central.shx") # included with sf package
@@ -390,9 +397,11 @@ HoweSound <- st_read("shp/HoweSound.shx") # included with sf package
 Nanaimo <- st_read("shp/Nanaimo.shx") # included with sf package
 SunshineCoast <- st_read("shp/SunshineCoast.shx") # included with sf package
 
+
 # read data for boat launches
-boat.launch <- read.csv("b.data.clean/boat_launches.csv")
+boat.launch <- read.csv(paste(p.data.clean, "boat_launches.csv", sep = ""))
 str(boat.launch)
+
 ```
 
 After assessing the above information we proceed to set some thresholds to select the final set of colonies to survey in 2024.
@@ -409,7 +418,7 @@ line.w <- 1.5 # line thickness of polygons
 
 # Create a Leaflet map
 map <- leaflet() %>%
-  addTiles()  # Add default OpenStreetMap tiles
+  addTiles() # Add default OpenStreetMap tiles
 
 # add polygons for regions
 map <- map %>%
@@ -431,7 +440,7 @@ map <- map %>%
     fillOpacity = 0.7,
     popup = ~~Name,
   )
-
+  
 # layer for sites which are National Parks jurisdiction 
 map <- map %>%
   addCircleMarkers(
@@ -439,7 +448,7 @@ map <- map %>%
     lng = ~Longitude, 
     lat = ~Latitude,
     color = "green",            # Dot color
-    radius = 1.7 * radius_basic_dot,                # Dot radius
+    radius = 1.5 * radius_basic_dot,                # Dot radius
     stroke = FALSE,            # No stroke
     fillOpacity = 0.7,
     popup = ~~LocationName,
@@ -521,6 +530,7 @@ map <- map %>%
     popup = ~~LocationName,
     #group = "locations"
   )
+
 
 # Print the map
 map
