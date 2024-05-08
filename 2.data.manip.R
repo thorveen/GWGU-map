@@ -794,16 +794,3 @@ write.csv(KBB2020andSCoBC2023.combined, paste(p.data.clean,
 
 
 
-
-
-# === H kml to gpx NOT WORKING ========
-
-# DOES NOT WORK YET
-p.kml <- paste(p.data.raw, "kml.regions/", sep = "")
-p.geojson <- paste(p.data.raw, "geojson.regions/", sep = "")
-kml.files <- list.files(p.kml)
-kml_data <- st_read(paste(p.kml, kml.files, sep=""))
-st_write(kml_data, paste(p.gpx, kml.files, ".geojson", sep="") , driver = "GeoJSON")
-
-
-
