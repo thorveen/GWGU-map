@@ -239,6 +239,10 @@ write.csv(all.comb, paste(p.data.clean, "KBB2020andSCoBC2023combined_final.csv",
 
 # === C map experimenting
 
+radius_basic_dot <- 4
+scale_max <- 10       # normalize count size between 0 and scale_max
+
+
 all.GWGU <- read.csv(paste(p.data.clean, "KBB2020andSCoBC2023combined_final.csv", sep = ""))
 
 final_locations <- unique(all.GWGU$LocationName[all.GWGU$Selected == 1])
