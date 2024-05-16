@@ -234,7 +234,7 @@ head(all.comb)
 
 write.csv(all.comb, paste(p.data.clean, "KBB2020andSCoBC2023combined_final.csv", sep = ""), row.names = F)
 
-
+#  make island which to do list for ariel 
 
 
 # === C map experimenting
