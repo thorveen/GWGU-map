@@ -234,10 +234,44 @@ head(all.comb)
 
 write.csv(all.comb, paste(p.data.clean, "KBB2020andSCoBC2023combined_final.csv", sep = ""), row.names = F)
 
-#  make island which to do list for ariel 
+# ===  C location only final file
+# read Geoff his file which has been manually updated from 
+# 'KBB2020andSCoBC2023combined_final.csv'
+Geoff.d <- read.csv(paste(p.data.raw, "GWGU-Salish-Sea_all_KBB2020andSCoBC2023combined_final_LKB_GKM_rev08.csv", sep = ""))
+head(Geoff.d)
+colnames(Geoff.d)
+
+library(dplyr)
+
+# Assuming your dataframe is named Geoff.d
+loc.sum <- Geoff.d %>%
+  group_by(LocationName) %>%
+  summarize(
+    ID = first(ID),
+    Latitude = first(Latitude),
+    Longitude = first(Longitude),
+    Year = first(Year),
+    Source = first(Source),
+    Covered = first(Covered),
+    NationalPark = first(NationalPark),
+    ProvincialPark = first(ProvincialPark),
+    EcolReserve = first(EcolReserve),
+    Selected = first(Selected),
+    eBird. = first(eBird.),
+    NEW.selected = first(NEW.selected),
+    Changed = first(Changed),
+    Drone..1.need.to.do...2.Should.do.. = first(Drone..1.need.to.do...2.Should.do..),
+    Google.Earth = first(Google.Earth),
+    Drone.from.Land = first(Drone.from.Land),
+    Notes = first(Notes)
+  )
+
+# View the new dataframe
+head(loc.sum)
+write.csv(loc.sum, paste(p.data.clean, "location.selection.20240515.csv", sep = ""), row.names = FALSE)
 
 
-# === C map experimenting
+# === D map experimenting
 
 radius_basic_dot <- 4
 scale_max <- 10       # normalize count size between 0 and scale_max

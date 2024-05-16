@@ -71,6 +71,8 @@ library(leaflet)
 library(leaflet.extras)
 library(sf)
 library(magrittr)
+library(dplyr)
+
 
 # === folder management ========================================================
 
